@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Screen_SpeedLine
+  m_Shader: {fileID: 4800000, guid: de65c68d2575e18459bf7c92bfc48f5b, type: 3}
+  m_ShaderKeywords: _MULMAINTEXCHANNEL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 4000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7f82a35dec55cfc4c8d132b74b294fae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 87ad387382cf0044ebb9f01412792b55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _Int0: 1
+    - _MaskScale: 1
+    - _MulMainTexChannel: 1
+    - _Scale: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskTlingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _Panner: {r: 1.5, g: 0.01, b: -3, a: 0}
+    - _RGBAMask: {r: 1, g: 1, b: 1, a: 0}
+    - _SpeedTime: {r: 3, g: 2, b: -1, a: 1}
+    - _T: {r: 1, g: 1, b: 0, a: 0}
+    - _Tling: {r: 1, g: 1, b: 0, a: 0}
+    - _TlingOffset: {r: 0.2, g: 2, b: 0, a: 0}
+    - _Vector0: {r: 1, g: 1, b: 0, a: 0}

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b161cd03d1b39304fb919104ab19a541
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Blood_1: {fileID: 2800000, guid: 2b6335e37f8821545827870712d50445, type: 3}
+  - _Blood_1_Normal: {fileID: 2800000, guid: 9eb2bc48408cd5a428890f4a6bb55d4b, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

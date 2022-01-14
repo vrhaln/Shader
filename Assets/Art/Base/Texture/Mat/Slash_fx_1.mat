@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Slash_fx_1
+  m_Shader: {fileID: 4800000, guid: 9f08e06da3f083745831ee25ec8ad22d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve:
+        m_Texture: {fileID: 2800000, guid: 9bb9e3d400ae31d47943bc7c4fc13356, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve1:
+        m_Texture: {fileID: 2800000, guid: 1a7f074f01ec95d45a96f2f6196edd36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 2800000, guid: 41a9643aee5fa1649987d5fffc5c4200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    - _EmissionTex1:
+        m_Texture: {fileID: 2800000, guid: 41a9643aee5fa1649987d5fffc5c4200, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hight:
+        m_Texture: {fileID: 2800000, guid: 9bb9e3d400ae31d47943bc7c4fc13356, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: e671b35a4d1ba054c966b99b9cf333dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture1:
+        m_Texture: {fileID: 2800000, guid: e671b35a4d1ba054c966b99b9cf333dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 9bb9e3d400ae31d47943bc7c4fc13356, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Desaturation: 1
+    - _Desaturation1: 1
+    - _Emission: 2
+    - _Emission1: 2
+    - _Float1: 20
+    - _InnerEmission: 0
+    - _InvFade: 1
+    - _NoiseTexScale: -0.09
+    - _NoiseTexScale1: 0
+    - _Opacity: 10
+    - _Opacity1: 10
+    - _RefPlane: 1
+    - _Reverse: 0
+    - _Scale: 1
+    - _Tilling: 1
+    - _UV2InfluenceDissolvePanner: 0
+    - _Usedepth: 0
+    - __dirty: 0
+    - _fade: 4.5
+    m_Colors:
+    - _AddColor: {r: 0.48492336, g: 0, b: 1, a: 1}
+    - _AddColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionPanner: {r: 0, g: 0, b: 0, a: 0}
+    - _NoisePanner: {r: 1, g: -2, b: 0.2, a: 0.2}
+    - _NoisePanner1: {r: 0, g: 0, b: 0, a: 0}
+    - _Remap: {r: -0.18, g: 1, b: 0, a: 0}
+    - _Remap1: {r: -0.3, g: 1, b: 0, a: 0}
+    - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: -0.8, a: 0}
+    - _SpeedMainTexUVNoiseZW1: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0, g: 0.45205474, b: 1, a: 1}
+    - _Vector1: {r: 0.1, g: 0, b: 1, a: 0}
