@@ -104,93 +104,6 @@
     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
     <Compile Include="Assets\Hovl Studio\Sword slash VFX\Demo scene\CameraHolder.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\DemoScene\BFX_DemoTest.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_BloodDecalLayers.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_BloodSettings.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_DecaGizmo.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_DecalSettings.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_ManualAnimationUpdate.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_MouseOrbit.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_RenderDepth.cs" />
-    <Compile Include="Assets\KriptoFX\VolumetricBloodFX\Scripts\BFX_ShaderProperies.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Cluster\RFFace.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Cluster\RFTriangle.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Man\RFManDemolition.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Man\RFMaterial.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Man\RFPooling.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFCluster.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFEvent.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFFlash.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFMesh.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFParticles.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFRecord.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFShard.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFSnapshot.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFSound.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RFTypes.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\RayFire.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFActivation.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFBackupCluster.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFCollapse.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFDamage.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFDemolitionCluster.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFDemolitionMesh.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFFade.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFFragmentProperties.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFLimitations.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFPhysic.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFReferenceDemolition.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFReset.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Rigid\RFRuntimeCaching.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Shatter\RFCustom.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Shatter\RFFragment.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Shatter\RFShatterAdvanced.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Classes\Shatter\RFSurface.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireActivator.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireBlade.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireBomb.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireCluster.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireCombine.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireConnectivity.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireDebris.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireDust.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireGun.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireMan.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireRecorder.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireRestriction.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireRigid.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireRigidRoot.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireShatter.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireSnapshot.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireSound.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireUnyielding.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireVortex.cs" />
-    <Compile Include="Assets\RayFire\Scripts\Components\RayfireWind.cs" />
-    <Compile Include="Assets\RayFire\Tutorial\Scripts\ActivationEventScript.cs" />
-    <Compile Include="Assets\RayFire\Tutorial\Scripts\AddRigidComponent.cs" />
-    <Compile Include="Assets\RayFire\Tutorial\Scripts\ApplyDamageScript.cs" />
-    <Compile Include="Assets\RayFire\Tutorial\Scripts\DemolitionEventScript.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Bezier\CubicBezierCurve.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Bezier\CurveSample.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Bezier\Spline.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineNode.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Bezier\SplineSmoother.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleContortAlong.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleFollowSpline.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleGrowingRoot.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleSower.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleTentacle.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\ExampleTrack.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Example\RopeBuilder.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\ExtrusionSegment.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\MeshBender.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\MeshVertex.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SourceMesh.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SplineExtrusion.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\MeshProcessing\SplineMeshTiling.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Utils\CameraUtility.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Utils\MeshUtility.cs" />
-    <Compile Include="Assets\SplineMesh\Scripts\Utils\UOUtility.cs" />
     <Compile Include="Assets\Tools\CubemapToEquirectangular\Scripts\CubemapConverter.cs" />
     <Compile Include="Assets\Tools\GenCamPngEditor.cs" />
     <Compile Include="Assets\Tools\Paint in 3D\Scripts\IPaintHandler.cs" />
@@ -235,7 +148,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\MultiPassDistortion\DoublePassUnlitTemplate.shader" />
-    <None Include="Assets\RayFire\Plugins\Windows\x86_x64\RFLib_DotNet_2018.dll" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\StencilExample\RefractionsPanels\AnimatedRefraction.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosTime.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\VertexNormalReconstruction\VertexNormalReconstruction.shader" />
@@ -302,7 +214,6 @@
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Replace.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PrimitiveIDVariableNode.shader" />
     <None Include="Assets\Art\Base\Shader\Skybox\Skybox Cubemap Extended.shader" />
-    <None Include="Assets\RayFire\Plugins\Android\RFLib_DotNet_2018_andr.dll" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_HeightMapTextureBlend.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeLightmapHlpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_EncodeFloatRGBAHlpNode.shader" />
@@ -324,7 +235,6 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LightColorNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FractNode.shader" />
     <None Include="Assets\测试shader\001_flowmap_shader\PPX_flowmap_shader.shader" />
-    <None Include="Assets\RayFire\Plugins\Windows\x86_x64\RFLib_CNative_2018.dll" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TimeNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\ScreenSpaceDetail\ScreenSpaceDetail.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Community SingleChannelMasking\Credits.txt" />
@@ -444,7 +354,6 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\Unlit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ViewDirInputsCoordNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SqrtOpNode.shader" />
-    <None Include="Assets\KriptoFX\VolumetricBloodFX\Shaders\BFX_Blood.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\SRP (Legacy)\README.txt" />
     <None Include="Assets\Art\Base\Shader\Stand\UVanimation.shader" />
     <None Include="Assets\Art\Base\Shader\CS04\Char_Standard.shader" />
@@ -454,7 +363,6 @@
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\TextureArray\TextureArray.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TriplanarNode.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\ChuShou_Test.shader" />
-    <None Include="Assets\RayFire\Plugins\Windows\x86\RFLib_CNative_2018_x86.dll" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ComputeScreenPos.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ProjectionParams.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Community LowPolyWater\Credits.txt" />
@@ -523,7 +431,6 @@
     <None Include="Assets\Art\Base\Shader\Stand\Stand transparent.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeViewNormalStereoHlpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\LinearPreviews.shader" />
-    <None Include="Assets\RayFire\Info\FAQ.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TangentVertexDataNode.shader" />
     <None Include="Assets\Art\Base\Shader\Toon\Toon_face.shader" />
     <None Include="Assets\Art\Base\Shader\CS01_06\Mirror_Stencil.shader" />
@@ -574,14 +481,12 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexelSize.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NormalVertexDataNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceCameraPos.shader" />
-    <None Include="Assets\RayFire\Plugins\Windows\x86\RFLib_DotNet_2018_x86.dll" />
     <None Include="Assets\UMotionEditor\Shaders\VertexColorUnlit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SamplerNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Burn\BurnEffect.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_UnpackScaleNormalNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\CustomOutlineToon\CustomOutlineToon.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ClampOpNode.shader" />
-    <None Include="Assets\RayFire\Plugins\Ios\RFLib_DotNet_2018_ios.dll" />
     <None Include="Assets\Art\Base\Shader\Stand\Stand transparent nofog.shader" />
     <None Include="Assets\Art\Base\Shader\VertexAbsorption.shader" />
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Sphere.shader" />
@@ -593,7 +498,6 @@
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Fill.shader" />
     <None Include="Assets\XWeaponTrail\readme.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LengthOpNode.shader" />
-    <None Include="Assets\KriptoFX\VolumetricBloodFX\Readme.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_StepOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\UISpriteFX\UISpriteFX.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\TemplateExamples\PostProcess\FilmGrain\Credits.txt" />
@@ -614,13 +518,11 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BlendNormalsNode.shader" />
     <None Include="Assets\Art\Base\Shader\CS01_06\Scene_Mirror.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Community Melting\Credits.txt" />
-    <None Include="Assets\RayFire\Info\CHANGELOG.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PosterizeNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LODFadeNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\SimpleRefraction\SimpleRefraction.shader" />
     <None Include="Assets\UMotionEditor\Shaders\ColorUnlit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Water\Ground.shader" />
-    <None Include="Assets\RayFire\Plugins\Mac\RFLib_DotNet_2018_osx.dll" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_EncodeViewNormalStereoHlpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\SimpleTerrain\GrassBlades.shader" />
@@ -629,14 +531,12 @@
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\CustomLightingToon\CustomLightingToon.shader" />
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Decal.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BlendOpsNode.shader" />
-    <None Include="Assets\RayFire\Info\README.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ScaleNode.shader" />
     <None Include="Assets\Art\Base\Shader\Stand\Stand.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ATanOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleContrastNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DeltaTime.shader" />
     <None Include="Assets\Art\Base\Shader\Stand\Matcap.shader" />
-    <None Include="Assets\KriptoFX\VolumetricBloodFX\Shaders\BFX_Decal.shader" />
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\Add_CenterGlow.shader" />
     <None Include="Assets\Art\Base\Shader\Skybox\Skybox Gradient.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NoiseGeneratorNode.shader" />
@@ -682,12 +582,10 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SubstanceSamplerNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PannerNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleRemainderNode.shader" />
-    <None Include="Assets\SplineMesh\Doc.txt" />
     <None Include="Assets\Art\Base\Shader\Particle\CHushou.shader" />
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\Explosion.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\SwordSlash.shader" />
     <None Include="Assets\UMotionEditor\Plugins\Application\UMotionApplication.dll" />
-    <None Include="Assets\RayFire\Info\License.txt" />
     <None Include="Assets\Art\Base\Shader\Particle\Exp.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PiNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DynamicAppendNode.shader" />
@@ -877,9 +775,6 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.28f1c1\Editor\Data\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="RFLib_DotNet_2018">
-      <HintPath>Assets\RayFire\Plugins\Windows\x86_x64\RFLib_DotNet_2018.dll</HintPath>
     </Reference>
     <Reference Include="UMotionApplication">
       <HintPath>Assets\UMotionEditor\Plugins\Application\UMotionApplication.dll</HintPath>
@@ -1285,18 +1180,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="MudBun.Customization.Editor.csproj">
-      <Project>{3A84D592-7179-06AE-2EC1-68E4FDFBECE3}</Project>
-      <Name>MudBun.Customization.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MudBun.csproj">
-      <Project>{03AE1948-AD52-C4FF-A078-0C1E4E2D8BAE}</Project>
-      <Name>MudBun</Name>
-    </ProjectReference>
-    <ProjectReference Include="MudBun.Editor.csproj">
-      <Project>{B3341D48-02F7-C206-229B-1A0DDEA4A2D7}</Project>
-      <Name>MudBun.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UMotionSourceApplication.csproj">
       <Project>{3D46CE00-23C9-6FD9-10C8-9810A7F80CD5}</Project>
       <Name>UMotionSourceApplication</Name>
@@ -1304,10 +1187,6 @@
     <ProjectReference Include="UMotionSourceEditor.csproj">
       <Project>{B8CFEA85-84C8-2D44-942C-C3D6C61B40CB}</Project>
       <Name>UMotionSourceEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="MudBun.Manager.csproj">
-      <Project>{0CE95FEB-5623-7F9E-F5E7-1B8DDC56A194}</Project>
-      <Name>MudBun.Manager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
