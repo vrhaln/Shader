@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChuShou_Test0
+  m_Shader: {fileID: 4800000, guid: 87e9f9bc6f83b2c4889c0bf8f6e815a7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 869eccfcf4cbaf8439bfc0aade3712b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FogMask:
+        m_Texture: {fileID: 2800000, guid: 288c4bb3302af1843802cbb2aebb9c2e, type: 3}
+        m_Scale: {x: 1, y: -0.8}
+        m_Offset: {x: 0, y: -0.02}
+    - _GlowTex:
+        m_Texture: {fileID: 2800000, guid: 435fff8c8126cf34997a07f8dd5e4adf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 9bb9e3d400ae31d47943bc7c4fc13356, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: e20a7f0b65e5610448aad2049d5db7b8, type: 3}
+        m_Scale: {x: 1, y: 3}
+        m_Offset: {x: -0.08, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 88ec5bd158d44bb46a1af39842919788, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSTexture:
+        m_Texture: {fileID: 2800000, guid: 254f59c46b578974d813bc60dde5e3ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOAddTex:
+        m_Texture: {fileID: 2800000, guid: 288c4bb3302af1843802cbb2aebb9c2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOMaskTex:
+        m_Texture: {fileID: 2800000, guid: 288c4bb3302af1843802cbb2aebb9c2e, type: 3}
+        m_Scale: {x: 1, y: -0.9}
+        m_Offset: {x: 0, y: 0}
+    - _VONoiseTex:
+        m_Texture: {fileID: 2800000, guid: 7ef0b291b72c96840bf16bf25fef0302, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOTex0:
+        m_Texture: {fileID: 2800000, guid: 30950b4466df7134dbf0ef7e8350fac6, type: 3}
+        m_Scale: {x: 0, y: 1}
+        m_Offset: {x: 0.5, y: 0}
+    - _VOTex1:
+        m_Texture: {fileID: 2800000, guid: 30950b4466df7134dbf0ef7e8350fac6, type: 3}
+        m_Scale: {x: 0, y: 1.6}
+        m_Offset: {x: 0.5, y: 0}
+    - _VOTex2:
+        m_Texture: {fileID: 2800000, guid: 30950b4466df7134dbf0ef7e8350fac6, type: 3}
+        m_Scale: {x: 0, y: 1.5}
+        m_Offset: {x: 0.5, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FrePower: 2
+    - _FreScale: 2
+    - _GlowMaskPower: 5
+    - _GlowMaskScale: 1
+    - _GlowScale: 10
+    - _LerpColorOffset: -0.21
+    - _LightPower: 1
+    - _Matallic: 0.374
+    - _NoiseTexScale: -0.1
+    - _NoramlScale: 0.2
+    - _NormalScale: 0.7
+    - _SSSScale: 0.3
+    - _Smoothness: 0.9
+    - _Swi: 1
+    - _Swi1: 1
+    - _Swi2: 2
+    - _Swi3: 3
+    - _Swi4: 2
+    - _VOMaskScale: 1.5
+    - _VONoisePower: 1
+    - _VONoiseScale: 10
+    - _VoAddTex: 0.2
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoColor: {r: 0.3201443, g: 0.039215684, b: 0.36862746, a: 1}
+    - _FogColor: {r: 0, g: 0.040431287, b: 0.05660379, a: 0}
+    - _FreColor: {r: 0.6929653, g: 0.02352941, b: 1, a: 1}
+    - _GlowColor: {r: 1, g: 0.69260895, b: 0.07843137, a: 1}
+    - _GlowColor1: {r: 1, g: 0.5862069, b: 0, a: 1}
+    - _GlowPanner: {r: 0.65, g: -1, b: 0.55, a: 0}
+    - _LerpSmo: {r: 0, g: 5, b: 0, a: 0}
+    - _LightColor: {r: 0.2877358, g: 1, b: 0.3922151, a: 1}
+    - _NoisePanner: {r: 0.5, g: -1, b: 1, a: 0}
+    - _SSSColor: {r: 0.1546814, g: 0.3717961, b: 0.4150943, a: 0}
+    - _VO0Panner: {r: 0, g: -1, b: 1.1, a: 0}
+    - _VO1Panner: {r: 0, g: 1, b: 0.8, a: 0}
+    - _VO2Panner: {r: 0, g: -1, b: 1.4, a: 0}
+    - _VONOisePanner: {r: 0, g: 1, b: 0.4, a: 0}
+    - _VOXYZScale: {r: 2, g: -0.07, b: 2, a: 0}
+    - _VO_XPanner: {r: 0, g: -1, b: 1.1, a: 0}
+    - _VO_XTiling: {r: 0, g: 1, b: 0.5, a: 0}
+    - _VO_XYZScale: {r: 0.5, g: -0.01, b: 0.5, a: 0}
+    - _VO_YPanner: {r: 0, g: 1, b: 0.8, a: 0}
+    - _VO_YTiling: {r: 0, g: 1, b: 0.5, a: 0}
+    - _VO_ZPanner: {r: 0, g: -1, b: 1.4, a: 0}
+    - _VO_ZTiling: {r: 0, g: 1, b: 0.5, a: 0}

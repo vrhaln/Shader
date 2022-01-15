@@ -140,11 +140,6 @@
     <Compile Include="Assets\Tools\SHCoef\SphericalHarmonicsCoefficient.cs" />
     <Compile Include="Assets\Tools\VertexPainter\Script\MeshVertexColor.cs" />
     <Compile Include="Assets\Tools\VertexPainter\Script\PaintingData.cs" />
-    <Compile Include="Assets\XWeaponTrail\Scripts\Spline.cs" />
-    <Compile Include="Assets\XWeaponTrail\Scripts\SplineControlPoint.cs" />
-    <Compile Include="Assets\XWeaponTrail\Scripts\VertexPool.cs" />
-    <Compile Include="Assets\XWeaponTrail\Scripts\XWeaponTrail.cs" />
-    <Compile Include="Assets\XWeaponTrail\Scripts\XWeaponTrailDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\MultiPassDistortion\DoublePassUnlitTemplate.shader" />
@@ -240,7 +235,6 @@
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Community SingleChannelMasking\Credits.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FogAndAmbientColors.shader" />
     <None Include="Assets\Cocuy\Shaders\Cocuy_Common.compute" />
-    <None Include="Assets\UMotionEditor\Shaders\WiresOnly.shader" />
     <None Include="Assets\Art\Model\CS14\Env\Planar.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LogOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\SimpleLambert\SimpleLambert.shader" />
@@ -310,12 +304,10 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ScreenPosInputsNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NormalizeNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SwitchNode.shader" />
-    <None Include="Assets\UMotionEditor\Shaders\UnlitLine.shader" />
     <None Include="Assets\Art\Base\Shader\Stand\HalfLambert UVAima.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DdxOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RsqrtOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\RimLight\RimLight.shader" />
-    <None Include="Assets\UMotionEditor\Shaders\UnlitDashedLine.shader" />
     <None Include="Assets\Art\Base\Shader\MaterialBlend\RainyGround.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexturePropertyNode.shader" />
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\Ice.shader" />
@@ -391,7 +383,6 @@
     <None Include="Assets\Tools\UVInspector\Shaders\Simple.shader" />
     <None Include="Assets\Art\Base\Shader\CS21\Scene_WindowGlass.shader" />
     <None Include="Assets\Cocuy\Materials\MaterialRenderer.shader" />
-    <None Include="Assets\UMotionEditor\Shaders\CameraLit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LayeredBlendNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\ChangeLog.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ParallaxMappingNode.shader" />
@@ -422,7 +413,6 @@
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Tessellation\Tessellation.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\UnlitLightmap.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\ParticleField.shader" />
-    <None Include="Assets\XWeaponTrail\Shader\xft_displacement_screen.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Water\WaterSample.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\Dissolve_Add.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SaturateNode.shader" />
@@ -481,7 +471,6 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexelSize.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NormalVertexDataNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceCameraPos.shader" />
-    <None Include="Assets\UMotionEditor\Shaders\VertexColorUnlit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SamplerNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Burn\BurnEffect.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_UnpackScaleNormalNode.shader" />
@@ -496,7 +485,6 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ReflectOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Dithering\DitheringFadeBlueNoise.shader" />
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Fill.shader" />
-    <None Include="Assets\XWeaponTrail\readme.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LengthOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_StepOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\UISpriteFX\UISpriteFX.shader" />
@@ -521,7 +509,6 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PosterizeNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LODFadeNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\SimpleRefraction\SimpleRefraction.shader" />
-    <None Include="Assets\UMotionEditor\Shaders\ColorUnlit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Examples\Built-In\Water\Ground.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_EncodeViewNormalStereoHlpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosOpNode.shader" />
@@ -585,12 +572,10 @@
     <None Include="Assets\Art\Base\Shader\Particle\CHushou.shader" />
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\Explosion.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\SwordSlash.shader" />
-    <None Include="Assets\UMotionEditor\Plugins\Application\UMotionApplication.dll" />
     <None Include="Assets\Art\Base\Shader\Particle\Exp.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PiNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DynamicAppendNode.shader" />
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\SwordSlash.shader" />
-    <None Include="Assets\UMotionEditor\Shaders\ColorUnlitTransparent.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -775,9 +760,6 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.28f1c1\Editor\Data\Managed\UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UMotionApplication">
-      <HintPath>Assets\UMotionEditor\Plugins\Application\UMotionApplication.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.28f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -1180,14 +1162,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UMotionSourceApplication.csproj">
-      <Project>{3D46CE00-23C9-6FD9-10C8-9810A7F80CD5}</Project>
-      <Name>UMotionSourceApplication</Name>
-    </ProjectReference>
-    <ProjectReference Include="UMotionSourceEditor.csproj">
-      <Project>{B8CFEA85-84C8-2D44-942C-C3D6C61B40CB}</Project>
-      <Name>UMotionSourceEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
