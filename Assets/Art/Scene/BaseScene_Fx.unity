@@ -5320,7 +5320,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.4753471, g: 0.43867922, b: 1, a: 1}
+      maxColor: {r: 0.41903722, g: 0.3144784, b: 0.71599996, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9930,7 +9930,9 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 7.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 81335607117461374, guid: 4664968e3df7f794b87d0599a702a97a, type: 3}
+    - {fileID: 114317769359567004, guid: 4664968e3df7f794b87d0599a702a97a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4664968e3df7f794b87d0599a702a97a, type: 3}
 --- !u!1 &963928249
 GameObject:
@@ -14838,7 +14840,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 1
-  m_Pivot: {x: 0, y: -0.18, z: 0}
+  m_Pivot: {x: 0, y: -0.06, z: 0}
   m_Flip: {x: 1, y: 0, z: 0}
   m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
@@ -15102,7 +15104,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.88
+      scalar: 2.88
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -15155,7 +15157,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.42
+      scalar: 1.67
       minScalar: 1
       maxCurve:
         serializedVersion: 2
