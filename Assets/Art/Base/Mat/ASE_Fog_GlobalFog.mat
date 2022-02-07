@@ -25,8 +25,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BGScale: 1
-    - _FogDistanceEnd: 36.3
-    - _FogDistanceStart: 11.9
+    - _FogDistanceEnd: 20
+    - _FogDistanceStart: 12.2
     - _FogIntensity: 1
     - _SunFogIntensity: 0
     - _SunFogRange: 0

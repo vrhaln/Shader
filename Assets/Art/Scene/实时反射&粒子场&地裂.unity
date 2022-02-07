@@ -5006,7 +5006,7 @@ GameObject:
   - component: {fileID: 474116020}
   - component: {fileID: 474116019}
   m_Layer: 8
-  m_Name: Quad
+  m_Name: Fog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5165,7 +5165,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
