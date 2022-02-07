@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -25,12 +25,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BGScale: 1
-    - _FogDistanceEnd: 20
-    - _FogDistanceStart: 12.2
+    - _FogDistanceEnd: 50
+    - _FogDistanceStart: 0
+    - _FogHeightEnd: 10
+    - _FogHeightStart: 0
     - _FogIntensity: 1
     - _SunFogIntensity: 0
     - _SunFogRange: 0
     - __dirty: 0
     m_Colors:
-    - _FogColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 0}
+    - _FogColor: {r: 0.16078432, g: 0.1764706, b: 0.19607845, a: 0}
     - _SunFogColor: {r: 0, g: 0, b: 0, a: 0}
