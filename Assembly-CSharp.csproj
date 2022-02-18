@@ -167,7 +167,7 @@
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\BlendModes.cginc" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCCompareWithRange.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceLightPosNode.shader" />
-    <None Include="Assets\Art\Base\Shader\Pixelation.shader" />
+    <None Include="Assets\Art\Base\Shader\像素化\Pixelation.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FogParams.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TanhOpNode.shader" />
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Sphere Blur.shader" />
@@ -262,7 +262,7 @@
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\Blend_TwoSides.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\ADD.shader" />
     <None Include="Assets\Art\Base\Shader\VFX\UV_Move_Alpha.shader" />
-    <None Include="Assets\Art\Base\Shader\DepthTest.shader" />
+    <None Include="Assets\Art\Base\Shader\扫描\DepthTest.shader" />
     <None Include="Assets\Tools\CubemapToEquirectangular\Shaders\CubemapToEquirectangular.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexBinormalNode.shader" />
     <None Include="Assets\Art\Base\Shader\VFX\Distor.shader" />
@@ -301,7 +301,7 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeFloatRGBAHlpNode.shader" />
     <None Include="Assets\Art\Base\Shader\Toon\Toon_Water_Low.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TextureCoordinatesNode.shader" />
-    <None Include="Assets\Art\Base\Shader\DepthTest2.shader" />
+    <None Include="Assets\Art\Base\Shader\扫描\DepthTest2.shader" />
     <None Include="Assets\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Compare.shader" />
     <None Include="Assets\Tools\UVInspector\Shaders\Simple.shader" />
@@ -371,14 +371,14 @@
     <None Include="Assets\Art\Base\Shader\Other\Hologram.shader" />
     <None Include="Assets\Cocuy\Shaders\Cocuy_ParticleArea.compute" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexelSize.shader" />
-    <None Include="Assets\Art\Base\Shader\post.shader" />
+    <None Include="Assets\Art\Base\Shader\扫描\post.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NormalVertexDataNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceCameraPos.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SamplerNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_UnpackScaleNormalNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ClampOpNode.shader" />
     <None Include="Assets\Art\Base\Shader\Stand\Stand transparent nofog.shader" />
-    <None Include="Assets\Art\Base\Shader\VertexAbsorption.shader" />
+    <None Include="Assets\Art\Base\Shader\顶点吸收\VertexAbsorption.shader" />
     <None Include="Assets\Tools\Paint in 3D\Shaders\Resources\P3D Sphere.shader" />
     <None Include="Assets\Art\Base\Shader\CS21\FX_TVMovie.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeDepthNormalNode.shader" />
@@ -417,7 +417,7 @@
     <None Include="Assets\Art\Base\Shader\CS14\Toon.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_AbsOpNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SummedBlendNode.shader" />
-    <None Include="Assets\Art\Base\Shader\Snow.shader" />
+    <None Include="Assets\Art\Base\Shader\雪地效果\Snow.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TextureArrayNode.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceLightDirHlpNode.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\Hole.shader" />

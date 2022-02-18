@@ -4,7 +4,7 @@ Shader "DepthTest2"
 {
 	Properties
 	{
-		_Color0("Color 0", Color) = (1,1,1,1)
+		_EmissionColor("EmissionColor", Color) = (1,1,1,1)
 		_Opacity("Opacity", Range( 0 , 1)) = 1
 		[HideInInspector] __dirty( "", Int ) = 1
 	}
@@ -13,13 +13,13 @@ Shader "DepthTest2"
 	{
 		Tags{ "RenderType" = "Custom"  "Queue" = "Transparent+0" "IgnoreProjector" = "True" "IsEmissive" = "true"  }
 		Cull Back
-		ZWrite Off
+		ZWrite On
 		ZTest Always
 		Stencil
 		{
 			Ref 1
 			Comp Equal
-			Pass Keep
+			Pass Replace
 		}
 		Blend SrcAlpha OneMinusSrcAlpha
 		
@@ -45,7 +45,7 @@ Shader "DepthTest2"
 			UnityGIInput GIData;
 		};
 
-		uniform float4 _Color0;
+		uniform float4 _EmissionColor;
 		uniform float _Opacity;
 
 		inline half4 LightingStandardCustomLighting( inout SurfaceOutputCustomLightingCustom s, half3 viewDir, UnityGI gi )
@@ -66,7 +66,7 @@ Shader "DepthTest2"
 		void surf( Input i , inout SurfaceOutputCustomLightingCustom o )
 		{
 			o.SurfInput = i;
-			o.Emission = _Color0.rgb;
+			o.Emission = _EmissionColor.rgb;
 		}
 
 		ENDCG
@@ -146,11 +146,11 @@ Shader "DepthTest2"
 }
 /*ASEBEGIN
 Version=18100
--1200;256;1200;743;793.4395;413.5482;1.3;True;False
-Node;AmplifyShaderEditor.ColorNode;1;-262.0375,22.34555;Inherit;False;Property;_Color0;Color 0;1;0;Create;True;0;0;False;0;False;1,1,1,1;1,1,1,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.RangedFloatNode;2;-333.0375,213.3456;Inherit;False;Property;_Opacity;Opacity;2;0;Create;True;0;0;False;0;False;1;0.378;0;1;0;1;FLOAT;0
-Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;23.4,1.3;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;DepthTest2;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;False;False;False;False;False;False;Back;2;False;-1;7;False;-1;False;0;False;-1;0;False;-1;False;0;Custom;0.5;True;True;0;True;Custom;;Transparent;All;14;all;True;True;True;True;0;False;-1;True;1;False;-1;255;False;-1;255;False;-1;5;False;-1;1;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;True;2;5;False;-1;10;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;0;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
+-56;469;1060;609;889.4557;305.7609;1.250131;True;False
+Node;AmplifyShaderEditor.RangedFloatNode;2;-324.2866,220.8464;Inherit;False;Property;_Opacity;Opacity;2;0;Create;True;0;0;False;0;False;1;0.378;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;1;-317.0432,18.59516;Inherit;False;Property;_EmissionColor;EmissionColor;1;0;Create;True;0;0;False;0;False;1,1,1,1;1,1,1,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;23.4,1.3;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;DepthTest2;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;False;False;False;False;False;False;Back;1;False;-1;7;False;-1;False;0;False;-1;0;False;-1;False;0;Custom;0.5;True;True;0;True;Custom;;Transparent;All;14;all;True;True;True;True;0;False;-1;True;1;False;-1;255;False;-1;255;False;-1;5;False;-1;3;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;True;2;5;False;-1;10;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;0;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 WireConnection;0;2;1;0
 WireConnection;0;9;2;0
 ASEEND*/
-//CHKSM=6748D4CCF9AD79065B6E4AA87112A9F4A6492BAA
+//CHKSM=FF9970B7D15B06A933CB65757DFC3C3D87BB2F3A
