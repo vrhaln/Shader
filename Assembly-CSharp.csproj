@@ -262,7 +262,7 @@
     <None Include="Assets\Hovl Studio\Sword slash VFX\Shaders\Blend_TwoSides.shader" />
     <None Include="Assets\Art\Base\Shader\Particle\ADD.shader" />
     <None Include="Assets\Art\Base\Shader\VFX\UV_Move_Alpha.shader" />
-    <None Include="Assets\Art\Base\Shader\扫描\DepthTest.shader" />
+    <None Include="Assets\Art\Base\Shader\扫描\StencilReplace.shader" />
     <None Include="Assets\Tools\CubemapToEquirectangular\Shaders\CubemapToEquirectangular.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexBinormalNode.shader" />
     <None Include="Assets\Art\Base\Shader\VFX\Distor.shader" />
@@ -301,7 +301,7 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeFloatRGBAHlpNode.shader" />
     <None Include="Assets\Art\Base\Shader\Toon\Toon_Water_Low.shader" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TextureCoordinatesNode.shader" />
-    <None Include="Assets\Art\Base\Shader\扫描\DepthTest2.shader" />
+    <None Include="Assets\Art\Base\Shader\扫描\StencilObject.shader" />
     <None Include="Assets\Epic Toon FX\Prefabs\Interactive\Interactive FX.txt" />
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Compare.shader" />
     <None Include="Assets\Tools\UVInspector\Shaders\Simple.shader" />

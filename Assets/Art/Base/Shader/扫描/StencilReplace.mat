@@ -20,8 +20,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
+    - _Distance: 1
     - _Opacity: 0
-    - _Power: 0.5
+    - _Power: 1
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0.9803922, g: 0.10588236, b: 0.011764707, a: 1}
