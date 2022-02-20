@@ -4,7 +4,7 @@ Shader "Whl/Stencil/StencilReplace"
 {
 	Properties
 	{
-		_Color0("Color 0", Color) = (1,1,1,1)
+		[HDR]_Color0("Color 0", Color) = (1,1,1,1)
 		_Power("Power", Float) = 1
 		_Distance("Distance", Float) = 0
 		[HideInInspector] __dirty( "", Int ) = 1
@@ -91,7 +91,7 @@ Shader "Whl/Stencil/StencilReplace"
 }
 /*ASEBEGIN
 Version=18100
-20;516;1200;719;1289.802;234.8391;1.15591;True;False
+243;349;1375;903;1390.944;337.7151;1.15591;True;True
 Node;AmplifyShaderEditor.RangedFloatNode;10;-887.5447,246.0194;Inherit;False;Property;_Distance;Distance;3;0;Create;True;0;0;False;0;False;0;1;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.DepthFade;3;-682.3109,210.4815;Inherit;False;True;False;True;2;1;FLOAT3;0,0,0;False;0;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;7;-548.0457,332.8982;Inherit;False;Property;_Power;Power;2;0;Create;True;0;0;False;0;False;1;1;0;0;0;1;FLOAT;0
@@ -99,8 +99,8 @@ Node;AmplifyShaderEditor.PowerNode;6;-417.946,216.598;Inherit;False;False;2;0;FL
 Node;AmplifyShaderEditor.SaturateNode;5;-272.8108,217.8815;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.OneMinusNode;4;-104.9108,216.4815;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.VertexColorNode;9;-222.8091,392.104;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;2;-201.3109,-97.51849;Inherit;False;Property;_Color0;Color 0;0;0;Create;True;0;0;False;0;False;1,1,1,1;0.9803922,0.1058824,0.01176471,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;8;69.69093,246.504;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;2;-201.3109,-97.51849;Inherit;False;Property;_Color0;Color 0;0;1;[HDR];Create;True;0;0;False;0;False;1,1,1,1;0.9803922,0.1058824,0.01176471,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;215.5,-88.39999;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;Whl/Stencil/StencilReplace;False;False;False;False;True;True;True;True;True;True;True;True;False;False;True;False;False;False;False;False;False;Off;2;False;-1;0;False;-1;False;0;False;-1;0;False;-1;False;0;Custom;0.5;True;False;0;True;Custom;;Transparent;All;14;all;True;True;True;True;0;False;-1;True;1;False;-1;255;False;-1;255;False;-1;7;False;-1;3;False;-1;3;False;-1;3;False;-1;7;False;-1;3;False;-1;3;False;-1;3;False;-1;False;2;15;10;25;False;0.5;False;2;5;False;-1;10;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;1;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 WireConnection;3;0;10;0
 WireConnection;6;0;3;0
@@ -112,4 +112,4 @@ WireConnection;8;1;9;4
 WireConnection;0;2;2;0
 WireConnection;0;9;8;0
 ASEEND*/
-//CHKSM=D424DAAB5BFE0FD16E2E42956F5B8D29A7DE0240
+//CHKSM=80958332C2650DF67A0020A7FAFD79E6C80050AB
