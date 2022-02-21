@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Whl_OutlineDoublePass
-  m_Shader: {fileID: 4800000, guid: cd665b81656fd724f825841a8170490a, type: 3}
+  m_Name: Outline
+  m_Shader: {fileID: 4800000, guid: dda20399d2bbbc04f9a8c9d309245764, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,15 +20,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Float0: 0.07
-    - _FrePower: 1.2
-    - _FreScale: 1
-    - _Opacity: 1
     - _OutlineWith: 0.04
+    - _OutlineWith1: 0.05
     - _ZtestMode: 8
-    - _ZtestMode1: 4
+    - _ZtestMode1: 0
     m_Colors:
-    - _Color0: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 1, g: 0.6179246, b: 0.6179246, a: 0.5176471}
-    - _MainColor: {r: 0, g: 1, b: 0.015686275, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor1: {r: 1, g: 1, b: 1, a: 1}
