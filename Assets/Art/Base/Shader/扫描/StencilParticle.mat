@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: 3002
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -30,7 +30,7 @@ Material:
     m_Floats:
     - _FrePower: 5
     - _FrePower1: 5
-    - _FreScale: 3
+    - _FreScale: 4
     - _FreScale1: 3
     - _Opacity: 1
     - _Opacity1: 1
@@ -39,6 +39,6 @@ Material:
     - _ZtestMode1: 8
     - __dirty: 0
     m_Colors:
-    - _EmissionColor: {r: 0, g: 1.7886028, b: 4, a: 1}
+    - _EmissionColor: {r: 5.3403134, g: 5.3403134, b: 5.3403134, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _Panner: {r: 0, g: 2, b: 1, a: 0}
