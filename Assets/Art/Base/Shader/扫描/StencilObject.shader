@@ -92,9 +92,9 @@ Shader "Whl/Stencil/StencilObject"
 }
 /*ASEBEGIN
 Version=18100
-89;496;1213;650;1384.875;199.2092;1.6;True;False
-Node;AmplifyShaderEditor.RangedFloatNode;4;-770.3563,205.5494;Inherit;False;Property;_FreScale1;FreScale;3;0;Create;True;0;0;False;0;False;1;1;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;5;-779.3823,291.0693;Inherit;False;Property;_FrePower1;FrePower;4;0;Create;True;0;0;False;0;False;5;1.2;0;0;0;1;FLOAT;0
+-1234;17;1211;840;1261.56;303.6804;1.139449;True;False
+Node;AmplifyShaderEditor.RangedFloatNode;5;-834.0759,269.4198;Inherit;False;Property;_FrePower1;FrePower;4;0;Create;True;0;0;False;0;False;5;1.2;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;4;-831.8864,186.1787;Inherit;False;Property;_FreScale1;FreScale;3;0;Create;True;0;0;False;0;False;1;1;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.ColorNode;1;-505.0432,-32.40484;Inherit;False;Property;_EmissionColor;EmissionColor;1;0;Create;True;0;0;False;0;False;1,1,1,1;0,1,0.01689792,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.FresnelNode;6;-613.3331,157.0642;Inherit;True;Standard;WorldNormal;ViewDir;False;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;2;-589.1394,396.7946;Inherit;False;Property;_Opacity;Opacity;2;0;Create;True;0;0;False;0;False;1;1;0;1;0;1;FLOAT;0
@@ -111,4 +111,4 @@ WireConnection;7;1;6;0
 WireConnection;0;2;7;0
 WireConnection;0;9;8;0
 ASEEND*/
-//CHKSM=FF438700BFC705BE581510A2978A20D940C36FB5
+//CHKSM=097484F70F3E32D5E8ADEADFDAB7D9C25C78763A

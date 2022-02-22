@@ -57,7 +57,7 @@ Material:
     - _LogoAR: 0
     - _LogoAlpha: 0.2
     - _MainAlpha: 0.483
-    - _MainAlphaK: 1
+    - _MainAlphaK: 0
     - _RedBlueFactor: 0.384
     - _RedBlueFactorK: 0
     - _Soft: 0.063
