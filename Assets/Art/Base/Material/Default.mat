@@ -8,9 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Default
-  m_Shader: {fileID: 4800000, guid: c1776c73476057c49ab3cc6a051fcf6c, type: 3}
+  m_Shader: {fileID: 4800000, guid: 33aff518a5d471246b2a0c6135ad2a2a, type: 3}
   m_ShaderKeywords: _ISCUSTOMSHAOWCOLOR_ON
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -44,6 +44,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -100,21 +104,29 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HighlightIntensity: 0.5
+    - _HightLinght: 0
     - _Hightlightsize: 0
     - _InsideskinBlend: 0.8
     - _InsideskinOffer: 0.1
     - _InsideskinOffer2: 0.5
     - _IsCustomShaowColor: 1
+    - _KK: 0
     - _KKHightLinght: 0
     - _MatCap: 0
     - _Metallic: 0
     - _Mode: 0
     - _Mul: 1
+    - _NormalScale: 1
+    - _Occlusion: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Power: 2
+    - _RefPlane: 0
+    - _RefSmoothness: 1
     - _Refintensity: 1
     - _RefintensityNail: 4
+    - _Scale: 1
     - _Scanline1Alpha: 1
     - _Scanline1Hardness: 0
     - _Scanline1Speed: 0
@@ -122,11 +134,13 @@ Material:
     - _Scanline1Width: 0
     - _ShaowStrength: 0.5
     - _Shininess: 1
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _ThicknessMax: 0
     - _ThicknessMin: 0
+    - _Tiling: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
