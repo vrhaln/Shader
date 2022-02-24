@@ -20,9 +20,13 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Distance: 0.96
-    - _Opacity: 0
-    - _Power: 0.4
+    - _BaseOpacity: 1
+    - _Distance: 4
+    - _Opacity: 1
+    - _Power: 0.5
+    - _ZtestMode1: 7
     - __dirty: 0
     m_Colors:
+    - _Base: {r: 0, g: 0.1696081, b: 0.38679248, a: 0.29803923}
     - _Color0: {r: 2.6390157, g: 1.6287853, b: 0.6099612, a: 1}
+    - _Edge: {r: 2.9960785, g: 1.8666667, b: 0.72156864, a: 1}

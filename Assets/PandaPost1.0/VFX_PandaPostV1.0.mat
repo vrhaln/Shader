@@ -55,7 +55,7 @@ Material:
     - _LineUVScale: 3.74
     - _LineUVScaleK: 0
     - _LogoAR: 0
-    - _LogoAlpha: 0.2
+    - _LogoAlpha: 0
     - _MainAlpha: 0.483
     - _MainAlphaK: 0
     - _RedBlueFactor: 0.384

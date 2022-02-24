@@ -121,9 +121,9 @@ Shader "post"
 }
 /*ASEBEGIN
 Version=18100
-141;214;1200;719;2509.323;501.8507;2.003877;True;False
+30;355;1149;735;1552.337;361.6161;1.282422;True;False
 Node;AmplifyShaderEditor.ScreenDepthNode;25;-1552.069,190.364;Inherit;False;0;True;1;0;FLOAT4;0,0,0,0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;27;-1514.077,295.3636;Inherit;False;Property;_Depth;Depth;0;0;Create;True;0;0;False;0;False;0;50;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;27;-1514.077,295.3636;Inherit;False;Property;_Depth;Depth;0;0;Create;True;0;0;False;0;False;0;48.08;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;26;-1325.57,239.2438;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;24;-1588.361,-252.9588;Inherit;False;0;0;_MainTex;Shader;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;29;-1559.882,400.3834;Inherit;False;Property;_Fog;Fog;2;0;Create;True;0;0;False;0;False;1;1;0;1;0;1;FLOAT;0
@@ -132,7 +132,7 @@ Node;AmplifyShaderEditor.SamplerNode;12;-1354.024,-257.4054;Inherit;True;Propert
 Node;AmplifyShaderEditor.ColorNode;30;-1271.39,-24.64277;Inherit;False;Property;_FogColor;FogColor;1;0;Create;True;0;0;False;0;False;0,0,0,0;0.4765931,0.5886567,0.6603774,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.LerpOp;28;-1016.532,218.5175;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;31;-746.721,-42.78298;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;17;-418.8113,50.2429;Float;False;True;-1;2;ASEMaterialInspector;0;2;post;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;True;2;False;-1;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;17;-508.5808,-33.11452;Float;False;True;-1;2;ASEMaterialInspector;0;2;post;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;True;2;False;-1;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;0
 WireConnection;26;0;25;0
 WireConnection;26;1;27;0
 WireConnection;36;0;26;0
@@ -144,4 +144,4 @@ WireConnection;31;1;30;0
 WireConnection;31;2;28;0
 WireConnection;17;0;31;0
 ASEEND*/
-//CHKSM=83FA7ED06A4523904024572FF077B1E3CD9CFEFD
+//CHKSM=D8EE32607E8F991899BB7C803E5B8F8D51AE56DB
