@@ -8,6 +8,7 @@ Shader "post"
 		_Depth("Depth", Float) = 0
 		_FogColor("FogColor", Color) = (0,0,0,0)
 		_Fog("Fog", Range( 0 , 1)) = 1
+		[Enum(UnityEngine.Rendering.CompareFunction)]_ZtestMode1("ZtestMode", Float) = 0
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 
 	}
@@ -18,9 +19,9 @@ Shader "post"
 
 		
 		
-		ZTest Always
+		ZTest [_ZtestMode1]
 		Cull Off
-		ZWrite Off
+		ZWrite On
 
 		
 		Pass
@@ -58,6 +59,7 @@ Shader "post"
 			uniform half4 _MainTex_TexelSize;
 			uniform half4 _MainTex_ST;
 			
+			uniform float _ZtestMode1;
 			uniform float4 _FogColor;
 			UNITY_DECLARE_DEPTH_TEXTURE( _CameraDepthTexture );
 			uniform float4 _CameraDepthTexture_TexelSize;
@@ -121,18 +123,19 @@ Shader "post"
 }
 /*ASEBEGIN
 Version=18100
-30;355;1149;735;1552.337;361.6161;1.282422;True;False
+113;357;1083;712;1381.765;375.2224;1;True;False
 Node;AmplifyShaderEditor.ScreenDepthNode;25;-1552.069,190.364;Inherit;False;0;True;1;0;FLOAT4;0,0,0,0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;27;-1514.077,295.3636;Inherit;False;Property;_Depth;Depth;0;0;Create;True;0;0;False;0;False;0;48.08;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;27;-1514.077,295.3636;Inherit;False;Property;_Depth;Depth;0;0;Create;True;0;0;False;0;False;0;50;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;26;-1325.57,239.2438;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;24;-1588.361,-252.9588;Inherit;False;0;0;_MainTex;Shader;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;29;-1559.882,400.3834;Inherit;False;Property;_Fog;Fog;2;0;Create;True;0;0;False;0;False;1;1;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SaturateNode;36;-1184.965,240.8674;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;12;-1354.024,-257.4054;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;30;-1271.39,-24.64277;Inherit;False;Property;_FogColor;FogColor;1;0;Create;True;0;0;False;0;False;0,0,0,0;0.4765931,0.5886567,0.6603774,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;30;-1271.39,-24.64277;Inherit;False;Property;_FogColor;FogColor;1;0;Create;True;0;0;False;0;False;0,0,0,0;0.09545212,0.2996974,0.3679245,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.LerpOp;28;-1016.532,218.5175;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;31;-746.721,-42.78298;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;17;-508.5808,-33.11452;Float;False;True;-1;2;ASEMaterialInspector;0;2;post;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;True;2;False;-1;False;False;True;2;False;-1;True;7;False;-1;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;0
+Node;AmplifyShaderEditor.RangedFloatNode;37;-757.0912,-190.3839;Inherit;False;Property;_ZtestMode1;ZtestMode;3;1;[Enum];Create;True;1;Option1;0;1;UnityEngine.Rendering.CompareFunction;True;0;False;0;8;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;17;-508.5808,-33.11452;Float;False;True;-1;2;ASEMaterialInspector;0;2;post;c71b220b631b6344493ea3cf87110c93;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;1;False;False;False;True;2;False;-1;False;False;True;1;False;-1;True;6;True;37;False;True;0;False;0;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;0
 WireConnection;26;0;25;0
 WireConnection;26;1;27;0
 WireConnection;36;0;26;0
@@ -144,4 +147,4 @@ WireConnection;31;1;30;0
 WireConnection;31;2;28;0
 WireConnection;17;0;31;0
 ASEEND*/
-//CHKSM=D8EE32607E8F991899BB7C803E5B8F8D51AE56DB
+//CHKSM=A9FE98588BE85F74E37241CD4F89D07FBDEC8F90
