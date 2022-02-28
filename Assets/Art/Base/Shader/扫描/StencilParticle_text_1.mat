@@ -7,21 +7,21 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StencilParticle_2
+  m_Name: StencilParticle_text_1
   m_Shader: {fileID: 4800000, guid: 763330c115a4aad4081f59754fc72a85, type: 3}
-  m_ShaderKeywords: _RISALPHA_ON
+  m_ShaderKeywords: _PARTICLECONTROLUVOFFSET_ON _RISALPHA_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3002
+  m_CustomRenderQueue: 3003
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ff2f5ab57fb73334e8d7bf7f7b6b2954, type: 3}
-        m_Scale: {x: 1, y: 250}
+        m_Texture: {fileID: 2800000, guid: 6eaad36d88df3ad4e9a080453a0749da, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex4coord:
         m_Texture: {fileID: 0}
@@ -33,20 +33,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _CullMode: 0
-    - _Dst: 10
+    - _Dst: 1
     - _FrePower: 5
     - _FrePower1: 5
     - _FreScale: 4
     - _FreScale1: 3
     - _Opacity: 1
     - _Opacity1: 1
-    - _ParticleControlUVOffset: 0
+    - _ParticleControlUVOffset: 1
     - _RisAlpha: 1
     - _Src: 5
-    - _ZtestMode: 4
+    - _ZtestMode: 8
     - _ZtestMode1: 8
     - __dirty: 0
     m_Colors:
-    - _EmissionColor: {r: 5.3403134, g: 5.3403134, b: 5.3403134, a: 1}
+    - _EmissionColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
-    - _Panner: {r: 0, g: 10, b: 1, a: 0}
+    - _Panner: {r: 0, g: 0, b: 1, a: 0}

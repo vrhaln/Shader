@@ -33,6 +33,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _CullMode: 0
+    - _Dst: 10
     - _FrePower: 5
     - _FrePower1: 5
     - _FreScale: 4
@@ -41,7 +42,8 @@ Material:
     - _Opacity1: 1
     - _ParticleControlUVOffset: 1
     - _RisAlpha: 0
-    - _ZtestMode: 4
+    - _Src: 5
+    - _ZtestMode: 8
     - _ZtestMode1: 8
     - __dirty: 0
     m_Colors:

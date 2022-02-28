@@ -24,6 +24,8 @@ Material:
     - _Distance: 4
     - _Opacity: 1
     - _Power: 0.5
+    - _ZTestMode: 8
+    - _ZWriteMode: 0
     - _ZtestMode1: 8
     - __dirty: 0
     m_Colors:
