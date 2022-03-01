@@ -42,6 +42,7 @@ Material:
     - _Opacity1: 1
     - _ParticleControlUVOffset: 0
     - _RisAlpha: 1
+    - _ScanOpacity: 0.5
     - _Src: 5
     - _ZtestMode: 4
     - _ZtestMode1: 8
@@ -49,4 +50,7 @@ Material:
     m_Colors:
     - _EmissionColor: {r: 5.3403134, g: 5.3403134, b: 5.3403134, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _GChannelPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _GChannelTiling: {r: 1, g: 1, b: 0, a: 0}
     - _Panner: {r: 0, g: 10, b: 1, a: 0}
+    - _RChannelPanner: {r: 0, g: 10, b: 1, a: 0}
