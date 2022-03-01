@@ -29,7 +29,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Depth: 50
-    - _Fog: 1
+    - _Fog: 0
     - _ZtestMode1: 8
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}

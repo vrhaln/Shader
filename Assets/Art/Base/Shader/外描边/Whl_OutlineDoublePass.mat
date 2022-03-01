@@ -24,11 +24,11 @@ Material:
     - _FrePower: 1.2
     - _FreScale: 1
     - _Opacity: 1
-    - _OutlineWith: 0.04
+    - _OutlineWith: 0.1
     - _ZtestMode: 8
     - _ZtestMode1: 4
     m_Colors:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 1, g: 0.6179246, b: 0.6179246, a: 0.5176471}
-    - _MainColor: {r: 0, g: 1, b: 0.015686275, a: 1}
-    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0, g: 0.6086731, b: 1, a: 1}
+    - _OutlineColor: {r: 8, g: 2.0078433, b: 0, a: 1}
