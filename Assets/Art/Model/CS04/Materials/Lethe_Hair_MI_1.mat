@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Lethe_Hair_MI_1
-  m_Shader: {fileID: 4800000, guid: a5a4c232e53757141a9ec74f9cd101c7, type: 3}
+  m_Shader: {fileID: 4800000, guid: aaaf7ebb3d387124686cd55ecee82975, type: 3}
   m_ShaderKeywords: _DIFFUSECHECK_ON _IBLCHECK_ON _SHCHECK_ON _SPECCHECK_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -79,6 +79,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: eb866cc5533f93542be9c6fd1b571f4a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _CurveOffset: 1
@@ -107,11 +111,12 @@ Material:
     - _SpecOffset2: 0
     - _SpecShininess: 80
     - _SpecShininess1: 0.377
-    - _SpecShininess2: 0.047
+    - _SpecShininess2: 0.082
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - __dirty: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
