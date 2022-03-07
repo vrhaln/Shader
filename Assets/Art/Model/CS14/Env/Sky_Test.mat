@@ -64,7 +64,7 @@ Material:
     m_Colors:
     - _CloudSpeed: {r: -0.005, g: -0.01, b: 0, a: 0}
     - _CloudSpeed2: {r: -0.02, g: -0.01, b: 0, a: 0}
-    - _FogColor: {r: 0.35893708, g: 0.19206122, b: 0.49056602, a: 0}
+    - _FogColor: {r: 0.27667117, g: 0, b: 0.48900002, a: 0}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
     - _SkyFogOffset: {r: 0, g: 2, b: 0, a: 0}
     - _Speed: {r: 0.005, g: 0, b: 0, a: 0}
