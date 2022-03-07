@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 4, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NebulaTex:
-        m_Texture: {fileID: 2800000, guid: 39302b5e80781ea43b4175b991b083f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6593136a8ff4d34094ffd0928960e81, type: 3}
         m_Scale: {x: 8, y: 2}
         m_Offset: {x: 0, y: 0}
     - _NoiseMask:
@@ -57,14 +57,14 @@ Material:
     - _Float0: 1
     - _Float1: 1.3
     - _Float2: 100
-    - _Intensity: 1.3
+    - _Intensity: 0.4
     - _SkyFogOffset: 0.8
     - _StarIntensity: 100
     - __dirty: 0
     m_Colors:
     - _CloudSpeed: {r: -0.005, g: -0.01, b: 0, a: 0}
     - _CloudSpeed2: {r: -0.02, g: -0.01, b: 0, a: 0}
-    - _FogColor: {r: 0, g: 0.9172413, b: 1, a: 0}
+    - _FogColor: {r: 0.35893708, g: 0.19206122, b: 0.49056602, a: 0}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
     - _SkyFogOffset: {r: 0, g: 2, b: 0, a: 0}
     - _Speed: {r: 0.005, g: 0, b: 0, a: 0}
