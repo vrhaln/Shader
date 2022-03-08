@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 48338c4cfecbfc64e90e054e5ecf8dd2, type: 3}
+        m_Texture: {fileID: 2800000, guid: f519aaee9ae44c34ea4a3de02041e033, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -81,11 +81,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmisStr: 1
-    - _FreStr: 1.32
+    - _FreStr: 1.8
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _MainEmisStr: 1.04
+    - _MainEmisStr: 0.65
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -108,6 +108,6 @@ Material:
     - _MainColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
-    - _RChannelPanner2: {r: 0, g: 50, b: 1, a: 0}
+    - _RChannelPanner2: {r: 0, g: 25, b: 1, a: 0}
     - _ScanTexTiling1: {r: 1, g: 100, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
