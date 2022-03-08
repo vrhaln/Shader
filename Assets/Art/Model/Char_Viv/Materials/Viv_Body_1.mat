@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Face
-  m_Shader: {fileID: 4800000, guid: bcccdcd9303423c49ab1f829431d52a3, type: 3}
-  m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 5
+  m_Name: Viv_Body_1
+  m_Shader: {fileID: 4800000, guid: 269a84e9732651c49a0e2b86bc887ab7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -36,15 +36,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: dd9391a44279e82429a951951d312915, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 2800000, guid: e686a5c859f3a5a438c7390d44a54f76, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f519aaee9ae44c34ea4a3de02041e033, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -63,10 +63,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ScanTex:
-        m_Texture: {fileID: 2800000, guid: 4ce5c6694c9418847bb143ef1b41b417, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SmoothnessTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,19 +76,14 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmisStr: 1
-    - _FreStr: 1.8
+    - _FreStr: 0
     - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _Glossiness: 0.783
     - _GlossyReflections: 1
-    - _MainEmisStr: 0.65
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _PIxIntensity: 0.961
     - _Parallax: 0.02
-    - _Pix: 25.62
-    - _PixStr: 50
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -101,13 +92,8 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Fre: {r: 0, g: 0.7, b: 0.6, a: 0}
-    - _FreColor: {r: 0, g: 0.4245283, b: 0.20204473, a: 1}
-    - _MainColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
-    - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
-    - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
-    - _RChannelPanner2: {r: 0, g: 25, b: 1, a: 0}
-    - _ScanTexTiling1: {r: 1, g: 100, b: 0, a: 0}
-    - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fre: {r: 0, g: 1.1, b: 1.1, a: 0}
+    - _FreColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}

@@ -3,12 +3,62 @@ guid: 7fb98fded5229704eb4de8a6da7ba935
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: e9cb178aaa8755f41bb9ddb3cba07f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 8eb138da9cfb36a4d9cb018bb20eae0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Body
+    second: {fileID: 2100000, guid: 3b01c82073d44564a84b80b995dc5029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Body_1
+    second: {fileID: 2100000, guid: 3b01c82073d44564a84b80b995dc5029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Body_2
+    second: {fileID: 2100000, guid: 667a4545f531199479411515ba2a96cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Body_Glow
+    second: {fileID: 2100000, guid: 8d67755195d0d5843beac2f847abbdee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Clouth_1
+    second: {fileID: 2100000, guid: baf825ff03689a24d85833dda6d16dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Clouth_2
+    second: {fileID: 2100000, guid: 63b4b182d55559c438784d968018ade2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Face
+    second: {fileID: 2100000, guid: 73ed57e82a484024280ead28cf30e87e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Viv_Hair_2
+    second: {fileID: 2100000, guid: 1ab77cb004a08114aa6cfea6f8b2e9bd, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 0
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
