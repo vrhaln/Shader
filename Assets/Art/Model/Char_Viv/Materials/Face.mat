@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 2800000, guid: 24355ca7e694aec468d4d6ec448b7713, type: 3}
+        m_Texture: {fileID: 2800000, guid: e686a5c859f3a5a438c7390d44a54f76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 48338c4cfecbfc64e90e054e5ecf8dd2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -80,11 +80,12 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmisStr: -0.03
+    - _EmisStr: 1
     - _FreStr: 1.32
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
+    - _MainEmisStr: 1.04
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -101,10 +102,10 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0.36831596, g: 0.78699994, b: 0.5911639, a: 1}
-    - _Fre: {r: 0, g: 1, b: 0.4, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Fre: {r: 0, g: 0.7, b: 0.6, a: 0}
     - _FreColor: {r: 0, g: 0.4245283, b: 0.20204473, a: 1}
-    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0.65, g: 0.65, b: 0.65, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 50, b: 1, a: 0}
