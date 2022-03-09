@@ -85,22 +85,23 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmisStr: 1
-    - _EyeEmissStr: 0.48
+    - _EyeEmissStr: 0
     - _FreStr: 1.5
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _MainEmisStr: 1
-    - _MatCapIntensity: 0.14
+    - _MainEmisStr: 1.934687
+    - _MatCapIntensity: 0.3
     - _Metallic: 0
     - _Mode: 0
-    - _Mul: 4.43
+    - _Mul: 4.1
     - _OcclusionStrength: 1
     - _PIxIntensity: 0.961
     - _Parallax: 0.02
     - _Pix: 25.62
     - _PixStr: 50
     - _Power: 2.4
+    - _ScanlineIntensity: 0.066
     - _ShdowIntensity: 1
     - _ShdowOpacity: 1
     - _Smoothness: 1
@@ -112,7 +113,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0.67245543, g: 0.92156863, b: 0.50980395, a: 1}
+    - _EmissionColor: {r: 0.7050297, g: 0.8490566, b: 0.6127626, a: 1}
     - _EyeEmissionColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
     - _EyeScanTexPanner: {r: 0, g: 1, b: 1, a: 0}
     - _EyeScanTexTiling: {r: 1, g: 100, b: 0, a: 0}
@@ -120,11 +121,11 @@ Material:
     - _FreColor: {r: 0.36130688, g: 0.6514058, b: 0.5457247, a: 1}
     - _FreScalePower: {r: 0, g: 1.35, b: 2, a: 0}
     - _FreScanTexPanner: {r: 0, g: 2, b: 1, a: 0}
-    - _FreScanTexTiling: {r: 1, g: 150, b: 0, a: 0}
-    - _MainColor: {r: 0.752, g: 0.752, b: 0.752, a: 1}
+    - _FreScanTexTiling: {r: 1, g: 50, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
-    - _ShaowColor: {r: 0.17254901, g: 0.6039216, b: 0.2850205, a: 0}
+    - _ShaowColor: {r: 0.17254901, g: 0.41366398, b: 0.6039216, a: 0}
