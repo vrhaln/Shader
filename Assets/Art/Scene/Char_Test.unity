@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45047247, g: 0.4983315, b: 0.56366074, a: 1}
+  m_IndirectSpecularColor: {r: 0.44733214, g: 0.49726814, b: 0.5752282, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -303,7 +303,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -359,13 +359,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691639829}
-  m_LocalRotation: {x: 0.19132666, y: -0.1365508, z: 0.026889207, w: 0.9716095}
+  m_LocalRotation: {x: 0.4087597, y: -0.18800452, z: 0.029341135, w: 0.8925855}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 22.28, y: -16, z: 0}
+  m_LocalEulerAnglesHint: {x: 47.794003, y: -27.638, z: -8.674001}
 --- !u!1 &875690052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7fb98fded5229704eb4de8a6da7ba935,
@@ -745,7 +745,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 30.7
+  field of view: 35
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -770,13 +770,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221921800}
-  m_LocalRotation: {x: 0.043619405, y: -0, z: -0, w: 0.9990483}
-  m_LocalPosition: {x: 0.28, y: 7.42, z: -24.74}
+  m_LocalRotation: {x: 0.06407898, y: -0, z: -0, w: 0.99794483}
+  m_LocalPosition: {x: 0, y: 9.1, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.3480005, y: 0, z: 0}
 --- !u!1 &1591176174
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591176174}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d79e86b3cf062ed438dd44ecb09dfdd1, type: 3}
   m_Name: 
