@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AnisoMap:
-        m_Texture: {fileID: 2800000, guid: e51fd9582b746554690edaaec6ab5fc4, type: 3}
-        m_Scale: {x: 0.1, y: 0.2}
+        m_Texture: {fileID: 2800000, guid: a8c157606f05ed34e9fea241cd759bbb, type: 3}
+        m_Scale: {x: 0.05, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 20f56775e4c071d47ab0300da9a51cd4, type: 3}
