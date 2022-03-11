@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IORTex:
-        m_Texture: {fileID: 2800000, guid: 7f1c139db8bc7e842a57ce4aa5e3aecc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21c21b70a3522a54f9fca75e5f9ddec2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -89,9 +89,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _A: 1
-    - _AEmisStr: 1.02
+    - _AEmisStr: 2
     - _B: 5.16
-    - _BEmisStr: 3.14
+    - _BEmisStr: 1.8
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -100,7 +100,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _IOR: 2
+    - _IOR: 4
     - _MainEmisStr: 1
     - _Metallic: 0
     - _Mode: 3
@@ -118,13 +118,13 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 0.11372549}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FreColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Fresnel: {r: 0, g: 0.43, b: 1.84, a: 0}
-    - _IORColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FreColor: {r: 0.20042878, g: 0, b: 0.73, a: 1}
+    - _Fresnel: {r: 0, g: 0.85, b: 1, a: 0}
+    - _IORColor: {r: 0.4883292, g: 0.3230242, b: 0.5754717, a: 1}
     - _MainColor: {r: 0.3951584, g: 0.69669425, b: 0.754717, a: 1}
     - _MainColor1: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _NoiseTiling1: {r: 1.2, g: 1, b: 0, a: 0}
-    - _NoiseTiling2: {r: 1, g: 1.75, b: 0, a: 0}
+    - _NoiseTiling1: {r: 1, g: 0.08, b: 0, a: 0}
+    - _NoiseTiling2: {r: 0.3, g: 1, b: 0, a: 0}
     - _Vector0: {r: 1.2, g: 1, b: 0, a: 0}
     - _Vector1: {r: 1, g: 1.75, b: 0, a: 0}
