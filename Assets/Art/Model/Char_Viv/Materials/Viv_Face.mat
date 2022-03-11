@@ -120,8 +120,8 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _DisturTexPanner: {r: 0.1, g: 0.2, b: 1, a: 0}
     - _DisturTexTiling: {r: 0.5, g: 0.25, b: 0, a: 0}
-    - _EmissionColor: {r: 0.7050297, g: 0.8490566, b: 0.6127626, a: 1}
-    - _EyeEmissionColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _EmissionColor: {r: 0.31025273, g: 0.48103094, b: 0.7924528, a: 1}
+    - _EyeEmissionColor: {r: 11.294118, g: 13.050981, b: 16, a: 1}
     - _EyeScanTexPanner: {r: 0, g: 1, b: 1, a: 0}
     - _EyeScanTexTiling: {r: 1, g: 100, b: 0, a: 0}
     - _Fre: {r: 0, g: 1.35, b: 2, a: 0}
@@ -129,10 +129,10 @@ Material:
     - _FreScalePower: {r: 0, g: 1.35, b: 2, a: 0}
     - _FreScanTexPanner: {r: 0, g: 2, b: 1, a: 0}
     - _FreScanTexTiling: {r: 1, g: 50, b: 0, a: 0}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.9245283, g: 0.8285522, b: 0.75444996, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
-    - _ShaowColor: {r: 0.17254901, g: 0.41366398, b: 0.6039216, a: 0}
+    - _ShaowColor: {r: 0.42352942, g: 0.7529412, b: 0.74734896, a: 0}
