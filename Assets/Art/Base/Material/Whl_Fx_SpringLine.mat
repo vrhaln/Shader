@@ -32,11 +32,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amplitude: 1.2
-    - _Power: 0.3
+    - _Amplitude: 1
+    - _Power: 1
     - _Speed: 20
     - _WaveLength: 15
     - __dirty: 0
     m_Colors:
     - _MainColor: {r: 0, g: 3.4426198, b: 3.5648696, a: 1}
-    - _MainTilingOffset: {r: 1, g: 0.5, b: 0, a: 0.25}
+    - _MainTilingOffset: {r: 0, g: 1, b: 0, a: 0}
