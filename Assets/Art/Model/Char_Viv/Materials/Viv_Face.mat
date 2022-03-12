@@ -135,4 +135,4 @@ Material:
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
-    - _ShaowColor: {r: 0.42352942, g: 0.7529412, b: 0.74734896, a: 0}
+    - _ShaowColor: {r: 0, g: 0.7529412, b: 0.74397767, a: 1}
