@@ -82,6 +82,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Expose: 2.12
+    - _Float5: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
@@ -89,14 +90,14 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RoughnessAdjust: 0
+    - _RoughnessAdjust: 0.049
     - _SmoothnessTextureChannel: 0
-    - _SpecNoise1: -0.6
-    - _SpecNoise2: -0.33
-    - _SpecOffset1: -0.04
-    - _SpecOffset2: 0.09
-    - _SpecShininess1: 0.044
-    - _SpecShininess2: 0.145
+    - _SpecNoise1: -0.55
+    - _SpecNoise2: 0.06
+    - _SpecOffset1: 0.06
+    - _SpecOffset2: 0
+    - _SpecShininess1: 0.05
+    - _SpecShininess2: 0.2
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0

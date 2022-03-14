@@ -10,7 +10,7 @@ Material:
   m_Name: Fx_Plane_1
   m_Shader: {fileID: 4800000, guid: 4e056851a3436954e960b1b9c7d5cf0d, type: 3}
   m_ShaderKeywords: _REVERSEDISSOLVE_ON
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -114,6 +114,7 @@ Material:
     - _Emission: 1
     - _Emission1: 1
     - _Float1: 1
+    - _Float3: 46
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -153,3 +154,4 @@ Material:
     - _SpeedMainTexUVNoiseZW1: {r: 0, g: 0, b: 0, a: 0}
     - _TintColor: {r: 0, g: 0.4520547, b: 1, a: 1}
     - _Vector1: {r: 0.3, g: 0, b: 1, a: 0}
+    - _Vector2: {r: -6.83, g: 0.22, b: 0, a: 0}

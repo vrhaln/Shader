@@ -84,6 +84,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EmissionIntensity: 1.5
     - _FreStr: 3.89
     - _GlossMapScale: 1
     - _Glossiness: 0.783
@@ -104,6 +105,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1.1, b: 1.1, a: 0}
-    - _FreColor: {r: 0.53861123, g: 0.3224012, b: 0.990566, a: 1}
-    - _MainColor: {r: 0.6530447, g: 0, b: 1, a: 1}
+    - _FreColor: {r: 0.092114635, g: 0.10093251, b: 0.2830189, a: 1}
+    - _MainColor: {r: 1, g: 0.24056602, b: 0.68374276, a: 1}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
