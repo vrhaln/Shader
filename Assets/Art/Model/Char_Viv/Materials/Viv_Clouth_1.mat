@@ -100,12 +100,12 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _IOR: 4
+    - _IOR: 3
     - _MainEmisStr: 1
     - _Metallic: 0
     - _Mode: 3
     - _OcclusionStrength: 1
-    - _Opacity: 0.809
+    - _Opacity: 0.747
     - _Parallax: 0.02
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
@@ -124,7 +124,7 @@ Material:
     - _MainColor: {r: 0.3951584, g: 0.69669425, b: 0.754717, a: 1}
     - _MainColor1: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _NoiseTiling1: {r: 1, g: 0.08, b: 0, a: 0}
+    - _NoiseTiling1: {r: 1, g: 0.8, b: 0, a: 0}
     - _NoiseTiling2: {r: 0.3, g: 1, b: 0, a: 0}
     - _Vector0: {r: 1.2, g: 1, b: 0, a: 0}
     - _Vector1: {r: 1, g: 1.75, b: 0, a: 0}

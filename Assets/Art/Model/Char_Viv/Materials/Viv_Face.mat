@@ -47,6 +47,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: e686a5c859f3a5a438c7390d44a54f76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EyeEmissionTex:
+        m_Texture: {fileID: 2800000, guid: e686a5c859f3a5a438c7390d44a54f76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: f519aaee9ae44c34ea4a3de02041e033, type: 3}
         m_Scale: {x: 1, y: 1}
