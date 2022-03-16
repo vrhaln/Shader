@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Viv_Clouth_2
   m_Shader: {fileID: 4800000, guid: 269a84e9732651c49a0e2b86bc887ab7, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _FREONEMINUS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,15 +40,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 2800000, guid: b65f20681fd43114d92a516c8ef12462, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: fe62e50612671ff40ab26a29d9d3a8fd, type: 3}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 7a7138308ac264349b26321e39b0ce08, type: 3}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1ef873e94bdd29e408d495dfbc12fd01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,6 +61,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NoiseMask:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 5.01, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -71,11 +75,31 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ScanTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScanlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SmoothnessTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -84,16 +108,24 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionIntensity: 1
+    - _EmissionIntensity: 3
+    - _FreIntensity: 0.79
+    - _FreOneMinus: 1
     - _FreStr: 2.11
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _MatCapIntensity: 1
-    - _Metallic: 0.527
+    - _MainEmisStr: 1
+    - _MatCapIntensity: 1.49
+    - _MatCapIntensity1: 1
+    - _Metallic: 0.153
     - _Mode: 0
+    - _Mul: 20
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Power: 7
+    - _ScanlineIntensity: 0.408
+    - _ShdowIntensity: 0.8
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -102,9 +134,16 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.45662355, g: 0, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fre: {r: 0, g: 1.1, b: 0.42, a: 0}
-    - _FreColor: {r: 0.42137337, g: 0, b: 1, a: 1}
-    - _MainColor: {r: 0.32776546, g: 0.251958, b: 0.3584906, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    - _Fre: {r: 0, g: 5, b: 2.59, a: 0}
+    - _FreColor: {r: 0.1981132, g: 0.028757747, b: 0.027100397, a: 1}
+    - _MainColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+    - _NoisePanner: {r: 0, g: 0.2, b: 1, a: 0}
     - _NoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectFre: {r: 0, g: 1, b: 5, a: 0}
+    - _ScanColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - _ShaowColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
+    - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}

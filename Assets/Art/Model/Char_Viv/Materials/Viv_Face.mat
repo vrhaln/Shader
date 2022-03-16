@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 8e0ea1097caa9d94590a8720eb8b92ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1ef873e94bdd29e408d495dfbc12fd01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,6 +64,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -77,6 +81,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ScanTex:
         m_Texture: {fileID: 2800000, guid: 4ce5c6694c9418847bb143ef1b41b417, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmoothnessTex:
@@ -94,13 +102,13 @@ Material:
     - _DisturIntensity: 0.0025
     - _DstBlend: 0
     - _EmisStr: 1
-    - _EyeEmissStr: 0.4
+    - _EyeEmissStr: 0
     - _FreStr: 1.5
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _MainEmisStr: 2.49
-    - _MatCapIntensity: 0.15
+    - _MainEmisStr: 0.56
+    - _MatCapIntensity: 0.1
     - _Metallic: 0
     - _Mode: 0
     - _Mul: 4.1
@@ -113,7 +121,8 @@ Material:
     - _ScanlineIntensity: 0.019
     - _ShdowIntensity: 1
     - _ShdowOpacity: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.548
+    - _Smoothness1: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -137,6 +146,8 @@ Material:
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}
+    - _ReflectFre: {r: 0, g: 5, b: 4, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
-    - _ShaowColor: {r: 0, g: 0.5377358, b: 0.3560207, a: 1}
+    - _ShaowColor: {r: 0, g: 0.2924528, b: 0.19418868, a: 1}
+    - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Viv_Body_1
   m_Shader: {fileID: 4800000, guid: 269a84e9732651c49a0e2b86bc887ab7, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _FREONEMINUS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -42,13 +42,13 @@ Material:
     - _EmissionTex:
         m_Texture: {fileID: 2800000, guid: 3e663fa77d5c95d49b811bbe73be97d3, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0, y: -0.94}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1445d26a9d697ee409adeb35c7005e12, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 8e0ea1097caa9d94590a8720eb8b92ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7ad6f39daccc4314999cf8fbccdc3880, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -60,7 +60,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseMask:
-        m_Texture: {fileID: 2800000, guid: efccf27a2e7dd4a4c9a7b81f565bc7df, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -71,8 +75,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ScanTex:
+        m_Texture: {fileID: 2800000, guid: 2ef51388c05f48942ae53b2cd6f73d55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScanlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SmoothnessTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 1445d26a9d697ee409adeb35c7005e12, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -88,17 +108,25 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionIntensity: 1.5
+    - _EmissionIntensity: 1
+    - _FreIntensity: 1
+    - _FreOneMinus: 1
     - _FreStr: 3.89
     - _GlossMapScale: 1
     - _Glossiness: 0.783
     - _GlossyReflections: 1
+    - _MainEmisStr: 2.49
     - _MatCapIntensity: 0.34
+    - _MatCapIntensity1: 0.15
     - _Metallic: 0
     - _Mode: 0
+    - _Mul: 4.1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Smoothness: 0.857
+    - _Power: 2.4
+    - _ScanlineIntensity: 1
+    - _ShdowIntensity: 1
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -106,9 +134,16 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Fre: {r: 0, g: 1.1, b: 1.1, a: 0}
+    - _Color0: {r: 0.9245283, g: 0.8285522, b: 0.75445, a: 1}
+    - _EmissionColor: {r: 0.20472418, g: 0.019607829, b: 0.62352943, a: 1}
+    - _Fre: {r: 0, g: 1, b: 2, a: 0}
     - _FreColor: {r: 0.092114635, g: 0.10093251, b: 0.2830189, a: 1}
     - _MainColor: {r: 1, g: 0.24056602, b: 0.68374276, a: 1}
+    - _NoisePanner: {r: 0, g: 0.2, b: 1, a: 0}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
+    - _ReflectFre: {r: 0, g: 4.2, b: 1.49, a: 0}
+    - _ScanColor: {r: 0.38232803, g: 0, b: 1, a: 1}
+    - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SmoothnessMaxMin: {r: 0.999, g: 0.001, b: 0, a: 0}
