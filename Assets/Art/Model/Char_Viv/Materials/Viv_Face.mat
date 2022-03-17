@@ -79,6 +79,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SDFFaceLightmap:
+        m_Texture: {fileID: 2800000, guid: 659bc803eb9b58c43a4ca93450cfea65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ScanTex:
         m_Texture: {fileID: 2800000, guid: 4ce5c6694c9418847bb143ef1b41b417, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -103,21 +107,22 @@ Material:
     - _DstBlend: 0
     - _EmisStr: 1
     - _EyeEmissStr: 0
+    - _Float4: 0.18
     - _FreStr: 1.5
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _MainEmisStr: 0.44
+    - _MainEmisStr: 0.807
     - _MatCapIntensity: 0.44
     - _Metallic: 0
     - _Mode: 0
-    - _Mul: 4.1
+    - _Mul: 10
     - _OcclusionStrength: 1
     - _PIxIntensity: 0.961
     - _Parallax: 0.02
     - _Pix: 25.62
     - _PixStr: 50
-    - _Power: 2.4
+    - _Power: 8
     - _ScanlineIntensity: 0.019
     - _ShdowIntensity: 1
     - _ShdowOpacity: 1
@@ -126,6 +131,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _ToggleSwitch0: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
@@ -133,10 +139,11 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _DisturTexPanner: {r: 0.1, g: 0.2, b: 1, a: 0}
     - _DisturTexTiling: {r: 0.5, g: 0.25, b: 0, a: 0}
-    - _EmissionColor: {r: 0.7921569, g: 0.51811504, b: 0.30980396, a: 1}
-    - _EyeEmissionColor: {r: 11.294118, g: 13.050981, b: 16, a: 1}
+    - _EmissionColor: {r: 0.7921569, g: 0.518115, b: 0.309804, a: 1}
+    - _EyeEmissionColor: {r: 18.942997, g: 18.942997, b: 18.942997, a: 1}
     - _EyeScanTexPanner: {r: 0, g: 1, b: 1, a: 0}
     - _EyeScanTexTiling: {r: 1, g: 100, b: 0, a: 0}
+    - _FaceShadowHardness: {r: 0.5, g: 0.55, b: 0, a: 0}
     - _Fre: {r: 0, g: 1.35, b: 2, a: 0}
     - _FreColor: {r: 0.36130688, g: 0.6514058, b: 0.5457247, a: 1}
     - _FreScalePower: {r: 0, g: 1.35, b: 2, a: 0}
@@ -149,5 +156,5 @@ Material:
     - _ReflectFre: {r: 0, g: 5, b: 4, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
-    - _ShaowColor: {r: 0, g: 0.2924528, b: 0.19418868, a: 1}
+    - _ShaowColor: {r: 0.08627451, g: 0.29411766, b: 0.2620063, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}

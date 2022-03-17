@@ -2,7 +2,9 @@ fileFormatVersion: 2
 guid: 2aa1310a356cc54489acd2ed32f3f127
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _SDFFaceLightmap1: {fileID: 2800000, guid: 165dda08aa18ecb4b9e19a2fc6f84f4b, type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: 165dda08aa18ecb4b9e19a2fc6f84f4b, type: 3}
   nonModifiableTextures: []
   userData: 
   assetBundleName: 
