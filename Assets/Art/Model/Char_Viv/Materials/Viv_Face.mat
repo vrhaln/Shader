@@ -107,8 +107,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _MainEmisStr: 0.56
-    - _MatCapIntensity: 0.1
+    - _MainEmisStr: 0.44
+    - _MatCapIntensity: 0.44
     - _Metallic: 0
     - _Mode: 0
     - _Mul: 4.1
@@ -121,7 +121,7 @@ Material:
     - _ScanlineIntensity: 0.019
     - _ShdowIntensity: 1
     - _ShdowOpacity: 1
-    - _Smoothness: 0.548
+    - _Smoothness: 1
     - _Smoothness1: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -142,7 +142,7 @@ Material:
     - _FreScalePower: {r: 0, g: 1.35, b: 2, a: 0}
     - _FreScanTexPanner: {r: 0, g: 2, b: 1, a: 0}
     - _FreScanTexTiling: {r: 1, g: 50, b: 0, a: 0}
-    - _MainColor: {r: 0.9245283, g: 0.8285522, b: 0.75444996, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}

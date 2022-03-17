@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Viv_Clouth_2
-  m_Shader: {fileID: 4800000, guid: 269a84e9732651c49a0e2b86bc887ab7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5d96e5a3898bf3546b666e92f82eef6f, type: 3}
   m_ShaderKeywords: _FREONEMINUS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -35,6 +35,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmisTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,9 +47,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: fe62e50612671ff40ab26a29d9d3a8fd, type: 3}
         m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
+    - _IORTex:
+        m_Texture: {fileID: 2800000, guid: 21c21b70a3522a54f9fca75e5f9ddec2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7a7138308ac264349b26321e39b0ce08, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 2800000, guid: 366d45e960c8c7c4195edae3195a2a69, type: 3}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
         m_Texture: {fileID: 2800000, guid: 1ef873e94bdd29e408d495dfbc12fd01, type: 3}
@@ -104,6 +112,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AEmisStr: 2
+    - _BEmisStr: 1.58
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -115,17 +125,20 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _MainEmisStr: 1
+    - _IOR: 3.8
+    - _MainEmisStr: 0.36
     - _MatCapIntensity: 1.49
     - _MatCapIntensity1: 1
     - _Metallic: 0.153
     - _Mode: 0
-    - _Mul: 20
+    - _Mul: 1.4
     - _OcclusionStrength: 1
+    - _Opacity: 0
     - _Parallax: 0.02
-    - _Power: 7
+    - _Power: 2.5
+    - _RChanelIsAlpha: 1
     - _ScanlineIntensity: 0.408
-    - _ShdowIntensity: 0.8
+    - _ShdowIntensity: 1
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -139,11 +152,15 @@ Material:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
     - _Fre: {r: 0, g: 5, b: 2.59, a: 0}
-    - _FreColor: {r: 0.1981132, g: 0.028757747, b: 0.027100397, a: 1}
-    - _MainColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+    - _FreColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Fresnel: {r: 0, g: 2.69, b: 0.35, a: 0}
+    - _IORColor: {r: 0, g: 0.9357207, b: 1, a: 1}
+    - _MainColor: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
     - _NoisePanner: {r: 0, g: 0.2, b: 1, a: 0}
     - _NoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _ReflectFre: {r: 0, g: 1, b: 5, a: 0}
+    - _NoiseTiling1: {r: 0.5, g: 0.9, b: 0, a: 0}
+    - _NoiseTiling2: {r: 1.81, g: 1, b: 0, a: 0}
+    - _ReflectFre: {r: 0, g: 2, b: 0.35, a: 0}
     - _ScanColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
-    - _ShaowColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
+    - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
