@@ -112,7 +112,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AEmisStr: 1.97
+    - _AEmisStr: 5.03
     - _BEmisStr: 2.23
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -162,5 +162,5 @@ Material:
     - _NoiseTiling2: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 2, b: 0.35, a: 0}
     - _ScanColor: {r: 0.039248828, g: 0.4237552, b: 0.9245283, a: 1}
-    - _ShaowColor: {r: 0.251157, g: 0.3500002, b: 0.6415094, a: 1}
+    - _ShaowColor: {r: 0.16140084, g: 0.16469921, b: 0.2924528, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}

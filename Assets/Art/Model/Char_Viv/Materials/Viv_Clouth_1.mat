@@ -105,9 +105,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _A: 1
-    - _AEmisStr: 2
+    - _AEmisStr: 0.86
     - _B: 5.16
-    - _BEmisStr: 1.58
+    - _BEmisStr: 2.84
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -116,15 +116,15 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _IOR: 3.8
-    - _MainEmisStr: 0.621
+    - _IOR: 3.25
+    - _MainEmisStr: 1.43
     - _MatCapIntensity: 1.49
     - _MatCapIntensity1: 1.49
     - _Metallic: 0
     - _Mode: 3
     - _Mul: 1.4
     - _OcclusionStrength: 1
-    - _Opacity: 0.59
+    - _Opacity: 0.75
     - _Parallax: 0.02
     - _Power: 2.5
     - _RChanelIsAlpha: 1
@@ -141,9 +141,9 @@ Material:
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FreColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Fresnel: {r: 0, g: 2.69, b: 0.35, a: 0}
+    - _Fresnel: {r: 0, g: 2, b: 1, a: 0}
     - _IORColor: {r: 0, g: 0.9357207, b: 1, a: 1}
-    - _MainColor: {r: 0.3951584, g: 0.69669425, b: 0.754717, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor1: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseTiling1: {r: 0.5, g: 0.9, b: 0, a: 0}
