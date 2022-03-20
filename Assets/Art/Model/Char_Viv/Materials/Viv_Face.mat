@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 1ef873e94bdd29e408d495dfbc12fd01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7ad6f39daccc4314999cf8fbccdc3880, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -112,17 +112,17 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _MainEmisStr: 0.57
-    - _MatCapIntensity: 0.44
+    - _MainEmisStr: 0.47
+    - _MatCapIntensity: 0.2
     - _Metallic: 0
     - _Mode: 0
-    - _Mul: 10
+    - _Mul: 70
     - _OcclusionStrength: 1
     - _PIxIntensity: 0.961
     - _Parallax: 0.02
     - _Pix: 25.62
     - _PixStr: 50
-    - _Power: 8
+    - _Power: 7
     - _ScanlineIntensity: 0.019
     - _ShdowIntensity: 1
     - _ShdowOpacity: 1
@@ -146,14 +146,14 @@ Material:
     - _FaceShadowHardness: {r: 0.5, g: 0.55, b: 0, a: 0}
     - _Fre: {r: 0, g: 1.35, b: 2, a: 0}
     - _FreColor: {r: 0.36130688, g: 0.6514058, b: 0.5457247, a: 1}
-    - _FreScalePower: {r: 0, g: 1.35, b: 2, a: 0}
+    - _FreScalePower: {r: 0.15, g: 5.5, b: 2.5, a: 0}
     - _FreScanTexPanner: {r: 0, g: 2, b: 1, a: 0}
     - _FreScanTexTiling: {r: 1, g: 50, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}
-    - _ReflectFre: {r: 0, g: 5, b: 4, a: 0}
+    - _ReflectFre: {r: 0, g: 20, b: 4, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
     - _ShaowColor: {r: 0.08627451, g: 0.29411766, b: 0.2620063, a: 1}

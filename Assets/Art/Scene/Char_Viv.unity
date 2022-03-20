@@ -3208,7 +3208,7 @@ GameObject:
   - component: {fileID: 1506423736}
   - component: {fileID: 1506423735}
   m_Layer: 0
-  m_Name: Hight
+  m_Name: HightContorl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3322,6 +3322,8 @@ PlayableDirector:
     value: {fileID: 1578394376}
   - key: {fileID: 7157355540591409093, guid: c3996ee45ef596844aed8d6dde8da0fd, type: 2}
     value: {fileID: 1506423735}
+  - key: {fileID: -917685705351665815, guid: c3996ee45ef596844aed8d6dde8da0fd, type: 2}
+    value: {fileID: 1041623407}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1578394379
