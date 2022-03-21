@@ -69,6 +69,13 @@
     <Compile Include="Assets\ADYFX\Editor\Scripts\ADYFX_TexCrop.cs" />
     <Compile Include="Assets\ADYFX\Editor\Scripts\ADYFX_TexSeSan.cs" />
     <Compile Include="Assets\ADYFX\Editor\Scripts\ADYFX_UnMult.cs" />
+    <Compile Include="Assets\Boing Kit\Editor\BoingKitStandardShaderGUI.cs" />
+    <Compile Include="Assets\Boing Kit\Script\Editor\BoingBehaviorEditor.cs" />
+    <Compile Include="Assets\Boing Kit\Script\Editor\BoingBonesEditor.cs" />
+    <Compile Include="Assets\Boing Kit\Script\Editor\BoingEditorBase.cs" />
+    <Compile Include="Assets\Boing Kit\Script\Editor\BoingReactorEditor.cs" />
+    <Compile Include="Assets\Boing Kit\Script\Editor\BoingReactorFieldEditor.cs" />
+    <Compile Include="Assets\Boing Kit\Script\Editor\SharedBoingParamsEditor.cs" />
     <Compile Include="Assets\Cocuy\Editor\BlockerEditor.cs" />
     <Compile Include="Assets\Cocuy\Editor\FluidSimulatorEditor.cs" />
     <Compile Include="Assets\Cocuy\Editor\MouseManipulatorEditor.cs" />
@@ -107,17 +114,21 @@
     <None Include="Assets\ADYFX\Editor\EditorShader\CaiFenXuLie_YuLan.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\TexRadialBlur.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\GaussianBlur.shader" />
+    <None Include="Assets\UMotionEditor\Plugins\Editor\UMotionEditor.dll" />
     <None Include="Assets\ADYFX\Editor\EditorShader\Alpha.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\PngWangGe.shader" />
+    <None Include="Assets\UMotionEditor\Plugins\MacOS\Editor\x64\AutodeskFbxSdkLicense.txt" />
     <None Include="Assets\ADYFX\Editor\EditorShader\SeSan_YuLan.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\Add.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\FlattenTex_YuLan1.shader" />
+    <None Include="Assets\UMotionEditor\Plugins\Windows\Editor\x64\UMotionFBX_Win_x64.dll" />
     <None Include="Assets\ADYFX\Editor\EditorShader\JianCai_YuLan.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\FlattenTex_YuLan.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\BtnAlpha.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\TexRotateBlur.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\TexRadialBlur_Point.shader" />
     <None Include="Assets\ADYFX\Editor\EditorShader\CaiFenXuLie.shader" />
+    <None Include="Assets\UMotionEditor\Plugins\Windows\Editor\x64\AutodeskFbxSdkLicense.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -338,6 +349,12 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.14.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="UMotionApplication">
+      <HintPath>Assets\UMotionEditor\Plugins\Application\UMotionApplication.dll</HintPath>
+    </Reference>
+    <Reference Include="UMotionEditor">
+      <HintPath>Assets\UMotionEditor\Plugins\Editor\UMotionEditor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -809,6 +826,18 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{F0C5E3C4-D3B8-F380-114D-6230467F8D7B}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="AmplifyShaderEditor.csproj">
+      <Project>{23F42044-2062-D4D5-B65C-3757B86303FF}</Project>
+      <Name>AmplifyShaderEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UMotionSourceApplication.csproj">
+      <Project>{3D46CE00-23C9-6FD9-10C8-9810A7F80CD5}</Project>
+      <Name>UMotionSourceApplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="UMotionSourceEditor.csproj">
+      <Project>{B8CFEA85-84C8-2D44-942C-C3D6C61B40CB}</Project>
+      <Name>UMotionSourceEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
