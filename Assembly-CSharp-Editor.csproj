@@ -817,13 +817,13 @@
       <Project>{F0C5E3C4-D3B8-F380-114D-6230467F8D7B}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{23F42044-2062-D4D5-B65C-3757B86303FF}</Project>
-      <Name>AmplifyShaderEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="UMotionSourceApplication.csproj">
       <Project>{3D46CE00-23C9-6FD9-10C8-9810A7F80CD5}</Project>
       <Name>UMotionSourceApplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="AmplifyShaderEditor.csproj">
+      <Project>{23F42044-2062-D4D5-B65C-3757B86303FF}</Project>
+      <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
     <ProjectReference Include="UMotionSourceEditor.csproj">
       <Project>{B8CFEA85-84C8-2D44-942C-C3D6C61B40CB}</Project>
