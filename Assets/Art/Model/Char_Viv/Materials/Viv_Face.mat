@@ -139,14 +139,14 @@ Material:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _DisturTexPanner: {r: 0.1, g: 0.2, b: 1, a: 0}
     - _DisturTexTiling: {r: 0.5, g: 0.25, b: 0, a: 0}
-    - _EmissionColor: {r: 0.7921569, g: 0.518115, b: 0.309804, a: 1}
+    - _EmissionColor: {r: 0.4758651, g: 0.42274833, b: 0.7169812, a: 1}
     - _EyeEmissionColor: {r: 18.942997, g: 18.942997, b: 18.942997, a: 1}
     - _EyeScanTexPanner: {r: 0, g: 1, b: 1, a: 0}
     - _EyeScanTexTiling: {r: 1, g: 100, b: 0, a: 0}
     - _FaceShadowHardness: {r: 0.5, g: 0.55, b: 0, a: 0}
     - _Fre: {r: 0, g: 1.35, b: 2, a: 0}
     - _FreColor: {r: 0.36130688, g: 0.6514058, b: 0.5457247, a: 1}
-    - _FreScalePower: {r: 0.15, g: 5.5, b: 2.5, a: 0}
+    - _FreScalePower: {r: 0.3, g: 1.75, b: 2.5, a: 0}
     - _FreScanTexPanner: {r: 0, g: 2, b: 1, a: 0}
     - _FreScanTexTiling: {r: 1, g: 50, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
@@ -156,5 +156,5 @@ Material:
     - _ReflectFre: {r: 0, g: 20, b: 4, a: 0}
     - _ScanTexTiling1: {r: 1, g: 200, b: 0, a: 0}
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
-    - _ShaowColor: {r: 0.08627451, g: 0.29411766, b: 0.2620063, a: 1}
+    - _ShaowColor: {r: 0.086274505, g: 0.2696881, b: 0.29411766, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
