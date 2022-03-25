@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: CenterGlowOP
   m_Shader: {fileID: 4800000, guid: 71ce50bb181b1cf4f823bd755f28f416, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _FREON_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,6 +21,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - _EmissStr: 3
+    - _FreOn: 1
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 16.48, b: 1.38, a: 0}

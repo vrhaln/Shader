@@ -23,4 +23,4 @@ Material:
     - _EmissStr: 2.88
     - __dirty: 0
     m_Colors:
-    - _Fre: {r: 0, g: 0.8, b: 0.25, a: 0}
+    - _Fre: {r: 0, g: 0.93, b: 0.62, a: 0}
