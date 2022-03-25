@@ -40,7 +40,7 @@ Material:
     - _EmissStr: 1
     - _EmissionStr: 1
     - _RisAlpha: 0
-    - _VerTexOffsetStr: 9.73
+    - _VerTexOffsetStr: 5
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
