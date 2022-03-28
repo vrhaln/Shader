@@ -770,11 +770,11 @@ MonoBehaviour:
   - {fileID: 3851392206281687709}
   - {fileID: 8295142466770605110}
   - {fileID: 3078879804877099343}
-  m_FixedDuration: 0
+  m_FixedDuration: 7.983333333332999
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
-  m_DurationMode: 0
+  m_DurationMode: 1
   m_MarkerTrack: {fileID: 4740007788422411633}
 --- !u!114 &207523913488573629
 MonoBehaviour:
@@ -869,7 +869,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
