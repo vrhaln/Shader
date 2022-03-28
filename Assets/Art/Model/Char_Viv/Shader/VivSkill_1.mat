@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Whl_Viv_VivSkill1
+  m_Name: VivSkill_1
   m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
   m_ShaderKeywords: _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 0

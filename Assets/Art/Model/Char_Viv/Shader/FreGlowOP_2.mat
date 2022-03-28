@@ -7,20 +7,22 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VivSkillCenterGlowAB
-  m_Shader: {fileID: 4800000, guid: d2f85ab7ccea6724d9e59a027be6b5ee, type: 3}
+  m_Name: FreGlowOP_2
+  m_Shader: {fileID: 4800000, guid: 71ce50bb181b1cf4f823bd755f28f416, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _EmissStr: 2.88
+    - _EmissStr: 3
+    - _FreOn: 0
     - __dirty: 0
     m_Colors:
-    - _Fre: {r: 0, g: 0.93, b: 0.62, a: 0}
+    - _Fre: {r: 0, g: 1.45, b: 1.38, a: 0}
+  m_BuildTextureStacks: []
