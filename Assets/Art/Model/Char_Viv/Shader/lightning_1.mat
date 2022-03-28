@@ -41,9 +41,10 @@ Material:
     - _EmissionStr: 1
     - _RisAlpha: 0
     - _VerTexOffsetStr: 3
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _Panner: {r: 0.5, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

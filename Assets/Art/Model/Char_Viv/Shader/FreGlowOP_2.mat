@@ -22,6 +22,7 @@ Material:
     m_Floats:
     - _EmissStr: 3
     - _FreOn: 0
+    - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 1.45, b: 2, a: 0}

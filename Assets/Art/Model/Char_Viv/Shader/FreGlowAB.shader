@@ -6,6 +6,7 @@ Shader "Whl/Viv/FreGlowAB"
 	{
 		_Fre("Fre", Vector) = (0,1,5,0)
 		_EmissStr("EmissStr", Float) = 1
+		[Enum(UnityEngine.Rendering.CompareFunction)]_ZTestMode("ZTestMode", Float) = 8
 		[HideInInspector] __dirty( "", Int ) = 1
 	}
 
@@ -40,6 +41,7 @@ Shader "Whl/Viv/FreGlowAB"
 			UnityGIInput GIData;
 		};
 
+		uniform float _ZTestMode;
 		uniform float3 _Fre;
 		uniform float _EmissStr;
 
@@ -75,14 +77,15 @@ Shader "Whl/Viv/FreGlowAB"
 }
 /*ASEBEGIN
 Version=18935
--1673;34;1570;985;288.252;338.3334;1.261999;True;True
-Node;AmplifyShaderEditor.Vector3Node;29;95.22516,322.3484;Inherit;False;Property;_Fre;Fre;1;0;Create;True;0;0;0;False;0;False;0,1,5;0,0.93,0.62;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
+-1891;199;1226;644;310.5462;190.0178;1.297666;True;True
+Node;AmplifyShaderEditor.Vector3Node;29;95.22516,322.3484;Inherit;False;Property;_Fre;Fre;1;0;Create;True;0;0;0;False;0;False;0,1,5;0.66,0.93,0.62;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.FresnelNode;27;293.5149,289.2552;Inherit;True;Standard;WorldNormal;ViewDir;False;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.VertexColorNode;24;495.5847,-60.9876;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SaturateNode;31;645.3514,286.448;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;32;542.0823,136.9726;Inherit;False;Property;_EmissStr;EmissStr;2;0;Create;True;0;0;0;False;0;False;1;2.88;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;30;861.0511,77.74783;Inherit;False;3;3;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;33;915.0673,248.4892;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;34;680.8258,585.1952;Inherit;False;Property;_ZTestMode;ZTestMode;3;1;[Enum];Create;True;0;0;1;UnityEngine.Rendering.CompareFunction;True;0;False;8;4;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;1124.326,21.9869;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;Whl/Viv/FreGlowAB;False;False;False;False;True;True;True;True;True;True;True;True;False;False;True;False;False;False;False;False;False;Back;0;False;-1;3;False;-1;False;0;False;-1;0;False;-1;False;0;Custom;0.5;True;False;0;True;Custom;;Transparent;All;18;all;True;True;True;True;0;False;-1;False;0;False;-1;255;False;-1;255;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;False;2;5;False;-1;10;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;True;Relative;0;;0;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;False;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 WireConnection;27;1;29;1
 WireConnection;27;2;29;2
@@ -96,4 +99,4 @@ WireConnection;33;1;31;0
 WireConnection;0;9;33;0
 WireConnection;0;13;30;0
 ASEEND*/
-//CHKSM=50B9C8303FA85E8B6C6267FAF725FBFEF02CEE64
+//CHKSM=04655535C8E11EA0C31CF55DD6FBB94B373AE70A
