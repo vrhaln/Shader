@@ -7127,7 +7127,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165361604}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -21740,7 +21740,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.13195837
+          value: 0.512194
           inSlope: 22.66816
           outSlope: 22.66816
           tangentMode: 0
@@ -21749,7 +21749,7 @@ ParticleSystem:
           outWeight: 1
         - serializedVersion: 3
           time: 0.0051770397
-          value: 0.14868528
+          value: 0.61988944
           inSlope: 0
           outSlope: 0
           tangentMode: 136
@@ -21757,8 +21757,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.97963935
-          value: 0.14868528
+          time: 0.9665569
+          value: 0.61988944
           inSlope: 0
           outSlope: 0
           tangentMode: 136
@@ -21766,14 +21766,14 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.98389626
-          value: 0.080899104
-          inSlope: -11.22607
-          outSlope: -11.22607
+          time: 0.9836909
+          value: 0.33761227
+          inSlope: -45.29822
+          outSlope: -45.29822
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.14967692
-          outWeight: 0.12433747
+          inWeight: 0.5064648
+          outWeight: 0.089324474
         - serializedVersion: 3
           time: 1
           value: 0
