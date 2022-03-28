@@ -2217,7 +2217,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 3.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -3150,7 +3150,7 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.4305949
         - serializedVersion: 3
-          time: 0.04513372
+          time: 0.014649422
           value: 0.9479577
           inSlope: -0.09221557
           outSlope: -0.09221557
@@ -3159,7 +3159,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 1
         - serializedVersion: 3
-          time: 0.0984849
+          time: 0.031966053
           value: 0.8820225
           inSlope: 0
           outSlope: 0
@@ -3168,7 +3168,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.9440559
+          time: 0.9640144
           value: 0.8820225
           inSlope: 0
           outSlope: 0
@@ -3230,7 +3230,7 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.4305949
         - serializedVersion: 3
-          time: 0.04513372
+          time: 0.014649422
           value: 0.9479577
           inSlope: -0.09221557
           outSlope: -0.09221557
@@ -3239,7 +3239,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 1
         - serializedVersion: 3
-          time: 0.0984849
+          time: 0.031966053
           value: 0.8820225
           inSlope: 0
           outSlope: 0
@@ -3248,7 +3248,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.9440559
+          time: 0.9640144
           value: 0.8820225
           inSlope: 0
           outSlope: 0
@@ -58877,7 +58877,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591176174}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d79e86b3cf062ed438dd44ecb09dfdd1, type: 3}
   m_Name: 
@@ -58888,9 +58888,9 @@ MonoBehaviour:
   _reflectSkybox: 0
   _clipPlaneOffset: 0.01
   _blurOn: 1
-  _blurSize: 1
+  _blurSize: 0.63
   _blurIterations: 2
-  _downsample: 1
+  _downsample: 2.01
 --- !u!23 &1591176177
 MeshRenderer:
   m_ObjectHideFlags: 0
