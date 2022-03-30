@@ -24,7 +24,7 @@ Material:
     - _Distance: 1
     - _EmissStr: 3
     - _ZTestMode: 8
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _DepthFadeRangeStr: {r: 1.25, g: 0.2, b: 0, a: 0}
     - _Fre: {r: 0.4, g: 1, b: 0.5, a: 0}
