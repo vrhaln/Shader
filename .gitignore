@@ -11,6 +11,7 @@ UMotionExamples/
 UMotionData/
 UMotionEditor/
 UMotionExamples/
+Logs/
 =====================================
 Visual Studio / MonoDevelop generated
 =====================================
@@ -25,6 +26,7 @@ obj/
 *.user
 *.unityproj
 *.booproj
+*.log
 
 ============
 OS generated

@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _CullMode: 0
+    - _CullMode: 2
     - _Distance: 1.81
     - _EmissStr: 2.88
     - _ZTestMode: 8

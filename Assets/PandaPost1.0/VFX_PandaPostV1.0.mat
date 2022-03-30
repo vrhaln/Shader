@@ -46,8 +46,8 @@ Material:
     - _IfStepFactor: 0
     - _IfVignettePower: 1
     - _IfVignetteScale: 1
-    - _Ifzhenfu: 1
-    - _Ifzhenpin: 1
+    - _Ifzhenfu: 0
+    - _Ifzhenpin: 0
     - _LineColorScale: 0
     - _LineOffset: 0
     - _LineTilingU: 0.63
@@ -72,9 +72,9 @@ Material:
     - _VignetteScaleK: 1.5
     - _centerU: 0.5
     - _centerV: 0.5
-    - _zhenfu: 0.427
-    - _zhenfuK: 0
-    - _zhenpin: 0.258
+    - _zhenfu: 0
+    - _zhenfuK: 0.34295717
+    - _zhenpin: 0
     - _zhenpinK: 1
     m_Colors:
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
