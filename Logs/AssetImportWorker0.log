@@ -15,11 +15,11 @@ E:/Unity_Project/Shader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-14262
+14517
 Successfully changed project path to: E:/Unity_Project/Shader
 E:/Unity_Project/Shader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path D:/Software/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -36,73 +36,73 @@ Initialize mono
 Mono path[0] = 'D:/Software/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Software/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Software/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Software/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000841 seconds.
+Registered in 0.000772 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.525 seconds
+- Completed reload, in  0.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (526ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (511ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (420ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (198ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004882 seconds.
+Registered in 0.004414 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  0.913 seconds
 Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (795ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (757ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (259ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,15 +111,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3407 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 307.5 MB.
 System memory in use after: 307.7 MB.
 
 Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 3855.
-Total: 5.464800 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.167400 ms MarkObjects: 4.976700 ms  DeleteObjects: 0.061200 ms)
+Total: 5.389800 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.197000 ms MarkObjects: 4.842600 ms  DeleteObjects: 0.060400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,259 +133,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Fx/VivSkill_3.prefab
-  artifactKey: Guid(a756a7da98cf0e84b95c10f1f67f5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fx/VivSkill_3.prefab using Guid(a756a7da98cf0e84b95c10f1f67f5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed9a257ca6bb59beb9e975eb03fdf04') in 0.105943 seconds 
+  path: Assets/Art/Model/Char_Viv/Shader/Shining_1.mat
+  artifactKey: Guid(e137833fee0c1e5419b1bac813742666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Model/Char_Viv/Shader/Shining_1.mat using Guid(e137833fee0c1e5419b1bac813742666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d832b362fb7cfb08aaa2282dcb2c3f8') in 0.176630 seconds 
+========================================================================
+Received Prepare
+Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 8.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.9 MB.
+System memory in use after: 212.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3895.
+Total: 5.332200 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.160800 ms MarkObjects: 4.876500 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.325100 seconds.
-  path: Assets/Art/Fx/VivSkill_4.prefab
-  artifactKey: Guid(807d086fde3719c4db8f31eab55866e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fx/VivSkill_4.prefab using Guid(807d086fde3719c4db8f31eab55866e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b0c742103e2f200331fbfbca0b66bf') in 0.015782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.161351 seconds.
-  path: Assets/Art/Fx/VivSkill_5.prefab
-  artifactKey: Guid(3d26f9606ab1be14e8a0e30ce5610d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fx/VivSkill_5.prefab using Guid(3d26f9606ab1be14e8a0e30ce5610d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e15dd9d0346bd42325bf045ec76bf0b') in 0.012541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.085030 seconds.
-  path: Assets/Art/Fx/spray_1.prefab
-  artifactKey: Guid(a3fa85cfe940e6b48a9b39f4d90f22da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fx/spray_1.prefab using Guid(a3fa85cfe940e6b48a9b39f4d90f22da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a648faba2d2b5f64ccf98727063231e') in 0.012591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.300682 seconds.
-  path: Assets/Art/Fx/VivSkill_1.prefab
-  artifactKey: Guid(dcadf5ee251e3624d9b5e2a37d3457f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fx/VivSkill_1.prefab using Guid(dcadf5ee251e3624d9b5e2a37d3457f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e5bd460fecf84645eca907743691cb') in 0.013516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.888477 seconds.
-  path: Assets/Art/Fx/VivSkill_2.prefab
-  artifactKey: Guid(c2a145bb5d545d44dba496df00ddb213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Fx/VivSkill_2.prefab using Guid(c2a145bb5d545d44dba496df00ddb213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d2bd103785377eb850f0df023e993f') in 0.016111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 997.411663 seconds.
-  path: Assets/Art/Model/CS14/NRM/Mesh/NRM_Body.fbx
-  artifactKey: Guid(8b517db7c47a57a4d892ade6b187c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS14/NRM/Mesh/NRM_Body.fbx using Guid(8b517db7c47a57a4d892ade6b187c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6d4295178b71cc96f72f436ead2784') in 0.274659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/QuadCV.fbx
-  artifactKey: Guid(1742c245bdaa0d24e81b72a7ef2d2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/QuadCV.fbx using Guid(1742c245bdaa0d24e81b72a7ef2d2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c5721dec550562f38e19aacdf9e0fc') in 0.029099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Art/Base/Shader/PandaShaderV2.2/V2.2demo/mesh.FBX
-  artifactKey: Guid(8864410a8eb0be74da7104db9a1e3278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Base/Shader/PandaShaderV2.2/V2.2demo/mesh.FBX using Guid(8864410a8eb0be74da7104db9a1e3278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f417c3da08c47e9a8b4fffcaf40aa4ca') in 0.041365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Art/Model/plane.fbx
-  artifactKey: Guid(0d005a917f9d97d4d9775a415ab2822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/plane.fbx using Guid(0d005a917f9d97d4d9775a415ab2822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720bbaf93cd9907196ded18d8f42648c') in 0.070824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Art/Model/CS20/Ground.FBX
-  artifactKey: Guid(c954a73f81e54184194fc3a7c58832bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS20/Ground.FBX using Guid(c954a73f81e54184194fc3a7c58832bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9827e17d5c556027415ede38789b35fd') in 0.031887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Art/Model/CS14/NRM/Mesh/NRM_Head.fbx
-  artifactKey: Guid(b2813792f990a4941b14420a0a5fb564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS14/NRM/Mesh/NRM_Head.fbx using Guid(b2813792f990a4941b14420a0a5fb564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50969ee7a7a56e483e3e04d6c4bdaab') in 0.141332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Slash3.fbx
-  artifactKey: Guid(27831d509e842e84eaed37e1d3bff4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Slash3.fbx using Guid(27831d509e842e84eaed37e1d3bff4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d78930ecc2ccb5fc0452b70f261980a') in 0.042306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/QuadToCircle.fbx
-  artifactKey: Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/QuadToCircle.fbx using Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d72c5cb75cedb22fc3d8399d6a83af') in 0.038647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/UMotionEditor/InternalResources/Meshes/Transform.asset
-  artifactKey: Guid(21666f0998fcc6740858ec61771e6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMotionEditor/InternalResources/Meshes/Transform.asset using Guid(21666f0998fcc6740858ec61771e6efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff19a40823f1cc90bb6f9eb777d40027') in 0.034760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Art/Model/CS14/NRM/Mesh/NRM_Weapon.FBX
-  artifactKey: Guid(66cb512a2c2097e45892358d64884d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS14/NRM/Mesh/NRM_Weapon.FBX using Guid(66cb512a2c2097e45892358d64884d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b09ab5b7450797b42370c5161dd59d') in 0.086025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Art/Model/Diamond.fbx
-  artifactKey: Guid(f03aa8245c10b164cb606b5e43cd13a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/Diamond.fbx using Guid(f03aa8245c10b164cb606b5e43cd13a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20142f240c3307aff5298933ad45962') in 0.036560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Boing Kit/Examples/Common/UFO Bunny/Jellyfish UFO Bunny addon model.fbx
-  artifactKey: Guid(2c0b12ef98feb1346b06611c0a9165d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Boing Kit/Examples/Common/UFO Bunny/Jellyfish UFO Bunny addon model.fbx using Guid(2c0b12ef98feb1346b06611c0a9165d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889c4a6af5e5ee4b9f0d1e1b6135ca95') in 0.503588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/测试shader/PPX_Common_distort_shader/slash 1.FBX
-  artifactKey: Guid(8262e23595c410b4da3fdf2f7e27904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/测试shader/PPX_Common_distort_shader/slash 1.FBX using Guid(8262e23595c410b4da3fdf2f7e27904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f33bdf1d2ae3ba9d691ee4d5398ad23') in 0.037038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Stone1.fbx
-  artifactKey: Guid(592b8df39bb8fa54eb24c3e2a5c32e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Stone1.fbx using Guid(592b8df39bb8fa54eb24c3e2a5c32e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8185521c6735c09d00f4bc698e35bb49') in 0.035417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Art/Model/CS01_06/SM_SkySphere.FBX
-  artifactKey: Guid(1cdd673a108436f4f8520c6fb58a9dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS01_06/SM_SkySphere.FBX using Guid(1cdd673a108436f4f8520c6fb58a9dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304a5c8af4958e3f27358b11418b7a86') in 0.042968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/QuadToCircle6.fbx
-  artifactKey: Guid(a75da2e871d109045acc46ab91e14ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/QuadToCircle6.fbx using Guid(a75da2e871d109045acc46ab91e14ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa947ab82fdf7fff50916087da4c1901') in 0.045465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/СylindricalСone2.fbx
-  artifactKey: Guid(b2f8b571d854cfc42962427536e286b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/СylindricalСone2.fbx using Guid(b2f8b571d854cfc42962427536e286b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195575eb143e6087f57bad75336aed51') in 0.035789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/UMotionEditor/InternalResources/Meshes/Stick.asset
-  artifactKey: Guid(742841b2f7233644898dc4d7a256c8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMotionEditor/InternalResources/Meshes/Stick.asset using Guid(742841b2f7233644898dc4d7a256c8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867b919bce984efd967d0905680a4d28') in 0.035881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Slash2.fbx
-  artifactKey: Guid(940498b568e056c4c9f6c4c20be8795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Slash2.fbx using Guid(940498b568e056c4c9f6c4c20be8795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d37c8c2e27c7b7dfa1788e83c869e4f') in 0.040901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Art/Model/CS14/Env/SM_SkySphere.FBX
-  artifactKey: Guid(07009e8e5c39b954caa470191597e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS14/Env/SM_SkySphere.FBX using Guid(07009e8e5c39b954caa470191597e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6a8345a9b9f27c325d9b6c97c10205') in 0.035680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Art/Base/BasicEnv/SM_SkySphere.FBX
-  artifactKey: Guid(d80797e6d7f7eb2478f7b33653cf1d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Base/BasicEnv/SM_SkySphere.FBX using Guid(d80797e6d7f7eb2478f7b33653cf1d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b189cc22ba86bca0568dfd8ae89958b') in 0.036899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Slash1.fbx
-  artifactKey: Guid(f4096268e1ca91e4990c21b2dfa5ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Slash1.fbx using Guid(f4096268e1ca91e4990c21b2dfa5ccc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f42a593f6ad4bafb5965ec26c00c6f5') in 0.033627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Art/Model/CS19_02/plane.FBX
-  artifactKey: Guid(360efe5fa22a8a84587916f26e997dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS19_02/plane.FBX using Guid(360efe5fa22a8a84587916f26e997dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a91ac637601ab69b247c460cf297972') in 0.704286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Art/Model/CS01_06/card.FBX
-  artifactKey: Guid(592ac56cd29ac5147a2123721e6f8e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/CS01_06/card.FBX using Guid(592ac56cd29ac5147a2123721e6f8e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebca213cca3acc0be2b8491abfce4b68') in 0.277197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Slash4.fbx
-  artifactKey: Guid(3f6a7b40d8d43834c9757b90108fc1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Slash4.fbx using Guid(3f6a7b40d8d43834c9757b90108fc1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc0423c4e2f5c3c7ed4c91c737fd21f') in 0.032156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/WindPath1.fbx
-  artifactKey: Guid(19656adf695a0e64ca516b1fa4888111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/WindPath1.fbx using Guid(19656adf695a0e64ca516b1fa4888111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446b4e848ea773ae20dcb19997f83ea2') in 0.033345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/UMotionEditor/InternalResources/Meshes/StickJoint.asset
-  artifactKey: Guid(606b83f535f265c4599359df0b67ed9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMotionEditor/InternalResources/Meshes/StickJoint.asset using Guid(606b83f535f265c4599359df0b67ed9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddceb969a6322e9fd18b6754239fe31') in 0.023666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Sword.fbx
-  artifactKey: Guid(f5c0e942d3263e042a353258f72c0cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Sword.fbx using Guid(f5c0e942d3263e042a353258f72c0cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ef378705bc1a541e46afcbf49b9b70') in 0.039614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Hovl Studio/Sword slash VFX/Models/Twist2.fbx
-  artifactKey: Guid(01fe053cd9d4a194c978de14eb10c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Sword slash VFX/Models/Twist2.fbx using Guid(01fe053cd9d4a194c978de14eb10c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8291480e600b7987f56390f064dc59a') in 0.036140 seconds 
+  Time since last request: 106.556947 seconds.
+  path: Assets/Art/Base/Texture/FX_Tex/fx_a_line_006_2.png
+  artifactKey: Guid(448441a27ca22c74b89d52c408cc7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Base/Texture/FX_Tex/fx_a_line_006_2.png using Guid(448441a27ca22c74b89d52c408cc7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8366a49511054d787e836e4c87a13a') in 0.032528 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004752 seconds.
+Registered in 0.003963 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
+- Completed reload, in  0.872 seconds
 Domain Reload Profiling:
-	ReloadAssembly (911ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (873ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
+			SetupTypeCache (256ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (274ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.5 MB.
-System memory in use after: 271.8 MB.
+System memory in use before: 270.6 MB.
+System memory in use after: 270.8 MB.
 
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3902.
-Total: 5.371500 ms (FindLiveObjects: 0.317500 ms CreateObjectMapping: 0.231900 ms MarkObjects: 4.785000 ms  DeleteObjects: 0.036300 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3899.
+Total: 5.078600 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.178600 ms MarkObjects: 4.596500 ms  DeleteObjects: 0.027800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -400,34 +224,211 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004914 seconds.
+Registered in 0.004145 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.883 seconds
 Domain Reload Profiling:
-	ReloadAssembly (910ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (883ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (765ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
+			SetupTypeCache (260ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (286ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.6 MB.
+System memory in use after: 270.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3902.
+Total: 5.182700 ms (FindLiveObjects: 0.253700 ms CreateObjectMapping: 0.143700 ms MarkObjects: 4.744000 ms  DeleteObjects: 0.040500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (881ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (742ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.7 MB.
+System memory in use after: 270.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3905.
+Total: 5.584700 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.157700 ms MarkObjects: 5.132700 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1592.908832 seconds.
+  path: Assets/PandaPost1.0/assert/Textures/logo.png
+  artifactKey: Guid(952e6cda434200247b8852b4b5d1a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PandaPost1.0/assert/Textures/logo.png using Guid(952e6cda434200247b8852b4b5d1a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7a84787f8aea64543b1f9a15424110') in 0.040210 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Domain Reload Profiling:
+	ReloadAssembly (882ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.7 MB.
+System memory in use after: 270.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3909.
+Total: 5.627400 ms (FindLiveObjects: 0.258700 ms CreateObjectMapping: 0.133600 ms MarkObjects: 5.202300 ms  DeleteObjects: 0.031900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (152ms)
 				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -435,14 +436,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.6 MB.
-System memory in use after: 271.8 MB.
+System memory in use before: 270.7 MB.
+System memory in use after: 270.9 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3905.
-Total: 5.257100 ms (FindLiveObjects: 0.274800 ms CreateObjectMapping: 0.202500 ms MarkObjects: 4.752400 ms  DeleteObjects: 0.026600 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 5.488900 ms (FindLiveObjects: 0.277300 ms CreateObjectMapping: 0.183300 ms MarkObjects: 4.998000 ms  DeleteObjects: 0.029600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -457,169 +458,163 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004982 seconds.
+Registered in 0.004768 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
+- Completed reload, in  0.892 seconds
 Domain Reload Profiling:
-	ReloadAssembly (926ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (773ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (288ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.6 MB.
-System memory in use after: 271.9 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3908.
-Total: 5.926900 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.151500 ms MarkObjects: 5.469400 ms  DeleteObjects: 0.034600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004807 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
-Domain Reload Profiling:
-	ReloadAssembly (905ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (764ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.7 MB.
-System memory in use after: 271.9 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3911.
-Total: 5.296400 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.196400 ms MarkObjects: 4.787100 ms  DeleteObjects: 0.027500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 702.986362 seconds.
-  path: Assets/Art/Model/Char_Viv/Shader/Shining_1.mat
-  artifactKey: Guid(e137833fee0c1e5419b1bac813742666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Model/Char_Viv/Shader/Shining_1.mat using Guid(e137833fee0c1e5419b1bac813742666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea889995d9cc8458dc1f4c8901cc4ed') in 0.057909 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004916 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
-Domain Reload Profiling:
-	ReloadAssembly (923ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (777ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (263ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.7 MB.
+System memory in use after: 270.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3915.
+Total: 5.659200 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.201300 ms MarkObjects: 5.122700 ms  DeleteObjects: 0.029300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004707 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.7 MB.
+System memory in use after: 270.9 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 5.294400 ms (FindLiveObjects: 0.318900 ms CreateObjectMapping: 0.191600 ms MarkObjects: 4.755700 ms  DeleteObjects: 0.027400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (953ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
 			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'ADYFX/Editer/JianCai_YuLan': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3006 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 271.7 MB.
-System memory in use after: 271.9 MB.
+System memory in use before: 270.7 MB.
+System memory in use after: 271.0 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3915.
-Total: 5.200900 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.156000 ms MarkObjects: 4.756100 ms  DeleteObjects: 0.025400 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3921.
+Total: 5.489500 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.176700 ms MarkObjects: 5.007500 ms  DeleteObjects: 0.035300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -631,3 +626,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
