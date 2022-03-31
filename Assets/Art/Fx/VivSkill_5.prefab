@@ -4843,7 +4843,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e137833fee0c1e5419b1bac813742666, type: 2}
+  - {fileID: 2100000, guid: e421b55529ea6224c9828877531b523f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5172,9 +5172,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 4
-      minScalar: 0.5
+      minMaxState: 3
+      scalar: 5
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5225,8 +5225,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 1
+      minMaxState: 3
+      scalar: 2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5278,7 +5278,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 0.5
       maxCurve:
@@ -5769,13 +5769,13 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.6472587
         - serializedVersion: 3
-          time: 0.53308105
+          time: 1
           value: 0
-          inSlope: -4.3991456
-          outSlope: -4.3991456
+          inSlope: -1.9321359
+          outSlope: -1.9321359
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.10469015
+          inWeight: 0.07438016
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -5914,7 +5914,7 @@ ParticleSystem:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
-      cycleCount: 20
+      cycleCount: 50
       repeatInterval: 0.1
       probability: 1
   SizeModule:
