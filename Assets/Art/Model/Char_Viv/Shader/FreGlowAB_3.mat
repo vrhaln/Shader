@@ -20,9 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _EmissStr: 2.88
+    - _CullMode: 0
+    - _EmissStr: 2.4
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
-    - _Fre: {r: 0.66, g: 0.93, b: 0.62, a: 0}
+    - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
+    - _Fre: {r: 0.4, g: 0.36, b: -4.38, a: 0}
   m_BuildTextureStacks: []
