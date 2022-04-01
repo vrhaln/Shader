@@ -46,8 +46,8 @@ Material:
     - _IfStepFactor: 0
     - _IfVignettePower: 1
     - _IfVignetteScale: 1
-    - _Ifzhenfu: 0
-    - _Ifzhenpin: 0
+    - _Ifzhenfu: 1
+    - _Ifzhenpin: 1
     - _LineColorScale: 0
     - _LineOffset: 0
     - _LineTilingU: 0.63
