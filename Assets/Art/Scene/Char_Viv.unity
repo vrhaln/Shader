@@ -2059,6 +2059,7 @@ GameObject:
   - component: {fileID: 165361609}
   - component: {fileID: 165361608}
   - component: {fileID: 165361606}
+  - component: {fileID: 165361607}
   m_Layer: 8
   m_Name: Camera_1
   m_TagString: MainCamera
@@ -2092,6 +2093,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6a5bb3b3329b114a948f6bbad19a2a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &165361607
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165361604}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &165361608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3810,6 +3830,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 0}
     value: {fileID: 0}
+  - key: {fileID: 8517513989953767584, guid: 42de3338ae227264587a1ac83880c9be, type: 2}
+    value: {fileID: 165361607}
   m_ExposedReferences:
     m_References:
     - d935acff05d584e4bbc738de2feeba2a: {fileID: 665493187}
