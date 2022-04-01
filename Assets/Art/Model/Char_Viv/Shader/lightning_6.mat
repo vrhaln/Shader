@@ -24,12 +24,16 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c18d1a1e5915b68408b0fa5b5d8b91e0, type: 3}
-        m_Scale: {x: 3, y: 1}
+        m_Texture: {fileID: 2800000, guid: 66e6c550aad1a7f4b884cdcb0e85b198, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: b8599c4baec202142a92b88954aaf92e, type: 3}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 0a4c77e4c2a232547856bd376a6b3a82, type: 3}
+        m_Scale: {x: 0.2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -40,11 +44,12 @@ Material:
     - _EmissStr: 1
     - _EmissionStr: 1
     - _RisAlpha: 0
-    - _VerTexOffsetStr: 5
+    - _VerTexOffsetStr: 20
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _Panner: {r: -1, g: 0, b: 1, a: 0}
+    - _VertexNoisePanner: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

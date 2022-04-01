@@ -42,10 +42,10 @@ Material:
     m_Floats:
     - _ColorIntensity: 0
     - _EmissStr: 1
-    - _EmissionStr: 3
+    - _EmissionStr: 1
     - _RisAlpha: 0
     - _VerTexOffsetStr: 20
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
