@@ -10,7 +10,7 @@ Material:
   m_Name: ASE_Toon_Water
   m_Shader: {fileID: 4800000, guid: 7f01f71c15554f04680505059c35c6b0, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,12 +19,40 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NormalMap:
+    - _Noise:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 5c838891c42224d48ae85c3bafba02ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave:
+        m_Texture: {fileID: 8400000, guid: 87c44ea6fa1e5d64491e6e2024686a7d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave1Tex:
+        m_Texture: {fileID: 8400000, guid: 87c44ea6fa1e5d64491e6e2024686a7d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave2Tex:
+        m_Texture: {fileID: 8400000, guid: dd4060ea9e617b1428e696e0d59f5509, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveStrTex:
+        m_Texture: {fileID: 8400000, guid: dd4060ea9e617b1428e696e0d59f5509, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 8400000, guid: 87c44ea6fa1e5d64491e6e2024686a7d, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -33,6 +61,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _DeepRange: 1
+    - _DistorStr: 0.2
+    - _EdgeLength: 15
     - _FoamBlend: 0
     - _FoamDissolve: 0
     - _FoamFrequency: 0
@@ -41,29 +71,40 @@ Material:
     - _FoamWidth: 0
     - _FogDistanceEnd: 700
     - _FogDistanceStart: 0
-    - _FresnelPower: 1
+    - _FresnelPower: 1.38
     - _NoiseSpeed: 1
-    - _NormalScale: 1
+    - _NormalScale: 1.59
+    - _NormalStr: 0.154
+    - _Occlusion: 0.185
+    - _RefSmoothness: 0.718
     - _ReflectDistort: 0
-    - _ReflectIntensity: 0
-    - _ReflectPower: 0
+    - _ReflectIntensity: 1
+    - _ReflectPower: 2
     - _ShoreEdgeIntensity: 0
     - _ShoreEdgeWidth: 0
     - _ShoreRange: 1
+    - _Tessellation: 10
     - _TimeSpeed: 1
     - _UnderWaterDistort: 0
+    - _WaveDIstorStr: 0.5
+    - _WaveHardness: 1
+    - _WaveRange: 0.9
+    - _WaveVertexOffsetStr: 0.43
     - __dirty: 0
     m_Colors:
-    - _DeepColor: {r: 0, g: 0.8768053, b: 1, a: 0}
+    - _DeepColor: {r: 0, g: 0.47335887, b: 0.5377358, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
     - _FoamNoiseSize: {r: 0, g: 0, b: 0, a: 0}
     - _FoamNoiseSize2: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
-    - _NormalSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _ShallowColor: {r: 0, g: 0.9073796, b: 1, a: 0}
+    - _FresnelColor: {r: 0, g: 0.29186845, b: 0.4339623, a: 0}
+    - _NoisePanner: {r: 0.1, g: 0.1, b: 1, a: 0}
+    - _NormalSpeed: {r: 0.01, g: -0.01, b: 0, a: 0}
+    - _ShallowColor: {r: 1, g: 1, b: 1, a: 0}
     - _ShoreColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TessellationMinMax: {r: 100, g: 100, b: 0, a: 0}
     - _WaveASpeedXYSteepnesswavelength: {r: 1, g: 1, b: 0, a: 50}
     - _WaveB: {r: 1, g: 1, b: 0, a: 50}
+    - _WaveBaseColor: {r: 1, g: 1, b: 1, a: 0.6156863}
     - _WaveC: {r: 1, g: 1, b: 0, a: 50}
     - _WaveColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

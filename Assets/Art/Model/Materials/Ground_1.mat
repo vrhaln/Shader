@@ -149,7 +149,7 @@ Material:
     - _Parallax: 0.02
     - _Power: 2
     - _RefPlane: 0.5
-    - _RefSmoothness: 1
+    - _RefSmoothness: 0.875
     - _Scale: -0.3
     - _Shininess: 1
     - _Shininess1: 0.01
@@ -177,3 +177,4 @@ Material:
     - _SpecularColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
     - _SunFogColor: {r: 0, g: 0, b: 0, a: 0}
     - _SunLightDir: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []
