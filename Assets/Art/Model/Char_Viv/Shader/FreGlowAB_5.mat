@@ -18,14 +18,27 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CullMode: 2
+    - _CullMode: 0
+    - _Dis: 0.25
     - _Distance: 1
     - _EmissStr: 3
-    - _ZTestMode: 8
+    - _Hardness: 1
+    - _OneMinus: 0
+    - _Opacity: 0.56
+    - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _DepthFadeRangeStr: {r: 1.25, g: 0.2, b: 0, a: 0}
     - _Fre: {r: 0.4, g: 1, b: 0.5, a: 0}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
