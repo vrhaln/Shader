@@ -23,7 +23,7 @@ Material:
     - _EdgeLength: 15
     - _Hardness: 5
     - _MaskSommthness: 1
-    - _Radius: 16.2
+    - _Radius: 0
     - _RotateScale: 3.23
     - _Tessellation: 1
     - __dirty: 0
@@ -31,3 +31,4 @@ Material:
     - _MianColor: {r: 1, g: 1, b: 1, a: 1}
     - _Pivot: {r: 0, g: 0, b: 0, a: 0}
     - _TargetPostion: {r: 0, g: 1.2, b: 2.5, a: 0}
+  m_BuildTextureStacks: []

@@ -144,3 +144,4 @@ Material:
     - _ShaowColor: {r: 0, g: 0, b: 0, a: 0}
     - _SurfaceBaseColor: {r: 0, g: 0, b: 0, a: 0}
     - _SurfaceShaowColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
