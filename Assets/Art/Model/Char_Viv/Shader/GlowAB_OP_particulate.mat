@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 3433162ddc7ee6b4687996d52e67fac4, type: 3}
-        m_Scale: {x: 2, y: 0.1}
+        m_Scale: {x: 3, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -39,10 +39,10 @@ Material:
     - _CullMode: 0
     - _Dissolution: 1
     - _DissolutionHardness: 0
-    - _EmissionStr: 5
+    - _EmissionStr: 10
     - _Fade: 1
     - _FadeHardnss: 0.41
-    - _FadeRange: -2.21
+    - _FadeRange: 3.3
     - _Float1: 0.11
     - _Hardness: 0.467
     - _UV2_WContorlOffset: 1

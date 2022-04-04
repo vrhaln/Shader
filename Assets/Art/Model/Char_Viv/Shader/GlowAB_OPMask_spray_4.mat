@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -42,9 +42,9 @@ Material:
     - _DissolutionHardness: 1
     - _EmissionStr: 1
     - _Fade: 1
-    - _FadeHardnss: 1.04
+    - _FadeHardnss: 0.65
     - _FadeOn: 1
-    - _FadeRange: -3.9
+    - _FadeRange: -1.7
     - _Float1: 0.11
     - _Hardness: 0.467
     - _Keyword0: 0
