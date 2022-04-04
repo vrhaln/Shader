@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GlowAB_OP_particulate
   m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
-  m_ShaderKeywords: _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
+  m_ShaderKeywords: _FADE_ON _UV2_WCONTORLOFFSET_ON _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,16 +31,25 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CullMode: 2
+    - _CullMode: 0
     - _Dissolution: 1
     - _DissolutionHardness: 0
     - _EmissionStr: 5
+    - _Fade: 1
+    - _FadeHardnss: 0.41
+    - _FadeRange: -2.21
     - _Float1: 0.11
     - _Hardness: 0.467
+    - _UV2_WContorlOffset: 1
+    - _UV2_WContorlUVOffset: 0
     - _UV_TContorlDis: 1
     - _UV_WContorlEmission: 1
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
