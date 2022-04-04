@@ -7,7 +7,6 @@ Shader "Whl/Viv/Shining Cross"
 		_MainTex("MainTex", 2D) = "white" {}
 		[Enum(UnityEngine.Rendering.CompareFunction)]_ZTestMode("ZTestMode", Float) = 8
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
-		[HideInInspector] _texcoord2( "", 2D ) = "white" {}
 		[HideInInspector] __dirty( "", Int ) = 1
 	}
 
@@ -29,7 +28,6 @@ Shader "Whl/Viv/Shining Cross"
 		{
 			float4 uv_texcoord;
 			float4 vertexColor : COLOR;
-			float4 uv2_texcoord2;
 		};
 
 		struct SurfaceOutputCustomLightingCustom
@@ -55,7 +53,7 @@ Shader "Whl/Viv/Shining Cross"
 			half4 c = 0;
 			float2 temp_cast_0 = (0.5).xx;
 			float4 tex2DNode7 = tex2D( _MainTex, ( i.uv_texcoord.xy + ( ( i.uv_texcoord.xy - temp_cast_0 ) * (-70.0 + (i.uv_texcoord.z - 0.0) * (25.0 - -70.0) / (1.0 - 0.0)) * saturate( ( ( 1.0 - distance( i.uv_texcoord.xy , float2( 0.5,0.5 ) ) ) - 0.5 ) ) ) ) );
-			c.rgb = ( i.vertexColor * tex2DNode7 * 1.0 * i.uv2_texcoord2.z ).rgb;
+			c.rgb = ( i.vertexColor * tex2DNode7 * 1.0 * i.uv_texcoord.w ).rgb;
 			c.a = ( tex2DNode7.r * i.vertexColor.a );
 			return c;
 		}
@@ -76,26 +74,26 @@ Shader "Whl/Viv/Shining Cross"
 }
 /*ASEBEGIN
 Version=18935
-70;364;1906;1033;2239.927;808.5096;2.459446;True;True
+-1688;327;1434;792;1406.598;462.5465;2.417707;True;True
 Node;AmplifyShaderEditor.TextureCoordinatesNode;44;-1212.403,467.7043;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.Vector2Node;48;-1173.343,635.216;Inherit;False;Constant;_Vector0;Vector 0;4;0;Create;True;0;0;0;False;0;False;0.5,0.5;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.DistanceOpNode;46;-886.3438,524.216;Inherit;True;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;50;-782.2418,735.9164;Inherit;False;Constant;_Float1;Float 1;4;0;Create;True;0;0;0;False;0;False;0.5;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.OneMinusNode;51;-600.1066,548.3063;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleSubtractOpNode;49;-412.5789,545.832;Inherit;True;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TextureCoordinatesNode;53;-612.0545,72.77771;Inherit;False;0;-1;4;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TextureCoordinatesNode;37;-603.1841,-207.0732;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;39;-573.8475,-40.49326;Inherit;False;Constant;_Float0;Float 0;2;0;Create;True;0;0;0;False;0;False;0.5;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TextureCoordinatesNode;53;-612.0545,72.77771;Inherit;False;0;-1;4;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SaturateNode;52;-190.3018,541.7557;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.TFHCRemapNode;54;-270.3063,161.0472;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;-70;False;4;FLOAT;25;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleSubtractOpNode;38;-298.566,-45.05903;Inherit;False;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;40;65.16846,228.6197;Inherit;True;3;3;0;FLOAT2;0,0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.WireNode;55;-26.94875,-149.5477;Inherit;False;1;0;FLOAT2;0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;42;295.7466,123.3478;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
-Node;AmplifyShaderEditor.TextureCoordinatesNode;60;487.8117,426.6324;Inherit;False;1;-1;4;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.VertexColorNode;56;654.7986,-93.88309;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SamplerNode;7;452.3711,100.9768;Inherit;True;Property;_MainTex;MainTex;1;0;Create;True;0;0;0;False;0;False;-1;f9f85f52c5ad25c48955458e0c2ad9a8;291014278e3da2444b71d9e0041c65cb;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;59;576.8188,316.6933;Inherit;False;Constant;_Emission;Emission;4;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TextureCoordinatesNode;60;487.8117,426.6324;Inherit;False;0;-1;4;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;43;367.9951,-459.2635;Inherit;False;Property;_ZTestMode;ZTestMode;2;1;[Enum];Create;True;0;0;1;UnityEngine.Rendering.CompareFunction;True;0;False;8;8;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;57;954.3756,-44.76822;Inherit;False;4;4;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;58;981.3855,187.9498;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -120,10 +118,10 @@ WireConnection;7;1;42;0
 WireConnection;57;0;56;0
 WireConnection;57;1;7;0
 WireConnection;57;2;59;0
-WireConnection;57;3;60;3
+WireConnection;57;3;60;4
 WireConnection;58;0;7;1
 WireConnection;58;1;56;4
 WireConnection;0;9;58;0
 WireConnection;0;13;57;0
 ASEEND*/
-//CHKSM=AA7A661A1ACA1E133120715DCC8792E722690E53
+//CHKSM=043ED1F45B6CE3B49BF0FB9EFF45DE1A41A30285

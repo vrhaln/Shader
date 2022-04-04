@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: lightning_4
-  m_Shader: {fileID: 4800000, guid: ddafe04304b016e43a4ecbf11a44d470, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_Shader: {fileID: 4800000, guid: 4f2cb7f863eaf9144bfd5c7dedba2cf9, type: 3}
+  m_ShaderKeywords: _OPACITY_ON
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3002
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -41,11 +41,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ColorIntensity: 0
+    - _Cutoff: 0.5
     - _EmissStr: 1
     - _EmissionStr: 1
+    - _Opacity: 1
+    - _OpacityMask: 0
     - _RisAlpha: 0
     - _VerTexOffsetStr: 40
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
