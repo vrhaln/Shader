@@ -655,6 +655,41 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.14419162
       objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04192678
+      objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000045634813
+      objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000004889444
+      objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9805807
+      objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.021316156
+      objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.19495176
+      objectReference: {fileID: 0}
+    - target: {fileID: -4102514089461941054, guid: 7fb98fded5229704eb4de8a6da7ba935,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0009937957
+      objectReference: {fileID: 0}
     - target: {fileID: -3844614234246285485, guid: 7fb98fded5229704eb4de8a6da7ba935,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3884,6 +3919,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 8517513989953767584, guid: 42de3338ae227264587a1ac83880c9be, type: 2}
     value: {fileID: 165361607}
+  - key: {fileID: 5344286720050946875, guid: 42de3338ae227264587a1ac83880c9be, type: 2}
+    value: {fileID: 887609828}
   m_ExposedReferences:
     m_References:
     - d935acff05d584e4bbc738de2feeba2a: {fileID: 665493187}
@@ -3905,6 +3942,7 @@ PlayableDirector:
     - a99c27484798cdb4aaa66276992755cc: {fileID: 98172960}
     - fccfb2ae3fe3cd94d939b82ed23a6741: {fileID: 0}
     - cc38739974fdc1d4e8861b53efb56014: {fileID: 1523091607}
+    - 684a6fb51102c7c4681c7f6808bc94ca: {fileID: 276291851}
     - fb2f93e5d5ff5dd48a04d202a2b04763: {fileID: 637810506}
     - b88664ce0c8c3ed40beb2fc91dc7ced0: {fileID: 276291851}
     - 22f9d669249a63b4f9dca08780f96be4: {fileID: 98172960}
@@ -5005,6 +5043,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 521166556}
     m_Modifications:
+    - target: {fileID: 999929206, guid: a756a7da98cf0e84b95c10f1f67f5524, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 999929206, guid: a756a7da98cf0e84b95c10f1f67f5524, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 999929206, guid: a756a7da98cf0e84b95c10f1f67f5524, type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.3651533
+      objectReference: {fileID: 0}
     - target: {fileID: 3229317403059188373, guid: a756a7da98cf0e84b95c10f1f67f5524,
         type: 3}
       propertyPath: m_RootOrder

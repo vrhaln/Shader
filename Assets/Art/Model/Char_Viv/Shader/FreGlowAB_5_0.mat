@@ -31,7 +31,7 @@ Material:
     - _CullMode: 2
     - _Dis: -1.9
     - _Distance: 1.81
-    - _EmissStr: 35
+    - _EmissStr: 20
     - _Hardness: 3.93
     - _OneMinus: 1
     - _Opacity: 1
@@ -39,6 +39,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _DepthFadeRangeStr: {r: 2, g: 0.2, b: 0, a: 0}
-    - _Fre: {r: 0, g: 60, b: 1.4, a: 0}
+    - _Fre: {r: 0, g: 85.04, b: 1.4, a: 0}
     - _MainTexPanner: {r: -1, g: -1, b: 1, a: 0}
   m_BuildTextureStacks: []

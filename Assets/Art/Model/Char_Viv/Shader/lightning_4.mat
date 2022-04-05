@@ -43,7 +43,7 @@ Material:
     - _ColorIntensity: 0
     - _Cutoff: 0.5
     - _EmissStr: 1
-    - _EmissionStr: 1
+    - _EmissionStr: 6
     - _Opacity: 1
     - _OpacityMask: 0
     - _RisAlpha: 0
