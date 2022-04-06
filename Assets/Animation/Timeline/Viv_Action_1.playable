@@ -259,7 +259,7 @@ MonoBehaviour:
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
   m_ApplyFootIK: 0
-  m_Loop: 0
+  m_Loop: 1
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-6642546113645018818
@@ -367,7 +367,7 @@ MonoBehaviour:
     m_Start: 0.43333333333333335
     m_ClipIn: 0
     m_Asset: {fileID: 5416356776617813264}
-    m_Duration: 1.4583333333333333
+    m_Duration: 4.166666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5283817935258279057}
     m_EaseInDuration: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   - {fileID: 6269373571083395019}
   - {fileID: -5283817935258279057}
   - {fileID: 3207208052054484287}
-  m_FixedDuration: 7.883333333333334
+  m_FixedDuration: 7.016666666666667
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
@@ -1626,7 +1626,7 @@ MonoBehaviour:
     m_Start: 0.8333333333333328
     m_ClipIn: 0
     m_Asset: {fileID: 8756621306473488462}
-    m_Duration: 1.4583333333333333
+    m_Duration: 4.166666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3207208052054484287}
     m_EaseInDuration: 0
@@ -1736,7 +1736,7 @@ MonoBehaviour:
     m_Start: 0.7166666666666663
     m_ClipIn: 0
     m_Asset: {fileID: -6674184252288643499}
-    m_Duration: 1.4583333333333335
+    m_Duration: 4.166666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 3556376070346855171}
     m_EaseInDuration: 0
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
   m_ApplyFootIK: 0
-  m_Loop: 0
+  m_Loop: 1
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &6198838176854855539
@@ -2307,7 +2307,7 @@ MonoBehaviour:
     m_Start: 0.5833333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 6487081769827027907}
-    m_Duration: 1.4583333333333333
+    m_Duration: 4.166666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: 6269373571083395019}
     m_EaseInDuration: 0
@@ -2411,7 +2411,7 @@ MonoBehaviour:
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
   m_ApplyFootIK: 0
-  m_Loop: 0
+  m_Loop: 1
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &6644582025424421624
@@ -2906,7 +2906,7 @@ MonoBehaviour:
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
   m_ApplyFootIK: 0
-  m_Loop: 0
+  m_Loop: 1
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &8856568921559115362
