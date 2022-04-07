@@ -39,7 +39,7 @@ Material:
     - _CullMode: 0
     - _Dissolution: 1
     - _DissolutionHardness: 1
-    - _EmissionStr: 10
+    - _EmissionStr: 15
     - _Fade: 0
     - _FadeHardnss: 1
     - _FadeRange: 0.46

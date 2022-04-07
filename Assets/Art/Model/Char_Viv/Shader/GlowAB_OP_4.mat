@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlowAB_OP_1
+  m_Name: GlowAB_OP_4
   m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
   m_ShaderKeywords: _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 18e4d74b2cdf421418050bd55da158ea, type: 3}
+        m_Texture: {fileID: 2800000, guid: a8beafa0480a8a84fba299e845076ff1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -31,22 +31,17 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _texcoord3:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _CullMode: 0
     - _Dissolution: 1
     - _DissolutionHardness: 1
-    - _EmissionStr: 3
+    - _EmissionStr: 5
     - _Fade: 0
     - _FadeHardnss: 1
-    - _FadeRange: -4.33
+    - _FadeRange: 1
     - _Float1: 0.11
     - _Hardness: 0.467
     - _UV2_WContorlOffset: 0
-    - _UV2_WContorlUVOffset: 0
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
     - _ZTestMode: 8

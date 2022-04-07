@@ -104,7 +104,7 @@ Material:
     - _TessellationMinMax: {r: 100, g: 100, b: 0, a: 0}
     - _WaveASpeedXYSteepnesswavelength: {r: 1, g: 1, b: 0, a: 50}
     - _WaveB: {r: 1, g: 1, b: 0, a: 50}
-    - _WaveBaseColor: {r: 1, g: 1, b: 1, a: 0.6156863}
+    - _WaveBaseColor: {r: 1, g: 1, b: 1, a: 0.20784314}
     - _WaveC: {r: 1, g: 1, b: 0, a: 50}
     - _WaveColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
