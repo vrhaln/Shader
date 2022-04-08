@@ -2560,7 +2560,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 1
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -6898,69 +6898,6 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.45025635
-          inSlope: 1.4909769
-          outSlope: 1.4909769
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0.6688726
-        - serializedVersion: 3
-          time: 0.105003715
-          value: 0.60911524
-          inSlope: 1.3997866
-          outSlope: 1.3997866
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.0803323
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      minCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-    vectorLabel0_0: Change
-    vector0_1:
-      serializedVersion: 2
-      minMaxState: 1
-      scalar: 6.16
-      minScalar: 0
-      maxCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
           value: 0.78443253
           inSlope: 0
           outSlope: 0
@@ -7007,6 +6944,69 @@ ParticleSystem:
         - serializedVersion: 3
           time: 1
           value: 0.41915894
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel0_0: Change
+    vector0_1:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 0.8
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0.45025635
+          inSlope: 1.4909769
+          outSlope: 1.4909769
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.6688726
+        - serializedVersion: 3
+          time: 0.105003715
+          value: 0.60911524
+          inSlope: 1.3997866
+          outSlope: 1.3997866
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.0803323
+        - serializedVersion: 3
+          time: 1
+          value: 1
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -21537,5 +21537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VivSkill_5
       objectReference: {fileID: 0}
+    - target: {fileID: 8433067789977756544, guid: 3d26f9606ab1be14e8a0e30ce5610d2e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96b803382acc2514c961811d125db392, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d26f9606ab1be14e8a0e30ce5610d2e, type: 3}
