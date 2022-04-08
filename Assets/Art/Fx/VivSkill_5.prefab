@@ -19684,7 +19684,7 @@ GameObject:
   - component: {fileID: 5467013451780694678}
   - component: {fileID: 8433067789977756544}
   m_Layer: 0
-  m_Name: Shining Cross_1 (1)
+  m_Name: Shining Cross_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19956,7 +19956,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 12
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -20720,22 +20720,31 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.18496782
         - serializedVersion: 3
-          time: 0.25372744
-          value: 1
-          inSlope: 0.12531944
-          outSlope: 0.12531944
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.16794659
-        - serializedVersion: 3
-          time: 1
+          time: 0.26658645
           value: 1
           inSlope: 0
           outSlope: 0
+          tangentMode: 136
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.82774717
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -11.78786
+          outSlope: -11.78786
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0
+          inWeight: 0.28355566
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -20982,7 +20991,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 3.054493
+      scalar: 6.283185
       minScalar: 0.7853982
       maxCurve:
         serializedVersion: 2
@@ -20990,24 +20999,24 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 4.5841727
-          outSlope: 4.5841727
+          inSlope: -4.5841727
+          outSlope: -4.5841727
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.21416968
         - serializedVersion: 3
           time: 0.46815905
-          value: 0.7168823
-          inSlope: 0.3173177
-          outSlope: 1.65002
+          value: -0.76032966
+          inSlope: -0.3173177
+          outSlope: -1.65002
           tangentMode: 1
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.2362949
         - serializedVersion: 3
           time: 1
-          value: 1
+          value: -1
           inSlope: 0
           outSlope: 0
           tangentMode: 136
@@ -21069,7 +21078,7 @@ ParticleSystem:
         ctime7: 0
         atime0: 0
         atime1: 8288
-        atime2: 44525
+        atime2: 31418
         atime3: 65535
         atime4: 65535
         atime5: 65535
@@ -23999,14 +24008,14 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 1
-          inSlope: -3.1255739
-          outSlope: -3.700844
-          tangentMode: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.27701515
+          outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.39903918
+          time: 0.27821657
           value: 0.40189564
           inSlope: 0
           outSlope: 0
@@ -24015,13 +24024,22 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
+          time: 0.58458906
+          value: 0.5513873
+          inSlope: 1.0028882
+          outSlope: 1.0028882
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.35730937
+        - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 0.55255663
+          inSlope: 1.2028437
           outSlope: -6.40645
           tangentMode: 1
           weightedMode: 0
-          inWeight: 0.27376896
+          inWeight: 0.3032277
           outWeight: 0.33333334
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -24607,7 +24625,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 12
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
