@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded
-  serializedVersion: 7
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -1275,8 +1275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: 8517513989953767584}
   - {fileID: 5344286720050946875}
+  - {fileID: 8517513989953767584}
   - {fileID: -6642546113645018818}
   - {fileID: -5993820185267639233}
   - {fileID: -4179075649738290483}
@@ -1284,7 +1284,7 @@ MonoBehaviour:
   - {fileID: 6269373571083395019}
   - {fileID: -5283817935258279057}
   - {fileID: 3207208052054484287}
-  m_FixedDuration: 7.016666666666667
+  m_FixedDuration: 7.033333333333333
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1

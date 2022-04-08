@@ -74,7 +74,7 @@ Shader "Whl/Viv/Shining Cross"
 }
 /*ASEBEGIN
 Version=18935
--1688;327;1434;792;1406.598;462.5465;2.417707;True;True
+-1319;210;1599;844;1264.664;300.2758;1.815006;True;True
 Node;AmplifyShaderEditor.TextureCoordinatesNode;44;-1212.403,467.7043;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.Vector2Node;48;-1173.343,635.216;Inherit;False;Constant;_Vector0;Vector 0;4;0;Create;True;0;0;0;False;0;False;0.5,0.5;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.DistanceOpNode;46;-886.3438,524.216;Inherit;True;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT;0
@@ -94,10 +94,10 @@ Node;AmplifyShaderEditor.VertexColorNode;56;654.7986,-93.88309;Inherit;False;0;5
 Node;AmplifyShaderEditor.SamplerNode;7;452.3711,100.9768;Inherit;True;Property;_MainTex;MainTex;1;0;Create;True;0;0;0;False;0;False;-1;f9f85f52c5ad25c48955458e0c2ad9a8;291014278e3da2444b71d9e0041c65cb;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;59;576.8188,316.6933;Inherit;False;Constant;_Emission;Emission;4;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.TextureCoordinatesNode;60;487.8117,426.6324;Inherit;False;0;-1;4;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;58;981.3855,187.9498;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;41;-498.424,369.5928;Inherit;False;Property;_Change;Change;3;0;Create;True;0;0;0;False;0;False;0.52;25;-25;25;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;43;367.9951,-459.2635;Inherit;False;Property;_ZTestMode;ZTestMode;2;1;[Enum];Create;True;0;0;1;UnityEngine.Rendering.CompareFunction;True;0;False;8;8;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;57;954.3756,-44.76822;Inherit;False;4;4;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;58;981.3855,187.9498;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;41;-329.8315,342.6197;Inherit;False;Property;_Change;Change;3;0;Create;True;0;0;0;False;0;False;0.52;-25;-25;25;0;1;FLOAT;0
 Node;AmplifyShaderEditor.StandardSurfaceOutputNode;0;1357.306,-23.56844;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;Whl/Viv/Shining Cross;False;False;False;False;True;True;True;True;True;True;True;True;False;False;False;False;False;False;False;False;False;Back;2;False;-1;0;True;43;False;0;False;-1;0;False;-1;False;0;Custom;0.5;True;False;0;True;Custom;;Transparent;All;18;all;True;True;True;True;0;False;-1;False;0;False;-1;255;False;-1;255;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;False;2;5;False;-1;10;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;True;Relative;0;;0;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;False;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
 WireConnection;46;0;44;0
 WireConnection;46;1;48;0
@@ -115,13 +115,13 @@ WireConnection;55;0;37;0
 WireConnection;42;0;55;0
 WireConnection;42;1;40;0
 WireConnection;7;1;42;0
+WireConnection;58;0;7;1
+WireConnection;58;1;56;4
 WireConnection;57;0;56;0
 WireConnection;57;1;7;0
 WireConnection;57;2;59;0
 WireConnection;57;3;60;4
-WireConnection;58;0;7;1
-WireConnection;58;1;56;4
 WireConnection;0;9;58;0
 WireConnection;0;13;57;0
 ASEEND*/
-//CHKSM=043ED1F45B6CE3B49BF0FB9EFF45DE1A41A30285
+//CHKSM=351695BDDF1543CC0E950362404E9F0E50966953

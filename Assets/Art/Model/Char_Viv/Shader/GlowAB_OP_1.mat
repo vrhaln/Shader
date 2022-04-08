@@ -20,7 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 18e4d74b2cdf421418050bd55da158ea, type: 3}
+        m_Texture: {fileID: 2800000, guid: ea36cc560fdc56d438a2bbdaec0a0c70, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -37,14 +41,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _CullMode: 0
-    - _Dissolution: 1
-    - _DissolutionHardness: 1
-    - _EmissionStr: 3
+    - _Dissolution: 0.5
+    - _DissolutionHardness: 0
+    - _EmissionStr: 1.5
     - _Fade: 0
     - _FadeHardnss: 1
-    - _FadeRange: -4.33
+    - _FadeRange: 0
     - _Float1: 0.11
     - _Hardness: 0.467
+    - _NoiseEmissionStr: 1
+    - _UV1_TContorlDis: 0
+    - _UV1_WContorlEmission: 0
     - _UV2_WContorlOffset: 0
     - _UV2_WContorlUVOffset: 0
     - _UV_TContorlDis: 0
@@ -54,4 +61,5 @@ Material:
     m_Colors:
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
