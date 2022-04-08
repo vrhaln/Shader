@@ -20,13 +20,25 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: d7a3ea5fc70c5dc4da316f346c74b1fe, type: 3}
+        m_Scale: {x: 10, y: 0.1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 88644092a973e7243934ef4deb86738d, type: 3}
-        m_Scale: {x: 5, y: 4}
+        m_Texture: {fileID: 2800000, guid: 453fb4a29d4200b448c00ac909e7d354, type: 3}
+        m_Scale: {x: 5, y: 2}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 45db4550c9596b74398792135dd62612, type: 3}
+        m_Texture: {fileID: 2800000, guid: 88644092a973e7243934ef4deb86738d, type: 3}
         m_Scale: {x: 6, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 09eaeab06a5a55246aa7875718ab802b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 09eaeab06a5a55246aa7875718ab802b, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -44,14 +56,16 @@ Material:
     - _CullMode: 2
     - _Cutoff: 0.5
     - _Dissolution: 1
-    - _DissolutionHardness: 1
-    - _EmissionStr: 0.28
+    - _DissolutionHardness: 0
+    - _Edge: 0
+    - _EmissionStr: 2
     - _Fade: 0
     - _FadeHardnss: 1
     - _FadeRange: 1
     - _Float1: 0.11
     - _Hardness: 0.467
-    - _NoiseEmissionStr: 2
+    - _MainOpacity: 1
+    - _NoiseEmissionStr: 3
     - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
     - _UV2_WContorlOffset: 0
