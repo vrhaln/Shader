@@ -39,12 +39,12 @@ Material:
     - _CullMode: 2
     - _Cutoff: 0.5
     - _Dissolution: 1
-    - _DissolutionHardness: 1
+    - _DissolutionHardness: 0
     - _EmissionStr: 1
     - _Fade: 1
-    - _FadeHardnss: 0.65
+    - _FadeHardnss: 0.64
     - _FadeOn: 1
-    - _FadeRange: -1.7
+    - _FadeRange: -1.82
     - _Float1: 0.11
     - _Hardness: 0.467
     - _Keyword0: 0

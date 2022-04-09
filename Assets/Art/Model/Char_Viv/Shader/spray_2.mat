@@ -96,9 +96,9 @@ Material:
     - _Dissolution: 1
     - _DissolutionHardness: 0
     - _DstBlend: 0
-    - _Edge: 0.3935294
+    - _Edge: 1
     - _EmissStr: 3
-    - _EmissionStr: 11.74
+    - _EmissionStr: 4
     - _Fade: 1
     - _FadeHardnss: 1
     - _FadeRange: 1
