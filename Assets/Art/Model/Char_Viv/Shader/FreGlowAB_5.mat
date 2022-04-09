@@ -39,6 +39,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _DepthFadeRangeStr: {r: 1.25, g: 0.2, b: 0, a: 0}
-    - _Fre: {r: 0.4, g: 1, b: 0.5, a: 0}
+    - _Fre: {r: 0.27, g: 14.27, b: 2.72, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
