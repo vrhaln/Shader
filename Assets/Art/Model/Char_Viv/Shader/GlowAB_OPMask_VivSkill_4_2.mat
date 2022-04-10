@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GlowAB_OPMask_VivSkill_4_2
   m_Shader: {fileID: 4800000, guid: 64addd3ee4e850e43941367c015ccac0, type: 3}
-  m_ShaderKeywords: _UV_TCONTORLDIS_ON
+  m_ShaderKeywords: _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -35,16 +35,16 @@ Material:
     - _CullMode: 2
     - _Cutoff: 0.5
     - _Dissolution: 1
-    - _DissolutionHardness: 0
-    - _EmissionStr: 4
+    - _DissolutionHardness: 1
+    - _EmissionStr: 5
     - _Fade: 0
     - _FadeHardnss: 1
     - _FadeOn: 0
-    - _FadeRange: -30
+    - _FadeRange: 0
     - _Float1: 0.11
     - _Hardness: 0.467
     - _UV_TContorlDis: 1
-    - _UV_WContorlEmission: 0
+    - _UV_WContorlEmission: 1
     - _VertexOffsetStr: 40
     - _ZTestMode: 4
     - __dirty: 0

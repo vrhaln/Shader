@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: lightning_2
   m_Shader: {fileID: 4800000, guid: ddafe04304b016e43a4ecbf11a44d470, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3002
@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c4f74fa240b5dd045a90e2dff0354ce3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 66e6c550aad1a7f4b884cdcb0e85b198, type: 3}
         m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetNoiseTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b8599c4baec202142a92b88954aaf92e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -41,15 +41,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ColorIntensity: 0
+    - _Dissolution: 1
     - _EmissStr: 1
-    - _EmissionStr: 1
+    - _EmissionStr: 2
     - _RisAlpha: 0
-    - _VerTexOffsetStr: 5
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlEmission: 1
+    - _VerTexOffsetStr: 10
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 0}
     - _Panner: {r: 0.5, g: 0, b: 1, a: 0}
-    - _VertexNoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _VertexNoisePanner: {r: 0, g: 2, b: 1, a: 0}
   m_BuildTextureStacks: []

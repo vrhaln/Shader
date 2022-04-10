@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3b199975ce6c5b643939a84baa20fe1b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 265ca3fed69abfd478b7640e0f4f20ca, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EmissionStr: 1
+    - _EmissionStr: 10
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:

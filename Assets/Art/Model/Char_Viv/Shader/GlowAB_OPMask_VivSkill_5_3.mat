@@ -24,6 +24,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: d7a3ea5fc70c5dc4da316f346c74b1fe, type: 3}
         m_Scale: {x: 10, y: 0.1}
         m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 3fbb707eb27d46542b65d24e0164b7d6, type: 3}
         m_Scale: {x: 5, y: 2}
@@ -76,6 +80,7 @@ Material:
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0.2, g: -0.5, b: 1, a: 0}
     - _NoisePanner: {r: 0.02, g: -0.2, b: 1, a: 0}

@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 2800000, guid: f8835cd30a1b4ec4b8438fff3b71a012, type: 3}
+        m_Texture: {fileID: 2800000, guid: 194e817d005ce234f83b30adad0ac55a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
@@ -67,7 +67,7 @@ Material:
     - _DissolutionHardness: 1
     - _EdgeEmiss: 1
     - _EdgeWidth: 0.611
-    - _EmissionStr: 3
+    - _EmissionStr: 1
     - _Fade: 0
     - _FadeHardnss: 1
     - _FadeRange: 0.46
@@ -85,8 +85,8 @@ Material:
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Noise2Scale: {r: 2, g: 0.5, b: 0, a: 0}
-    - _NoiseScale: {r: 3, g: 0.5, b: 0, a: 0}
+    - _NoiseScale: {r: 3, g: 1, b: 0, a: 0}
     - _RadialScale: {r: 1, g: 0.5, b: 0, a: 0}
     - _RadialScale2: {r: 2, g: 0.3, b: 0, a: 0}
-    - _RampScale: {r: 1, g: 0.25, b: 0, a: 0}
+    - _RampScale: {r: 2, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []

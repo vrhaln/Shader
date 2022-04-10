@@ -20,17 +20,29 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 2800000, guid: 21b93a22e93caab489ec4fefe73ae7cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _GradientTex:
         m_Texture: {fileID: 2800000, guid: 0ce33015e757db34d81b91228d166bee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
-        m_Scale: {x: 3, y: 0.15}
+        m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 578bf65063b8ccd49a54dfcfd3ceef16, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
         m_Texture: {fileID: 2800000, guid: f9f85f52c5ad25c48955458e0c2ad9a8, type: 3}
@@ -49,12 +61,14 @@ Material:
     - _Dis: 0.25
     - _Dissolution: 1
     - _DissolutionHardness: 0
+    - _Edge: 0
     - _EmissStr: 1
-    - _EmissionStr: 0.5
+    - _EmissionStr: 1.3
     - _Fade: 1
     - _FadeHardnss: 0.3
     - _FadeRange: 1
     - _Hardness: 1
+    - _MainOpacity: 1
     - _NoiseEmissionStr: 2
     - _OneMinus: 0
     - _Opacity: 0.56
@@ -68,10 +82,11 @@ Material:
     m_Colors:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0.4, b: 1, a: 0}
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: -0.2, b: 1, a: 0}
-    - _NoisePanner: {r: 0.2, g: -0.5, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []

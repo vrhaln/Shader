@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shining_2
-  m_Shader: {fileID: 4800000, guid: 5b420e4fd59c02b4485fe3993edfdd05, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
+  m_ShaderKeywords: _UV1_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,16 +19,28 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
+        m_Scale: {x: 2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 2800000, guid: 89609648b6dd11e46bbb56d663098269, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _GradientTex:
         m_Texture: {fileID: 2800000, guid: 0ce33015e757db34d81b91228d166bee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3b199975ce6c5b643939a84baa20fe1b, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
+        m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
@@ -44,12 +56,26 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _EmissionStr: 2
+    - _CullMode: 0
+    - _Dissolution: 1
+    - _Edge: 0
+    - _EmissionStr: 5
+    - _Fade: 1
+    - _FadeHardnss: 0.31
+    - _FadeRange: 3.1
+    - _MainOpacity: 1
+    - _NoiseEmissionStr: 0
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlEmission: 1
+    - _UV2_WContorlOffset: 0
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: -1, b: 1, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexPanner: {r: 0, g: -1, b: 1, a: 0}
+    - _NoisePanner: {r: 0.2, g: -1, b: 1, a: 0}
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []
