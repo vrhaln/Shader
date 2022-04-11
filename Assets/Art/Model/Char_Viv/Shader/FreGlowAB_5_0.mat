@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FreGlowAB_5_0
   m_Shader: {fileID: 4800000, guid: d2f85ab7ccea6724d9e59a027be6b5ee, type: 3}
-  m_ShaderKeywords: _ONEMINUS_ON
+  m_ShaderKeywords: _ONEMINUS_ON _UV1_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -35,6 +35,7 @@ Material:
     - _Hardness: 3.93
     - _OneMinus: 1
     - _Opacity: 1
+    - _UV1_WContorlEmission: 1
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:

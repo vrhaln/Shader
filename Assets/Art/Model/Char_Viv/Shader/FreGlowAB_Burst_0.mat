@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FreGlowAB_Burst_2
+  m_Name: FreGlowAB_Burst_0
   m_Shader: {fileID: 4800000, guid: 9799f8cc4f7fb66449b490d814527cae, type: 3}
-  m_ShaderKeywords: _ONEMINUS_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
+  m_ShaderKeywords: _FADE_ON _ONEMINUS_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _DissolutionTex:
         m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: 20f56775e4c071d47ab0300da9a51cd4, type: 3}
@@ -55,9 +55,9 @@ Material:
     - _Distance: 1.81
     - _Edge: 0
     - _EmissStr: 1
-    - _Fade: 0
-    - _FadeHardnss: 2
-    - _FadeRange: 7
+    - _Fade: 1
+    - _FadeHardnss: 0.88
+    - _FadeRange: 0.74
     - _Hardness: 2.69
     - _InternalFlameEdge: 0
     - _InternalFlameRange: 0.55
@@ -67,13 +67,13 @@ Material:
     - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
     - _VerTexOffsetStr: 128.93
-    - _VertexOffsetStr: 0
+    - _VertexOffsetStr: 10
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _DepthFadeRangeStr: {r: 1, g: 1.2, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 1, g: -5, b: 1, a: 0}
-    - _Fre: {r: 0, g: -1, b: 2, a: 0}
+    - _DissolutionTexPanner: {r: -1, g: -5, b: 1, a: 0}
+    - _Fre: {r: 0, g: 9, b: 7, a: 0}
     - _FreColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPanner: {r: -0.5, g: -5, b: 1, a: 0}

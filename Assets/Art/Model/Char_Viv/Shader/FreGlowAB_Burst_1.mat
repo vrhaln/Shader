@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _DissolutionTex:
         m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
-        m_Scale: {x: 2, y: 1}
+        m_Scale: {x: 4, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: 20f56775e4c071d47ab0300da9a51cd4, type: 3}

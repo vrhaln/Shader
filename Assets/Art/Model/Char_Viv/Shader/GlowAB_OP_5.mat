@@ -52,7 +52,7 @@ Material:
     - _Dissolution: 1
     - _DissolutionHardness: 1
     - _Edge: 0.3935294
-    - _EmissionStr: 1
+    - _EmissionStr: 2
     - _Fade: 0
     - _FadeHardnss: 1
     - _FadeRange: 1
