@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GlowAB_OP_VivSkill_1
   m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
-  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV_TCONTORLDIS_ON
-    _UV_WCONTORLEMISSION_ON
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
+    _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -24,6 +24,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: d7a3ea5fc70c5dc4da316f346c74b1fe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 2800000, guid: 6c4bd7b31c3a4dc4fa0792a443a3174b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d5691991f8ee03f40998c68df3c8ed5c, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -34,6 +38,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: 09eaeab06a5a55246aa7875718ab802b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -59,13 +67,16 @@ Material:
     - _NoiseEmissionStr: 3
     - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
-    - _UV2_WContorlOffset: 0
+    - _UV2_WContorlOffset: 1
     - _UV_TContorlDis: 1
     - _UV_WContorlEmission: 1
+    - _VertexOffsetStr: 1
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: -0.2, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
