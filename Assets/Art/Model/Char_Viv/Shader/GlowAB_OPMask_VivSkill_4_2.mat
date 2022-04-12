@@ -8,20 +8,57 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GlowAB_OPMask_VivSkill_4_2
-  m_Shader: {fileID: 4800000, guid: 64addd3ee4e850e43941367c015ccac0, type: 3}
-  m_ShaderKeywords: _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
+  m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
+    _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: 0f318820bbb515042b24c1eac6466972, type: 3}
+        m_Scale: {x: 3, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 0f318820bbb515042b24c1eac6466972, type: 3}
-        m_Scale: {x: 2, y: 0.1}
+        m_Scale: {x: 3, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex2:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: 0f318820bbb515042b24c1eac6466972, type: 3}
+        m_Scale: {x: 3, y: 0.3}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -34,8 +71,12 @@ Material:
     m_Floats:
     - _CullMode: 2
     - _Cutoff: 0.5
-    - _Dissolution: 1
+    - _Disslove: 0.4878914
+    - _Dissolution: 0
     - _DissolutionHardness: 1
+    - _Edge: 0
+    - _EdgeEmiss: 1
+    - _EdgeWidth: 0.5
     - _EmissionStr: 5
     - _Fade: 0
     - _FadeHardnss: 1
@@ -43,12 +84,28 @@ Material:
     - _FadeRange: 0
     - _Float1: 0.11
     - _Hardness: 0.467
+    - _MainOpacity: 1
+    - _NoiseEmissionStr: 1
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlEmission: 1
+    - _UV2_TContorlOffset: 0
+    - _UV2_WContorlOffset: 1
     - _UV_TContorlDis: 1
     - _UV_WContorlEmission: 1
-    - _VertexOffsetStr: 40
+    - _VertexOffsetIntensity: 0.1
+    - _VertexOffsetStr: 5
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
+    - _DissolutionTexPanner: {r: 0, g: -1.5, b: 1, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: -1.5, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseScale: {r: 1, g: 0.5, b: 0, a: 0}
+    - _RadialScale: {r: 1, g: 1, b: 0, a: 0}
+    - _RadialScale2: {r: 1, g: 1, b: 0, a: 0}
+    - _RampScale: {r: 1, g: 0.5, b: 0, a: 0}
+    - _VerTexOffsetDir: {r: 0, g: 1, b: 0, a: 0}
+    - _VertexNoisePanner: {r: 0, g: -1.5, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: -1.5, b: 1, a: 0}
   m_BuildTextureStacks: []

@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FreGlowAB_3
   m_Shader: {fileID: 4800000, guid: d2f85ab7ccea6724d9e59a027be6b5ee, type: 3}
-  m_ShaderKeywords: _ONEMINUS_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -32,12 +32,13 @@ Material:
     - _Dis: 0.3
     - _EmissStr: 5
     - _Hardness: 1
-    - _OneMinus: 1
+    - _OneMinus: 0
     - _Opacity: 0
+    - _UV1_WContorlEmission: 0
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
-    - _Fre: {r: -1.47, g: 2.31, b: 0.45, a: 0}
+    - _Fre: {r: 1.03, g: 246.8, b: 64.05, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []

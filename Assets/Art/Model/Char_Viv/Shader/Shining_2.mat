@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
-        m_Scale: {x: 2, y: 0.5}
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: 89609648b6dd11e46bbb56d663098269, type: 3}
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b22543dc54d133a469b9919e0ad3ac07, type: 3}
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
         m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
