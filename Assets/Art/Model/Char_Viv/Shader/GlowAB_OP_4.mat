@@ -19,8 +19,28 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: a8beafa0480a8a84fba299e845076ff1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -35,18 +55,27 @@ Material:
     - _CullMode: 0
     - _Dissolution: 1
     - _DissolutionHardness: 1
-    - _EmissionStr: 5
+    - _Edge: 0.3935294
+    - _EmissionStr: 3
     - _Fade: 0
     - _FadeHardnss: 1
     - _FadeRange: 1
     - _Float1: 0.11
     - _Hardness: 0.467
+    - _MainOpacity: 1
+    - _NoiseEmissionStr: 1
+    - _UV1_TContorlDis: 0
+    - _UV1_WContorlEmission: 0
     - _UV2_WContorlOffset: 0
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
+    - _VertexOffsetStr: 1
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
