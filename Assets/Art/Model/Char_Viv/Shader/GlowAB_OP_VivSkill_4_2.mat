@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlowAB_OPMask_VivSkill_4_2
+  m_Name: GlowAB_OP_VivSkill_4_2
   m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
   m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
     _UV_TCONTORLDIS_ON _UV_WCONTORLEMISSION_ON
