@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: GlowAB_OP_Frag
   m_Shader: {fileID: 4800000, guid: 64addd3ee4e850e43941367c015ccac0, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,6 +22,10 @@ Material:
     - _Basemap:
         m_Texture: {fileID: 2800000, guid: 71baf9a8b3df93e46801d20597c94ce2, type: 3}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisTex:
+        m_Texture: {fileID: 2800000, guid: 645518edf84cb50448c25e31658b1d82, type: 3}
+        m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
         m_Texture: {fileID: 0}
@@ -59,7 +63,8 @@ Material:
     - _ColorIntensity: 0
     - _CullMode: 0
     - _Cutoff: 0.5
-    - _Dissolution: 0.8
+    - _Dissolution: 1
+    - _Dissolution1: 1
     - _DissolutionHardness: 1
     - _Edge: 1
     - _EmissStr: 1
@@ -71,7 +76,7 @@ Material:
     - _MainOpacity: 1
     - _NoiseEmissionStr: 1
     - _RisAlpha: 0
-    - _UV1_TContorlDis: 0
+    - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 0
     - _UV2_WContorlOffset: 0
     - _UV_TContorlDis: 0
