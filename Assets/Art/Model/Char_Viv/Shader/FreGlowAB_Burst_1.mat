@@ -75,7 +75,7 @@ Material:
     - _DissolutionTexPanner: {r: -2, g: -5, b: 1, a: 0}
     - _Fre: {r: 0, g: 9, b: 7, a: 0}
     - _FreColor: {r: 0.54668033, g: 0.7468792, b: 0.8584906, a: 1}
-    - _MainColor: {r: 0.13575639, g: 0.0073424703, b: 0.31132078, a: 0}
+    - _MainColor: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPanner: {r: -0.5, g: -5, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: -1, g: -1, b: 1, a: 0}
   m_BuildTextureStacks: []
