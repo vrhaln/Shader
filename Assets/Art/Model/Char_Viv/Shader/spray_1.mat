@@ -79,6 +79,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -102,7 +106,7 @@ Material:
     - _DstBlend: 0
     - _Edge: 1
     - _EmissStr: 3
-    - _EmissionStr: 5.03
+    - _EmissionStr: 7.5
     - _Fade: 1
     - _FadeHardnss: 0.62
     - _FadeRange: 0.76
@@ -128,6 +132,7 @@ Material:
     - _UVSec: 0
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 0
+    - _VertexOffsetStr: 1
     - _ZTestMode: 4
     - _ZWrite: 1
     - __dirty: 0
@@ -140,4 +145,5 @@ Material:
     - _MainColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
     - _MainTexPanner: {r: 0, g: -5, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []

@@ -55749,9 +55749,9 @@ ParticleSystem:
           outWeight: 0.54464287
         - serializedVersion: 3
           time: 0.031552702
-          value: 0.21779306
-          inSlope: -24.79049
-          outSlope: -24.79049
+          value: 0.19874536
+          inSlope: -25.394169
+          outSlope: -25.394169
           tangentMode: 34
           weightedMode: 0
           inWeight: 0.33333334

@@ -31,13 +31,33 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9cd09b91889d8274ea5a2ecde9ec0d0a, type: 3}
         m_Scale: {x: 4, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 2800000, guid: 88644092a973e7243934ef4deb86738d, type: 3}
+        m_Scale: {x: 20, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex2:
+        m_Texture: {fileID: 2800000, guid: 16697fe2c09b70e43b57089fb6f8c2f5, type: 3}
+        m_Scale: {x: 2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex3:
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 3, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _GlowMaskTex:
+        m_Texture: {fileID: 2800000, guid: 20f56775e4c071d47ab0300da9a51cd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowMaskTex1:
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NebulaTex:
-        m_Texture: {fileID: 2800000, guid: a6593136a8ff4d34094ffd0928960e81, type: 3}
-        m_Scale: {x: 8, y: 2}
-        m_Offset: {x: 1.22, y: 0}
+        m_Texture: {fileID: 2800000, guid: 3433162ddc7ee6b4687996d52e67fac4, type: 3}
+        m_Scale: {x: 10, y: 0.05}
+        m_Offset: {x: 0, y: 0}
     - _NoiseMask:
         m_Texture: {fileID: 2800000, guid: efccf27a2e7dd4a4c9a7b81f565bc7df, type: 3}
-        m_Scale: {x: 16, y: 4}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SkyMap:
         m_Texture: {fileID: 2800000, guid: 39302b5e80781ea43b4175b991b083f9, type: 3}
@@ -54,18 +74,27 @@ Material:
     m_Floats:
     - _Cloud1: 1
     - _Cloud2: -1.5
+    - _EmissionIntensity: 80
     - _Float0: 1
-    - _Float1: 1.3
-    - _Float2: 100
-    - _Intensity: 0.4
+    - _Float1: -0.04
+    - _Float2: 42.9
+    - _HoriazonGlow: 3.2
+    - _Intensity: 2
+    - _MaskPower: 4
+    - _Range: 2
     - _SkyFogOffset: 0.8
     - _StarIntensity: 100
     - __dirty: 0
     m_Colors:
     - _CloudSpeed: {r: -0.005, g: -0.01, b: 0, a: 0}
     - _CloudSpeed2: {r: -0.02, g: -0.01, b: 0, a: 0}
-    - _FogColor: {r: 0.29512706, g: 0.11258457, b: 0.4339623, a: 0}
+    - _EmissionTex2Panner: {r: 0, g: -0.5, b: 1, a: 0}
+    - _EmissionTex3Panner: {r: 0, g: -0.2, b: 1, a: 0}
+    - _EmissionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _FogColor: {r: 0.41111374, g: 0.2728729, b: 0.7924528, a: 0}
+    - _NebulaTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
-    - _SkyFogOffset: {r: 0, g: 2, b: 0, a: 0}
+    - _SkyFogOffset: {r: 8.55, g: 9.48, b: 0, a: 0}
     - _Speed: {r: 0.005, g: 0, b: 0, a: 0}
     - _Vector0: {r: 0, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []

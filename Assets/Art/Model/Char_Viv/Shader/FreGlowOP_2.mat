@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _EmissStr: 4
+    - _EmissStr: 20
     - _FreOn: 0
     - _ZTestMode: 8
     - __dirty: 0

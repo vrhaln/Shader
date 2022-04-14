@@ -18,7 +18,7 @@ MonoBehaviour:
     MainTabIndex:
       valueInternal: 0
     PoseToolPivotMode:
-      valueInternal: 1
+      valueInternal: 0
     PoseToolMode:
       valueInternal: 1
     PoseMirrorMode:
