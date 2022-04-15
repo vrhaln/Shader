@@ -283,7 +283,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0.03
       minScalar: 0.02
       maxCurve:
@@ -336,9 +336,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0.01
-      minScalar: 0.05
+      minScalar: 0.02
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -389,7 +389,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -2076,23 +2076,23 @@ ParticleSystem:
     speedModifier:
       serializedVersion: 2
       minMaxState: 2
-      scalar: 4.879988
+      scalar: 2.7056699
       minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.07999864
-          inSlope: 0
-          outSlope: 0
+          value: 0.07999867
+          inSlope: 2.4926562
+          outSlope: 2.4926562
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
-          outWeight: 0
+          outWeight: 0.135255
         - serializedVersion: 3
           time: 1
-          value: 1
+          value: 0.16571432
           inSlope: 2
           outSlope: 2
           tangentMode: 0
@@ -2107,7 +2107,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.46285757
+          value: 0.32493347
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2116,7 +2116,7 @@ ParticleSystem:
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 1
+          value: 0.16571432
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2736,11 +2736,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 0
+    enabled: 1
     strength:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 2.8538256
+      scalar: 1.9897722
       minScalar: 1
       maxCurve:
         serializedVersion: 2

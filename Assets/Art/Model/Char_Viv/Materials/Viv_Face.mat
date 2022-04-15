@@ -103,7 +103,7 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DisturIntensity: 0.0025
+    - _DisturIntensity: 0
     - _DstBlend: 0
     - _EmisStr: 1
     - _EyeEmissStr: 0
@@ -121,7 +121,7 @@ Material:
     - _PIxIntensity: 0.961
     - _Parallax: 0.02
     - _Pix: 25.62
-    - _PixStr: 50
+    - _PixStr: 0
     - _Power: 7
     - _ScanlineIntensity: 0.019
     - _ShdowIntensity: 1
@@ -158,3 +158,4 @@ Material:
     - _ScanTexTiling2: {r: 1, g: 100, b: 0, a: 0}
     - _ShaowColor: {r: 0.086274505, g: 0.2696881, b: 0.29411766, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
+  m_BuildTextureStacks: []
