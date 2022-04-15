@@ -29,7 +29,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Tex:
         m_Texture: {fileID: 2800000, guid: e26cf22f8c9746d40b85289d87d0f184, type: 3}
-        m_Scale: {x: 100, y: 100}
+        m_Scale: {x: 200, y: 200}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -64,14 +64,14 @@ Material:
     - _StepFactor: 0.6
     - _StepFactorK: 0.5
     - _TexAR: 1
-    - _TexAlpha: 0.02
+    - _TexAlpha: 0.05
     - _TexRotator: 0.075
     - _VignettePower: 1.693
     - _VignettePowerK: 1.5
     - _VignetteScale: 1.7
     - _VignetteScaleK: 1.5
-    - _centerU: 0.55
-    - _centerV: 0.5
+    - _centerU: 0.5
+    - _centerV: 0
     - _zhenfu: 0
     - _zhenfuK: 0
     - _zhenpin: 0

@@ -5,6 +5,7 @@ ShaderImporter:
   defaultTextures:
   - _SDFFaceLightmap: {fileID: 2800000, guid: 165dda08aa18ecb4b9e19a2fc6f84f4b, type: 3}
   nonModifiableTextures: []
+  preprocessorOverride: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

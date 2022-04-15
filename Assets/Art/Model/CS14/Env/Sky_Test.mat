@@ -74,12 +74,12 @@ Material:
     m_Floats:
     - _Cloud1: 1
     - _Cloud2: -1.5
-    - _EmissionIntensity: 80
+    - _EmissionIntensity: 50
     - _Float0: 1
     - _Float1: -0.04
     - _Float2: 42.9
     - _HoriazonGlow: 3.2
-    - _Intensity: 2
+    - _Intensity: 0.2
     - _MaskPower: 4
     - _Range: 2
     - _SkyFogOffset: 0.8
