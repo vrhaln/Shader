@@ -10,7 +10,7 @@ Material:
   m_Name: Viv_Body_1
   m_Shader: {fileID: 4800000, guid: 269a84e9732651c49a0e2b86bc887ab7, type: 3}
   m_ShaderKeywords: _FREONEMINUS_ON
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -44,9 +44,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: -0.94}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 0.25, y: 1}
-        m_Offset: {x: 0.25, y: 0}
+        m_Texture: {fileID: 2800000, guid: 36f42ee6b39ca3145be7336ea7620e4d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MatCapTex:
         m_Texture: {fileID: 2800000, guid: 7ad6f39daccc4314999cf8fbccdc3880, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmoothTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 36f42ee6b39ca3145be7336ea7620e4d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmoothnessTex:
@@ -134,7 +134,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.9245283, g: 0.8285522, b: 0.75445, a: 1}
     - _EmissionColor: {r: 0.20472418, g: 0.019607829, b: 0.62352943, a: 1}
@@ -145,5 +145,6 @@ Material:
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 7.8, b: 1.2, a: 0}
     - _ScanColor: {r: 0.38232803, g: 0, b: 1, a: 1}
-    - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShaowColor: {r: 0.8679245, g: 0.53631186, b: 0.74747276, a: 1}
     - _SmoothnessMaxMin: {r: 0.999, g: 0.001, b: 0, a: 0}
+  m_BuildTextureStacks: []

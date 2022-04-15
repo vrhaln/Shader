@@ -155,7 +155,7 @@ Material:
     - _FreScalePower: {r: 0.3, g: 1.75, b: 2.5, a: 0}
     - _FreScanTexPanner: {r: 0, g: 2, b: 1, a: 0}
     - _FreScanTexTiling: {r: 1, g: 50, b: 0, a: 0}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.63529414, g: 0.82745105, b: 0.7686275, a: 1}
     - _RChannelPanner: {r: 0, g: 2, b: 1, a: 0}
     - _RChannelPanner1: {r: 0, g: 20, b: 1, a: 0}
     - _RChannelPanner2: {r: 0, g: 1, b: 1, a: 0}

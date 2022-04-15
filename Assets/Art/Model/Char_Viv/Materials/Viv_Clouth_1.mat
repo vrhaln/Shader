@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Viv_Clouth_1
   m_Shader: {fileID: 4800000, guid: 5d96e5a3898bf3546b666e92f82eef6f, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _RCHANELISALPHA_ON
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,8 +36,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmisTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: f0cb532f0ed3f2944ba4c2a1fd924a6b, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f0cb532f0ed3f2944ba4c2a1fd924a6b, type: 3}
+        m_Texture: {fileID: 2800000, guid: e2f6d7f666b845f4ab53b2ff8185cc43, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex1:
@@ -120,16 +120,16 @@ Material:
     - _IOR: 7
     - _InnerEmissStr: 0.08
     - _MainEmisStr: 2
-    - _MatCapIntensity: 1.49
+    - _MatCapIntensity: 7
     - _MatCapIntensity1: 1.49
     - _Metallic: 0
     - _Mode: 3
     - _Mul: 1.4
     - _OcclusionStrength: 1
-    - _Opacity: 0.5
+    - _Opacity: 0.865
     - _Parallax: 0.02
     - _Power: 2.5
-    - _RChanelIsAlpha: 1
+    - _RChanelIsAlpha: 0
     - _ShdowIntensity: 0.35
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
@@ -144,8 +144,8 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FreColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel: {r: 0, g: 0.5, b: 1.5, a: 0}
-    - _IORColor: {r: 0, g: 0.07240491, b: 0.504, a: 1}
-    - _InnerEmissStr: {r: 0.25, g: 2, b: 0, a: 0}
+    - _IORColor: {r: 0.12984478, g: 0.09131362, b: 0.33962262, a: 1}
+    - _InnerEmissStr: {r: 0, g: 20, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor1: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -156,3 +156,4 @@ Material:
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
     - _Vector0: {r: 0.1, g: 2, b: 0, a: 0}
     - _Vector1: {r: 1, g: 1.75, b: 0, a: 0}
+  m_BuildTextureStacks: []
