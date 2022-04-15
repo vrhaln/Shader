@@ -70,8 +70,8 @@ Material:
     - _VignettePowerK: 1.5
     - _VignetteScale: 1.7
     - _VignetteScaleK: 1.5
-    - _centerU: 0.5
-    - _centerV: 0
+    - _centerU: 0.55
+    - _centerV: 0.5
     - _zhenfu: 0
     - _zhenfuK: 0
     - _zhenpin: 0
