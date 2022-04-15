@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Viv_Clouth_1
   m_Shader: {fileID: 4800000, guid: 5d96e5a3898bf3546b666e92f82eef6f, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _RCHANELISALPHA_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmisTex:
-        m_Texture: {fileID: 2800000, guid: f0cb532f0ed3f2944ba4c2a1fd924a6b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 743484554b45bf34caa7657ade706bf6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 1ef873e94bdd29e408d495dfbc12fd01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 612d95fa3389144449ca65eb4b4b094d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -88,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmoothTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 743484554b45bf34caa7657ade706bf6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmoothnessTex:
@@ -120,18 +120,18 @@ Material:
     - _IOR: 7
     - _InnerEmissStr: 0.08
     - _MainEmisStr: 2
-    - _MatCapIntensity: 7
+    - _MatCapIntensity: 0.1
     - _MatCapIntensity1: 1.49
     - _Metallic: 0
     - _Mode: 3
     - _Mul: 1.4
     - _OcclusionStrength: 1
-    - _Opacity: 0.865
+    - _Opacity: 0.6
     - _Parallax: 0.02
     - _Power: 2.5
-    - _RChanelIsAlpha: 0
-    - _ShdowIntensity: 0.35
-    - _Smoothness: 1
+    - _RChanelIsAlpha: 1
+    - _ShdowIntensity: 0
+    - _Smoothness: 0.746
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -144,15 +144,15 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FreColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel: {r: 0, g: 0.5, b: 1.5, a: 0}
-    - _IORColor: {r: 0.12984478, g: 0.09131362, b: 0.33962262, a: 1}
+    - _IORColor: {r: 0.06666667, g: 0.019607844, b: 0.62352943, a: 1}
     - _InnerEmissStr: {r: 0, g: 20, b: 0, a: 0}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.33194205, g: 0.2901961, b: 0.5764706, a: 1}
     - _MainColor1: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseTiling1: {r: 0.5, g: 0.9, b: 0, a: 0}
     - _NoiseTiling2: {r: 1.81, g: 1, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 2, b: 0.35, a: 0}
-    - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShaowColor: {r: 0.16078432, g: 0.16470589, b: 0.29411766, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
     - _Vector0: {r: 0.1, g: 2, b: 0, a: 0}
     - _Vector1: {r: 1, g: 1.75, b: 0, a: 0}

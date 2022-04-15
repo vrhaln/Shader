@@ -157,7 +157,7 @@ Material:
     - _Fresnel: {r: 0, g: 2.69, b: 0.35, a: 0}
     - _IORColor: {r: 0.21333212, g: 0.57581407, b: 0.8867924, a: 1}
     - _InnerEmissStr: {r: 0.1, g: 2, b: 0, a: 0}
-    - _MainColor: {r: 1, g: 0, b: 0.76233673, a: 1}
+    - _MainColor: {r: 0.77170247, g: 0.2028302, b: 1, a: 1}
     - _NoisePanner: {r: 0, g: 0.05, b: 1, a: 0}
     - _NoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _NoiseTiling1: {r: 0.1, g: 0.1, b: 0, a: 0}
@@ -167,3 +167,4 @@ Material:
     - _ShaowColor: {r: 0.16140084, g: 0.16469921, b: 0.2924528, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
     - _Vector0: {r: 0.1, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []
