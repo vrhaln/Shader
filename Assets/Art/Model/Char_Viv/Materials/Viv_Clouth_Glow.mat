@@ -36,8 +36,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmisTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 21c21b70a3522a54f9fca75e5f9ddec2, type: 3}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScanTex:
-        m_Texture: {fileID: 2800000, guid: 21c21b70a3522a54f9fca75e5f9ddec2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2ef51388c05f48942ae53b2cd6f73d55, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _ScanlineTex:
@@ -113,9 +113,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AEmisStr: 5.03
-    - _AnimaEmisStr: 0
+    - _AnimaEmisStr: 1
     - _BEmisStr: 2.23
-    - _BaseEmissStr: 10
+    - _BaseEmissStr: 5
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -123,7 +123,7 @@ Material:
     - _EmissionIntensity: 1
     - _FreIntensity: 2.57
     - _FreOneMinus: 1
-    - _FreStr: 0.15
+    - _FreStr: 0.3
     - _GlossMapScale: 1
     - _Glossiness: 0.783
     - _GlossyReflections: 1
@@ -158,17 +158,18 @@ Material:
     - _EmissionColor: {r: 0.7058824, g: 0, b: 0.1780933, a: 1}
     - _Fre: {r: 0, g: 0.93, b: 0.22, a: 0}
     - _FreColor: {r: 0.38039216, g: 0, b: 1, a: 1}
-    - _Fresnel: {r: 0, g: 1, b: 2, a: 0}
+    - _Fresnel: {r: 0, g: 1, b: 0.3, a: 0}
     - _IORColor: {r: 0.71650016, g: 0.5424528, b: 1, a: 1}
     - _InnerEmissStr: {r: 0.1, g: 2, b: 0, a: 0}
     - _MainColor: {r: 0.3019608, g: 0.36078432, b: 0.50980395, a: 1}
     - _MatCapIntensityMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
-    - _NoisePanner: {r: 0, g: 0.05, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: -0.05, b: 1, a: 0}
     - _NoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _NoiseTiling1: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _NoiseTiling2: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 2, b: 1.46, a: 0}
-    - _ScanColor: {r: 0.039248828, g: 0.4237552, b: 0.9245283, a: 1}
+    - _ScanColor: {r: 0.2641509, g: 0.2641509, b: 0.2641509, a: 1}
+    - _ScanPanner: {r: 0, g: -0.05, b: 1, a: 0}
     - _ShaowColor: {r: 0.16140084, g: 0.16469921, b: 0.2924528, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
     - _Vector0: {r: 0.1, g: 2, b: 0, a: 0}

@@ -1732,6 +1732,7 @@ MonoBehaviour:
   - {fileID: -6742347170090343139}
   - {fileID: 8517513989953767584}
   - {fileID: 8724762242000809739}
+  - {fileID: 4124763942161573496}
   - {fileID: 3165340342188747196}
   - {fileID: 3801161416598334520}
   - {fileID: 7157355540591409093}
@@ -4483,7 +4484,6 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: -492378383484088246}
   - {fileID: 1862901145536865779}
-  - {fileID: 4124763942161573496}
   m_FixedDuration: 9.85
   m_EditorSettings:
     m_Framerate: 60
@@ -5541,7 +5541,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -6642546113645018818}
   m_Children: []
   m_Clips: []
   m_Markers:
