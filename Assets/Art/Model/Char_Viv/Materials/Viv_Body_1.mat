@@ -71,6 +71,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -132,6 +136,7 @@ Material:
     - _Parallax: 0.02
     - _Power: 5
     - _ReflectIntensity: 1
+    - _ScanIntensity: 1
     - _ScanlineIntensity: 1
     - _ShdowIntensity: 0.8
     - _Smoothness: 0.85
@@ -153,7 +158,8 @@ Material:
     - _NoisePanner: {r: 0, g: -0.05, b: 1, a: 0}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 7.8, b: 1.2, a: 0}
-    - _ScanColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+    - _ScanColor: {r: 0.30170456, g: 0.2035867, b: 0.5754717, a: 1}
+    - _ScanTexPanner: {r: 0, g: -0.05, b: 1, a: 0}
     - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SmoothnessMaxMin: {r: 0.999, g: 0.001, b: 0, a: 0}
   m_BuildTextureStacks: []
