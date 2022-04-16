@@ -154,7 +154,7 @@ Material:
     - _Power: 2.5
     - _RChanelIsAlpha: 0
     - _ReflectIntensity: 1
-    - _ScanlineIntensity: 0.5
+    - _ScanlineIntensity: 1
     - _ShdowIntensity: 1
     - _Smoothness: 0.65
     - _SmoothnessTextureChannel: 0

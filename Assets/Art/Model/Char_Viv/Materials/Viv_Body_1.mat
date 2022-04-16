@@ -160,6 +160,6 @@ Material:
     - _ReflectFre: {r: 0, g: 7.8, b: 1.2, a: 0}
     - _ScanColor: {r: 0.30170456, g: 0.2035867, b: 0.5754717, a: 1}
     - _ScanTexPanner: {r: 0, g: -0.05, b: 1, a: 0}
-    - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShaowColor: {r: 0.1866329, g: 0.15881987, b: 0.4056604, a: 1}
     - _SmoothnessMaxMin: {r: 0.999, g: 0.001, b: 0, a: 0}
   m_BuildTextureStacks: []
