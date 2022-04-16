@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Viv_Clouth_2
   m_Shader: {fileID: 4800000, guid: 5d96e5a3898bf3546b666e92f82eef6f, type: 3}
-  m_ShaderKeywords: _FREONEMINUS_ON
+  m_ShaderKeywords: _FREONEMINUS_ON _RCHANELISALPHA_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 1ef873e94bdd29e408d495dfbc12fd01, type: 3}
+        m_Texture: {fileID: 2800000, guid: ab0f21a74fec8694fbf6290094566ae5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -103,6 +103,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: ab0f21a74fec8694fbf6290094566ae5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: ab0f21a74fec8694fbf6290094566ae5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: ab0f21a74fec8694fbf6290094566ae5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -113,12 +125,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AEmisStr: 2
+    - _AnimaEmisStr: 1
     - _BEmisStr: 1.58
+    - _BaseEmissStr: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionIntensity: 3
+    - _Float5: 1
     - _FreIntensity: 0.79
     - _FreOneMinus: 1
     - _FreStr: 2.11
@@ -127,7 +142,7 @@ Material:
     - _GlossyReflections: 1
     - _IOR: 3.8
     - _MainEmisStr: 0.36
-    - _MatCapIntensity: 1.49
+    - _MatCapIntensity: 1
     - _MatCapIntensity1: 1
     - _Metallic: 0.153
     - _Mode: 0
@@ -137,6 +152,7 @@ Material:
     - _Parallax: 0.02
     - _Power: 2.5
     - _RChanelIsAlpha: 1
+    - _ReflectIntensity: 0.5
     - _ScanlineIntensity: 0.408
     - _ShdowIntensity: 1
     - _Smoothness: 1
@@ -145,22 +161,26 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.45662355, g: 0, b: 1, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
     - _Fre: {r: 0, g: 5, b: 2.59, a: 0}
     - _FreColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel: {r: 0, g: 2.69, b: 0.35, a: 0}
     - _IORColor: {r: 0, g: 0.9357207, b: 1, a: 1}
     - _MainColor: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 1}
+    - _MatCapIntensityMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
     - _NoisePanner: {r: 0, g: 0.2, b: 1, a: 0}
     - _NoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _NoiseTiling1: {r: 0.5, g: 0.9, b: 0, a: 0}
     - _NoiseTiling2: {r: 1.81, g: 1, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 2, b: 0.35, a: 0}
     - _ScanColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - _ScanPanner: {r: 0, g: 0, b: 0, a: 0}
     - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}
+  m_BuildTextureStacks: []

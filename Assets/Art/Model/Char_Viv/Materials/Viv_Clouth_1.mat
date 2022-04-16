@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 2800000, guid: 612d95fa3389144449ca65eb4b4b094d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ab0f21a74fec8694fbf6290094566ae5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -103,6 +103,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -123,6 +135,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _EmisStr: 0.112
+    - _Float5: 1
     - _FreStr: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 1
@@ -136,14 +149,14 @@ Material:
     - _Mode: 3
     - _Mul: 1.4
     - _OcclusionStrength: 1
-    - _Opacity: 1
+    - _Opacity: 0.7
     - _Parallax: 0.02
     - _Power: 2.5
     - _RChanelIsAlpha: 0
     - _ReflectIntensity: 1
     - _ScanlineIntensity: 0.5
     - _ShdowIntensity: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.65
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

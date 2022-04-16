@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ab0f21a74fec8694fbf6290094566ae5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -127,7 +127,7 @@ Material:
     - _Glossiness: 0.783
     - _GlossyReflections: 1
     - _MainEmisStr: 2.49
-    - _MatCapIntensity: 0.5
+    - _MatCapIntensity: 1
     - _MatCapIntensity1: 0.15
     - _Metallic: 0
     - _Mode: 0
@@ -139,7 +139,7 @@ Material:
     - _ScanIntensity: 1
     - _ScanlineIntensity: 1
     - _ShdowIntensity: 0.8
-    - _Smoothness: 0.85
+    - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -147,14 +147,14 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0.52762645, g: 0.34193662, b: 0.6415094, a: 1}
+    - _BaseColor: {r: 0.36396104, g: 0.3326362, b: 0.6132076, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0.9245283, g: 0.8285522, b: 0.75445, a: 1}
     - _EmissionColor: {r: 0.08182418, g: 0, b: 0.3301887, a: 1}
     - _Fre: {r: 0, g: 1, b: 2, a: 0}
     - _FreColor: {r: 0.092114635, g: 0.10093251, b: 0.2830189, a: 1}
     - _MainColor: {r: 1, g: 0.24056602, b: 0.68374276, a: 1}
-    - _MatCapIntensityMaxMin: {r: 0.5, g: 0.05, b: 0, a: 0}
+    - _MatCapIntensityMaxMin: {r: 0.3, g: 0.05, b: 0, a: 0}
     - _NoisePanner: {r: 0, g: -0.05, b: 1, a: 0}
     - _NoiseSpeed: {r: 0.15, g: -0.1, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 7.8, b: 1.2, a: 0}
