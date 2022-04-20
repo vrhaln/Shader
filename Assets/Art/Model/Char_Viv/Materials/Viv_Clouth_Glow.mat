@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _IORTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 21c21b70a3522a54f9fca75e5f9ddec2, type: 3}
         m_Scale: {x: 0.5, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -84,8 +84,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScanTex:
-        m_Texture: {fileID: 2800000, guid: 2ef51388c05f48942ae53b2cd6f73d55, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
+        m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _ScanlineTex:
         m_Texture: {fileID: 2800000, guid: 45db4550c9596b74398792135dd62612, type: 3}
@@ -140,10 +140,10 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.783
     - _GlossyReflections: 1
-    - _IOR: 3
+    - _IOR: 5
     - _InnerEmissStr: 0.5
     - _MainEmisStr: 0
-    - _MatCapIntensity: 0.2
+    - _MatCapIntensity: 1
     - _MatCapIntensity1: 1.49
     - _Metallic: 0
     - _Mode: 0
@@ -153,7 +153,7 @@ Material:
     - _Parallax: 0.02
     - _Power: 2.5
     - _RChanelIsAlpha: 0
-    - _ReflectIntensity: 0.5
+    - _ReflectIntensity: 0.75
     - _ScanlineIntensity: 1
     - _ShdowIntensity: 1
     - _Smoothness: 1
@@ -181,7 +181,7 @@ Material:
     - _NoiseTiling1: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _NoiseTiling2: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _ReflectFre: {r: 0, g: 2, b: 1.46, a: 0}
-    - _ScanColor: {r: 0.2641509, g: 0.2641509, b: 0.2641509, a: 1}
+    - _ScanColor: {r: 0.14905262, g: 0.093157895, b: 0.177, a: 1}
     - _ScanPanner: {r: 0, g: -0.05, b: 1, a: 0}
     - _ShaowColor: {r: 0.16140084, g: 0.16469921, b: 0.2924528, a: 1}
     - _SmoothnessMaxMin: {r: 0.95, g: 0.01, b: 0, a: 0}

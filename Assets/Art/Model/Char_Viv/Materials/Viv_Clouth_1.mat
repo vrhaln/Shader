@@ -88,8 +88,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScanTex:
-        m_Texture: {fileID: 2800000, guid: 6fda4a099411a18468456111546c16ee, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
+        m_Scale: {x: 1, y: 2}
         m_Offset: {x: 0, y: 0}
     - _SmoothTex:
         m_Texture: {fileID: 0}
@@ -180,7 +180,7 @@ Material:
     - _NoiseTiling1: {r: 0.5, g: 0.9, b: 0, a: 0}
     - _NoiseTiling2: {r: 1.81, g: 1, b: 0, a: 0}
     - _ReflectFre: {r: 1, g: 2, b: 0.05, a: 0}
-    - _ScanColor: {r: 0.504717, g: 0.5680811, b: 1, a: 1}
+    - _ScanColor: {r: 0.45755544, g: 0.2943396, b: 0.9433962, a: 1}
     - _ScanPanner: {r: -0.1, g: 0, b: 1, a: 0}
     - _ShaowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SmoothnessMaxMin: {r: 0.999, g: 0.001, b: 0, a: 0}
