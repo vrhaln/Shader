@@ -1229,6 +1229,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: spray_1
       objectReference: {fileID: 0}
+    - target: {fileID: 411402843040638654, guid: a3fa85cfe940e6b48a9b39f4d90f22da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 411402843040638655, guid: a3fa85cfe940e6b48a9b39f4d90f22da,
         type: 3}
       propertyPath: m_RootOrder
@@ -3384,7 +3389,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506423734}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f6a92266e6523bb4cb38230891db2f74, type: 2}
   m_CullingMode: 0
@@ -3858,6 +3863,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: spray_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 411402843040638654, guid: a3fa85cfe940e6b48a9b39f4d90f22da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 411402843040638655, guid: a3fa85cfe940e6b48a9b39f4d90f22da,
         type: 3}
@@ -40409,6 +40419,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VivSkill_3
       objectReference: {fileID: 0}
+    - target: {fileID: 3229317403059188378, guid: a756a7da98cf0e84b95c10f1f67f5524,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3229317403474490564, guid: a756a7da98cf0e84b95c10f1f67f5524,
         type: 3}
       propertyPath: m_Enabled
@@ -40698,6 +40713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: spray_2_Once
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907140058320482578, guid: 75de31a5f7a08d04cb87ed2975e41bb0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4444258131621431271, guid: 75de31a5f7a08d04cb87ed2975e41bb0,
         type: 3}
@@ -50747,6 +50767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VivSkill_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4478881785047443852, guid: c2a145bb5d545d44dba496df00ddb213,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4478881785047443854, guid: c2a145bb5d545d44dba496df00ddb213,
         type: 3}
@@ -79983,6 +80008,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VivSkill_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5548110902754148501, guid: dcadf5ee251e3624d9b5e2a37d3457f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6575058476494987266, guid: dcadf5ee251e3624d9b5e2a37d3457f3,
         type: 3}
       propertyPath: m_Enabled
@@ -80073,6 +80103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: spray_3_Once
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428592929875073994, guid: 481c86f8360b5994599bc7b1957d3b44,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5161022421113495102, guid: 481c86f8360b5994599bc7b1957d3b44,
         type: 3}
@@ -80445,12 +80480,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'Bip002 R Finger21'\n\tTransform 'Bip002 L UpperArm'\n\tTransform
-    'Bip002 L Finger21'\n\tTransform 'Bip002 R Finger2'\n\tTransform 'Bip002 L Clavicle'\n\tTransform
-    'Bip002 Head'\n\tTransform 'Bip002 R Toe0'\n\tTransform 'Bip002 L Finger0'\n\tTransform
-    'Bip002 R Hand'\n\tTransform 'Bip002 L Calf'\n\tand more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -81500,6 +81530,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7591625188083117102, guid: 0e7dbfa8290734944a027af44f51c6ea,
+        type: 3}
+      propertyPath: _blurSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591625188083117102, guid: 0e7dbfa8290734944a027af44f51c6ea,
+        type: 3}
+      propertyPath: _downsample
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7591625188083117102, guid: 0e7dbfa8290734944a027af44f51c6ea,
+        type: 3}
+      propertyPath: _blurIterations
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7591625188201192104, guid: 0e7dbfa8290734944a027af44f51c6ea,
         type: 3}
       propertyPath: m_RootOrder
