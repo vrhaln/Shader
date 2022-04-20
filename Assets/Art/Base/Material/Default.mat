@@ -155,6 +155,7 @@ Material:
     - _InsideShaowColor: {r: 0, g: 0, b: 0, a: 0}
     - _InsideskinColor: {r: 0.6969161, g: 1, b: 0, a: 0}
     - _ScanlineColor: {r: 0, g: 0, b: 0, a: 0}
-    - _ShaowColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShaowColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
     - _SurfaceBaseColor: {r: 0, g: 0, b: 0, a: 0}
     - _SurfaceShaowColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
