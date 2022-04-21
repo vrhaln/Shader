@@ -16755,7 +16755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &1144666047
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -17074,7 +17074,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 8.94
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -21594,7 +21594,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144666046}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.69, z: 0.87}
+  m_LocalPosition: {x: 0, y: 6.08, z: 0.87}
   m_LocalScale: {x: 1, y: 1.3762, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -28627,7 +28627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &1853525779
 ParticleSystemRenderer:
   serializedVersion: 6
