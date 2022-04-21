@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wave_1
+  m_Name: Action4_Wave_1
   m_Shader: {fileID: 4800000, guid: 3751b7c81d45b7748b10fcf00c83d029, type: 3}
   m_ShaderKeywords: _FADE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
     _UV_WCONTORLEMISSION_ON
