@@ -64,7 +64,7 @@ Material:
     - _StepFactor: 0.6
     - _StepFactorK: 0.5
     - _TexAR: 1
-    - _TexAlpha: 0.05
+    - _TexAlpha: 0.015
     - _TexRotator: 0.075
     - _VignettePower: 1.693
     - _VignettePowerK: 1.5

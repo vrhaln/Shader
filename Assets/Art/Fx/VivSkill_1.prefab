@@ -28,8 +28,7 @@ Transform:
   m_LocalRotation: {x: -0.45451936, y: -0.5416753, z: -0.5416753, w: 0.45451936}
   m_LocalPosition: {x: -0.017, y: -0.063, z: -0.001}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 5437076227032111981}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 80, z: -180.00002}
@@ -4395,32 +4394,32 @@ ParticleSystem:
     vector0_1:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1.3
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.003933629
-          value: 0
-          inSlope: 0.28128526
-          outSlope: 5.1600714
+          time: 0.0039336267
+          value: 1
+          inSlope: -0.28128526
+          outSlope: -6.60257
           tangentMode: 1
           weightedMode: 0
           inWeight: 0
-          outWeight: 0.2986441
+          outWeight: 0.3289616
         - serializedVersion: 3
-          time: 0.38513705
-          value: 0.92735994
-          inSlope: 0.45557448
-          outSlope: 0.45557448
+          time: 0.21440531
+          value: 0.1610386
+          inSlope: -0.5440855
+          outSlope: -0.5440855
           tangentMode: 136
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
           time: 0.64172226
-          value: 1
+          value: 0.074285746
           inSlope: 0
           outSlope: 0
           tangentMode: 136
@@ -4428,8 +4427,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.9096122
-          value: 1
+          time: 1
+          value: 0.074285746
           inSlope: 0
           outSlope: 0
           tangentMode: 136
@@ -4929,88 +4928,3 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!1001 &5548110904518065286
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5548110902754148498}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_Name
-      value: Fx_Mesh_VivSkill_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d69e8a7f618e5d347a0c9fbb03b8afec, type: 3}
---- !u!4 &5437076227032111981 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d69e8a7f618e5d347a0c9fbb03b8afec,
-    type: 3}
-  m_PrefabInstance: {fileID: 5548110904518065286}
-  m_PrefabAsset: {fileID: 0}
