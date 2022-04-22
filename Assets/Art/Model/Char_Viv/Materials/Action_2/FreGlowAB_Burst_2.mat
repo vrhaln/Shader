@@ -52,6 +52,7 @@ Material:
     - _Dis: -1.3
     - _Dissolution: 0
     - _DissolutionEdge: 0
+    - _DissolutionHardness: 1
     - _Distance: 1.81
     - _Edge: 0
     - _EmissStr: 1
@@ -77,5 +78,6 @@ Material:
     - _FreColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPanner: {r: -0.5, g: -5, b: 1, a: 0}
+    - _UVTwist: {r: 0, g: 0, b: 0, a: 0}
     - _VertexOffsetTexPanner: {r: -1, g: -1, b: 1, a: 0}
   m_BuildTextureStacks: []

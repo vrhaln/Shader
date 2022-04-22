@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 17b55ec1d4143644cb93517cd4b785cd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex1:
@@ -52,12 +52,13 @@ Material:
     - _Dis: -1.3
     - _Dissolution: 0
     - _DissolutionEdge: 0
+    - _DissolutionHardness: 0.63518816
     - _Distance: 1.81
     - _Edge: 0
     - _EmissStr: 1
     - _Fade: 1
     - _FadeHardnss: 0.88
-    - _FadeRange: 0.74
+    - _FadeRange: -0.5
     - _Hardness: 2.69
     - _InternalFlameEdge: 0
     - _InternalFlameRange: 0.55

@@ -65,7 +65,7 @@ Material:
     - _Dis: 0.25
     - _Dissolution: 1
     - _DissolutionHardness: 0
-    - _Edge: 0
+    - _Edge: 0.174
     - _EmissStr: 1
     - _EmissionStr: 1.3
     - _Fade: 1
@@ -87,7 +87,7 @@ Material:
     m_Colors:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: 0.4, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: -0.4, b: 1, a: 0}
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: -0.2, b: 1, a: 0}
