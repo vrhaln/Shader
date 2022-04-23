@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Action4_pattern_Circuit_1
   m_Shader: {fileID: 4800000, guid: 215a42f8f8f52674bbd97ac444c3a9c5, type: 3}
-  m_ShaderKeywords: _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON _UV_WCONTORLEMISSION_ON
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
+    _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -52,8 +53,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 0.5, y: 3}
+        m_Texture: {fileID: 2800000, guid: 366d45e960c8c7c4195edae3195a2a69, type: 3}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
@@ -100,10 +101,10 @@ Material:
     - _MainDisturbStr: 0
     - _MainOpacity: 1
     - _MaskDisturbStr: 0
-    - _NoiseEmissionStr: 1
+    - _NoiseEmissionStr: 0.3
     - _OneMinus: 0
     - _Opacity: 0.56
-    - _UV1_TContorlDis: 0
+    - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
     - _UV2_TContorlFlow: 0
     - _UV2_WContorlOffset: 1
@@ -128,6 +129,7 @@ Material:
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: -3, b: 1, a: 0}
+    - _NoiseTexPanner: {r: 0, g: 0.1, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}

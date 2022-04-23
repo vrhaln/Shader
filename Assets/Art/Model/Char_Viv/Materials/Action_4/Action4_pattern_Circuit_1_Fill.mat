@@ -21,8 +21,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: 645518edf84cb50448c25e31658b1d82, type: 3}
-        m_Scale: {x: 0.1, y: 1}
+        m_Texture: {fileID: 2800000, guid: f2649ea14bdac774590ec7a34b9272a4, type: 3}
+        m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 0}
@@ -53,8 +53,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 366d45e960c8c7c4195edae3195a2a69, type: 3}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
@@ -83,7 +83,7 @@ Material:
     - _Dissolution: 1
     - _DissolutionHardness: 0
     - _DissolutionTexOneMinus: 0
-    - _DissolveHardness: 0.259
+    - _DissolveHardness: 0
     - _Edge: 0
     - _EdgeEmissStr: 1
     - _EmissStr: 1
@@ -101,7 +101,7 @@ Material:
     - _MainDisturbStr: 0
     - _MainOpacity: 1
     - _MaskDisturbStr: 0
-    - _NoiseEmissionStr: 1
+    - _NoiseEmissionStr: 0.3
     - _OneMinus: 0
     - _Opacity: 0.56
     - _UV1_TContorlDis: 1
@@ -120,15 +120,16 @@ Material:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: -0.1, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0.1, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
-    - _MainColor: {r: 0.63941485, g: 0.38042897, b: 0.9716981, a: 1}
+    - _MainColor: {r: 0.39515093, g: 0.43016025, b: 0.71599996, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: -3, b: 1, a: 0}
+    - _NoiseTexPanner: {r: 0, g: 0.2, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
