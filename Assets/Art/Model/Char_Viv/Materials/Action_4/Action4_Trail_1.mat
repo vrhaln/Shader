@@ -87,7 +87,7 @@ Material:
     - _VertexOffsetIntensity: 1
     - _VertexOffsetStr: 20
     - _ZTestMode: 4
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
