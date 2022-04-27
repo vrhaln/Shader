@@ -22,20 +22,20 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: e7cad1b770d00d545a6d5872e65ea7cc, type: 3}
-        m_Scale: {x: 2, y: 1}
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 5, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 2800000, guid: 22ebc0de30a41d147a02739165871c48, type: 3}
-        m_Scale: {x: 1, y: 0.15}
+        m_Scale: {x: 5, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 2800000, guid: 1eae6143ce30e2849b37136524e197f0, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: c491c62ea881a034b90547cb6bea2ff3, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: f2654231bb5218947bc48f8c7d0fed59, type: 3}
+        m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
         m_Texture: {fileID: 2800000, guid: ecd4beee12339f34193b443b45873f16, type: 3}
@@ -63,18 +63,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 4, y: 0.5}
+        m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: e1fba066ef5caf14aadbdc1ba71962de, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 6b1d9a7c88f13da409d66f98ee5080ac, type: 3}
+        m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 60a5d1bc92039e84e95740e39ae130d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 391c4cc7e989ad340a4a005177c40824, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
@@ -83,7 +83,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
         m_Texture: {fileID: 2800000, guid: bd1c52d775c09284eb17c646f4981cf0, type: 3}
-        m_Scale: {x: 8, y: 2}
+        m_Scale: {x: 8, y: 3}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -96,7 +96,7 @@ Material:
     m_Floats:
     - _CullMode: 0
     - _Dis: 0.25
-    - _DissDisturbStr: 0.1
+    - _DissDisturbStr: 0.2
     - _Dissolution: 1
     - _DissolutionDisturbStr: 0.1
     - _DissolutionHardness: 0
@@ -109,19 +109,19 @@ Material:
     - _EmissionStr: 1
     - _Fade: 1
     - _FadeHardnss: 1
-    - _FadeRange: -0.01
+    - _FadeRange: 0.94
     - _FadeSoft: 1
     - _Float10: 5
     - _FreFadeOn: 0
     - _Hardness: 1
-    - _InnerEmissHardness: 0.093
-    - _InnerEmissRange: 0.672
-    - _InnerEmissStr: 30
+    - _InnerEmissHardness: 0
+    - _InnerEmissRange: 0.692
+    - _InnerEmissStr: 10
     - _InnerEmissStrRange: 1.01
-    - _MainDisturbStr: 0.1
+    - _MainDisturbStr: 0
     - _MainOpacity: 1
-    - _MaskDisturbStr: 0.2
-    - _NoiseEmissionStr: 2
+    - _MaskDisturbStr: 0.05
+    - _NoiseEmissionStr: 3
     - _NoiseTiling: 10
     - _OneMinus: 0
     - _Opacity: 0.56
@@ -141,13 +141,14 @@ Material:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _ColumnsRows: {r: 4, g: 4, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: -0.7, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: -1, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: -1, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: -0.5, b: 1, a: 0}
+    - _EdgeEmissColor: {r: 0.5770255, g: 0.4764151, b: 1, a: 0}
     - _Fre: {r: 0, g: 8.43, b: 3.14, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainTexPanner: {r: 0, g: 0, b: 0, a: 0}
-    - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MainTexPanner: {r: -1, g: -3, b: 1, a: 0}
+    - _MaskTexPanner: {r: -3, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 1, g: 1, b: 15, a: 0}
     - _NoisePanner: {r: 1, g: 1, b: 10, a: 0}
     - _NoiseTiling: {r: 5, g: 5, b: 0, a: 0}
