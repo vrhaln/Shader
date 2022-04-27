@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Action4_Circuit_1_Combine_1
+  m_Shader: {fileID: 4800000, guid: 215a42f8f8f52674bbd97ac444c3a9c5, type: 3}
+  m_ShaderKeywords: _UV1_WCONTORLEMISSION_ON _UV_WCONTORLEMISSION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 2800000, guid: 0ce33015e757db34d81b91228d166bee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 5993b1a8a23cc4a4a947ae39e2c062ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 366d45e960c8c7c4195edae3195a2a69, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: f9f85f52c5ad25c48955458e0c2ad9a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: efccf27a2e7dd4a4c9a7b81f565bc7df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CullMode: 0
+    - _Dis: 0.25
+    - _DissDisturbStr: 0
+    - _Dissolution: 1
+    - _DissolutionHardness: 0
+    - _DissolutionTexOneMinus: 0
+    - _DissolveHardness: 0.49
+    - _Edge: 0
+    - _EdgeEmissStr: 1
+    - _EmissStr: 1
+    - _EmissionStr: 5
+    - _Fade: 0
+    - _FadeHardnss: 0.3
+    - _FadeRange: 1.51
+    - _FadeSoft: 1
+    - _Float6: 0.2
+    - _FreFadeOn: 0
+    - _Hardness: 1
+    - _InnerEmissHardness: 0.5
+    - _InnerEmissRange: 0.5
+    - _InnerEmissStr: 0
+    - _MainDisturbStr: 0
+    - _MainOpacity: 1
+    - _MaskDisturbStr: 0
+    - _NoiseEmissionStr: 0.3
+    - _OneMinus: 0
+    - _Opacity: 0.56
+    - _UV1_TContorlDis: 0
+    - _UV1_WContorlEmission: 1
+    - _UV2_TContorlFlow: 0
+    - _UV2_WContorlOffset: 0
+    - _UVFadeRange: 0.74
+    - _UV_TContorlDis: 0
+    - _UV_WContorlEmission: 1
+    - _VFade: 0
+    - _VertexOffsetIntensity: 0.2
+    - _VertexOffsetStr: 0
+    - _ZTestMode: 4
+    - __dirty: 0
+    m_Colors:
+    - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
+    - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
+    - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
+    - _DissDisturbStr: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _Fre: {r: 0, g: 1, b: 5, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: -3, b: 1, a: 0}
+    - _NoiseTexPanner: {r: 0, g: 0.1, b: 1, a: 0}
+    - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
+    - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
+    - _VerTexOffsetDir: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexNoisePanner: {r: 0, g: -1, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []
