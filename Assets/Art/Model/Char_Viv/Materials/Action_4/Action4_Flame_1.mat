@@ -22,8 +22,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 5, y: 0.5}
+        m_Texture: {fileID: 2800000, guid: eb0dd708adbf5b948b68f4d614ec6c28, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 2800000, guid: 22ebc0de30a41d147a02739165871c48, type: 3}
@@ -34,7 +34,7 @@ Material:
         m_Scale: {x: 5, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: f2654231bb5218947bc48f8c7d0fed59, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21b93a22e93caab489ec4fefe73ae7cb, type: 3}
         m_Scale: {x: 3, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
@@ -109,12 +109,12 @@ Material:
     - _EmissionStr: 1
     - _Fade: 1
     - _FadeHardnss: 1
-    - _FadeRange: 0.94
-    - _FadeSoft: 1
+    - _FadeRange: 0.308
+    - _FadeSoft: 0.692
     - _Float10: 5
     - _FreFadeOn: 0
     - _Hardness: 1
-    - _InnerEmissHardness: 0
+    - _InnerEmissHardness: 0.294
     - _InnerEmissRange: 0.692
     - _InnerEmissStr: 10
     - _InnerEmissStrRange: 1.01
@@ -141,7 +141,7 @@ Material:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _ColumnsRows: {r: 4, g: 4, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: -1, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: -1, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: -0.5, b: 1, a: 0}
     - _EdgeEmissColor: {r: 0.5770255, g: 0.4764151, b: 1, a: 0}
