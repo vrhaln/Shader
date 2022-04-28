@@ -148,7 +148,7 @@ Material:
     - _Disturb2Panner: {r: 0, g: -0.5, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: -0.5, b: 1, a: 0}
     - _EdgeEmissColor: {r: 0, g: 0.83862734, b: 1, a: 0}
-    - _Fre: {r: 0, g: 5, b: 2, a: 0}
+    - _Fre: {r: 0, g: 2.5, b: 2, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: -3, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: -1, b: 1, a: 0}
