@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Action4_Circuit_2_Combine_1
   m_Shader: {fileID: 4800000, guid: 215a42f8f8f52674bbd97ac444c3a9c5, type: 3}
-  m_ShaderKeywords: _UV1_WCONTORLEMISSION_ON _UV_WCONTORLEMISSION_ON
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,8 +20,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 2}
+        m_Texture: {fileID: 2800000, guid: 0d261e2e514e59f44926bc1744b6ecc1, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 0}
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0d261e2e514e59f44926bc1744b6ecc1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 366d45e960c8c7c4195edae3195a2a69, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0d261e2e514e59f44926bc1744b6ecc1, type: 3}
         m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
@@ -82,11 +82,11 @@ Material:
     - _Dissolution: 1
     - _DissolutionHardness: 0
     - _DissolutionTexOneMinus: 0
-    - _DissolveHardness: 0.49
+    - _DissolveHardness: 0
     - _Edge: 0
     - _EdgeEmissStr: 1
     - _EmissStr: 1
-    - _EmissionStr: 5
+    - _EmissionStr: 1
     - _Fade: 0
     - _FadeHardnss: 0.3
     - _FadeRange: 1.51
@@ -94,16 +94,16 @@ Material:
     - _Float6: 0.2
     - _FreFadeOn: 0
     - _Hardness: 1
-    - _InnerEmissHardness: 0.5
+    - _InnerEmissHardness: 0
     - _InnerEmissRange: 0.5
     - _InnerEmissStr: 0
     - _MainDisturbStr: 0
     - _MainOpacity: 1
     - _MaskDisturbStr: 0
-    - _NoiseEmissionStr: 0.3
+    - _NoiseEmissionStr: 1
     - _OneMinus: 0
     - _Opacity: 0.56
-    - _UV1_TContorlDis: 0
+    - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
     - _UV2_TContorlFlow: 0
     - _UV2_WContorlOffset: 0
