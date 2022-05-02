@@ -124,7 +124,7 @@ Material:
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
-    - _MainColor: {r: 1, g: 0, b: 0.13618708, a: 1}
+    - _MainColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
