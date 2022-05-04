@@ -37,11 +37,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 2800000, guid: 3a8b30a75a3856245afd57ac76343a8c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 85a2f071572615d4c85d2b18fef78126, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: fde817294a5b8bc45820eac6b2d6db88, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef93ef2a8e469e044bfea25514cbf105, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex2:

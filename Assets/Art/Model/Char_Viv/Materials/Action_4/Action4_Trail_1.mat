@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 0.75, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientColorTex:
-        m_Texture: {fileID: 2800000, guid: 0bb44997bda7c4847b887acc4f058487, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientTex:
@@ -33,15 +33,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c70e618e1f189574a85c52c1b04118d1, type: 3}
+        m_Texture: {fileID: 2800000, guid: e2166ac22f8757344b2957381da8abe4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 931c243e9bcc40645a23ac41ef939988, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 0.5, y: 2}
+        m_Scale: {x: 1, y: 3}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 391c4cc7e989ad340a4a005177c40824, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
@@ -84,8 +88,8 @@ Material:
     - _UVFadeRange: 1
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
-    - _VertexOffsetIntensity: 1
-    - _VertexOffsetStr: 20
+    - _VertexOffsetIntensity: 0.5
+    - _VertexOffsetStr: 5
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:

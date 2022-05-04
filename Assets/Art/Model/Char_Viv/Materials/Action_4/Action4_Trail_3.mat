@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 0.01, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _GradientColorTex:
-        m_Texture: {fileID: 2800000, guid: 0bb44997bda7c4847b887acc4f058487, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientTex:
@@ -36,6 +36,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5409f6fbb3d55594193248423d494096, type: 3}
         m_Scale: {x: 1, y: 0.2}
         m_Offset: {x: 0, y: 0.1}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NoiseTex:
         m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
         m_Scale: {x: 0.5, y: 2}

@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 0.75, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientColorTex:
-        m_Texture: {fileID: 2800000, guid: 0bb44997bda7c4847b887acc4f058487, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientTex:
@@ -34,6 +34,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: e2166ac22f8757344b2957381da8abe4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: c491c62ea881a034b90547cb6bea2ff3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
@@ -84,8 +88,8 @@ Material:
     - _UVFadeRange: 0.74
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
-    - _VertexOffsetIntensity: 1
-    - _VertexOffsetStr: 20
+    - _VertexOffsetIntensity: 0.5
+    - _VertexOffsetStr: 3.03
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
