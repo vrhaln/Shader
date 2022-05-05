@@ -22,8 +22,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: eb0dd708adbf5b948b68f4d614ec6c28, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 4, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 2800000, guid: 22ebc0de30a41d147a02739165871c48, type: 3}
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 6b1d9a7c88f13da409d66f98ee5080ac, type: 3}
+        m_Texture: {fileID: 2800000, guid: ab8eb6bf978638b42a54b4a6317c3371, type: 3}
         m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
@@ -114,7 +114,7 @@ Material:
     - _Float10: 5
     - _FreFadeOn: 0
     - _Hardness: 1
-    - _InnerEmissHardness: 0.294
+    - _InnerEmissHardness: 0.49
     - _InnerEmissRange: 0.692
     - _InnerEmissStr: 10
     - _InnerEmissStrRange: 1.01
@@ -134,21 +134,24 @@ Material:
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
     - _VFade: 1
+    - _VertexFadeRange: 1
+    - _VertexFadeSoft: 1
     - _VertexOffsetStr: -5
+    - _VertexVFade: 0
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
     - _ColumnsRows: {r: 4, g: 4, b: 0, a: 0}
     - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: -3, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: -1, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: -0.5, b: 1, a: 0}
     - _EdgeEmissColor: {r: 0.5770255, g: 0.4764151, b: 1, a: 0}
     - _Fre: {r: 0, g: 8.43, b: 3.14, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: -1, g: -3, b: 1, a: 0}
-    - _MaskTexPanner: {r: -3, g: 0, b: 1, a: 0}
+    - _MaskTexPanner: {r: -1, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 1, g: 1, b: 15, a: 0}
     - _NoisePanner: {r: 1, g: 1, b: 10, a: 0}
     - _NoiseTiling: {r: 5, g: 5, b: 0, a: 0}
