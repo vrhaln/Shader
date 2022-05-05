@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ring_3
+  m_Shader: {fileID: 4800000, guid: 085527f5f1274bf4ab2739ad5bdf88d9, type: 3}
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Basemap:
+        m_Texture: {fileID: 2800000, guid: 71baf9a8b3df93e46801d20597c94ce2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: 76c16e696feea174bbad63f2cc9b7988, type: 3}
+        m_Scale: {x: 1, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 94ac03d7845378c44b051d4c437fe9a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: b8599c4baec202142a92b88954aaf92e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorIntensity: 0
+    - _CullMode: 0
+    - _DissDisturbStr: 0
+    - _Dissolution: 1
+    - _DissolutionHardness: 1
+    - _DissolutionSoft: 1
+    - _DissolutionTexOneMinus: 0
+    - _DissolveHardness: 0.3935294
+    - _Edge: 0.3935294
+    - _EdgeEmissStr: 1
+    - _EmissStr: 1
+    - _EmissionStr: 1
+    - _Fade: 0
+    - _FadeHardnss: 1
+    - _FadeRange: 1
+    - _FadeSoft: 1
+    - _FreFadeOn: 0
+    - _InnerEmissHardness: 0.5
+    - _InnerEmissRange: 0.5
+    - _InnerEmissStr: 0
+    - _MainDisturbStr: 0
+    - _MainOpacity: 1
+    - _MaskDisturbStr: 0
+    - _NoiseEmissionStr: 1
+    - _RisAlpha: 0
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlEmission: 1
+    - _UV2_TContorlFlow: 0
+    - _UV2_WContorlOffset: 0
+    - _UV_TContorlDis: 0
+    - _UV_WContorlEmission: 0
+    - _VFade: 0
+    - _VerTexOffsetStr: 1
+    - _VertexFadeRange: 1
+    - _VertexFadeSoft: 1
+    - _VertexOffsetStr: 0
+    - _VertexVFade: 0
+    - _ZTestMode: 8
+    - __dirty: 0
+    m_Colors:
+    - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Fre: {r: 0, g: 1, b: 5, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Panner: {r: 0, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

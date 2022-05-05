@@ -109,7 +109,7 @@ Material:
     - _EmissionStr: 1
     - _Fade: 1
     - _FadeHardnss: 1
-    - _FadeRange: -0.15
+    - _FadeRange: -0.26
     - _FadeSoft: 1
     - _Float10: 5
     - _FreFadeOn: 1
