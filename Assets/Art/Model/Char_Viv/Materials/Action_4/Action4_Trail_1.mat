@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Action4_Trail_1
   m_Shader: {fileID: 4800000, guid: 058d6a63a93cdf54b8d2d712d0091491, type: 3}
-  m_ShaderKeywords: _FADE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
     _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -22,7 +22,7 @@ Material:
     m_TexEnvs:
     - _DissolutionTex:
         m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 0.75, y: 1}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientColorTex:
         m_Texture: {fileID: 0}
@@ -33,11 +33,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e2166ac22f8757344b2957381da8abe4, type: 3}
+        m_Texture: {fileID: 2800000, guid: c70e618e1f189574a85c52c1b04118d1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 931c243e9bcc40645a23ac41ef939988, type: 3}
+        m_Texture: {fileID: 2800000, guid: c491c62ea881a034b90547cb6bea2ff3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoiseTex:
@@ -73,7 +73,7 @@ Material:
     - _Edge: 0
     - _EmissStr: 1
     - _EmissionStr: 1
-    - _Fade: 1
+    - _Fade: 0
     - _FadeHardnss: 3
     - _FadeRange: 0
     - _Float6: 0.2
@@ -88,8 +88,8 @@ Material:
     - _UVFadeRange: 1
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
-    - _VertexOffsetIntensity: 0.5
-    - _VertexOffsetStr: 5
+    - _VertexOffsetIntensity: 0.1
+    - _VertexOffsetStr: 10
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
@@ -103,5 +103,5 @@ Material:
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
     - _VerTexOffsetDir: {r: 0, g: 0, b: 0, a: 0}
-    - _VertexNoisePanner: {r: 0, g: -0.2, b: 1, a: 0}
+    - _VertexNoisePanner: {r: 0, g: -0.1, b: 1, a: 0}
   m_BuildTextureStacks: []

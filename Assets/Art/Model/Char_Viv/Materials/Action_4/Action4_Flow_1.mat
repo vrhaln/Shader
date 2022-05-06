@@ -53,8 +53,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
-        m_Texture: {fileID: 2800000, guid: e0b1a7120d476a041aae28d8a94395cd, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Texture: {fileID: 2800000, guid: afb2deec13565ff4887ad169fc406753, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -89,7 +89,7 @@ Material:
     - _UV_TContorlDis: 0
     - _UV_WContorlEmission: 1
     - _VertexOffsetIntensity: 0.1
-    - _VertexOffsetStr: 2
+    - _VertexOffsetStr: 1
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
@@ -102,6 +102,6 @@ Material:
     - _NoisePanner: {r: 0, g: -1, b: 1, a: 0}
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
-    - _VerTexOffsetDir: {r: 1, g: 1, b: 0, a: 0}
+    - _VerTexOffsetDir: {r: 1, g: 1, b: 1, a: 0}
     - _VertexNoisePanner: {r: 0, g: -0.2, b: 1, a: 0}
   m_BuildTextureStacks: []

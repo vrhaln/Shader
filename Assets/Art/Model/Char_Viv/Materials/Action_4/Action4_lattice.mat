@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Action4_lattice
   m_Shader: {fileID: 4800000, guid: 058d6a63a93cdf54b8d2d712d0091491, type: 3}
-  m_ShaderKeywords: _FADE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
     _UV_WCONTORLEMISSION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -36,9 +36,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: ab8eb6bf978638b42a54b4a6317c3371, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 39b54b302ebc56a4ba66a7f8466b122a, type: 3}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 62264991f621b774fa0ef0114b8c33c4, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
@@ -68,8 +72,8 @@ Material:
     - _DissolutionSoft: 0.3935294
     - _Edge: 0
     - _EmissStr: 1
-    - _EmissionStr: 11.84
-    - _Fade: 1
+    - _EmissionStr: 2
+    - _Fade: 0
     - _FadeHardnss: 0.1
     - _FadeRange: 0.25
     - _Float6: 0.2
@@ -95,7 +99,7 @@ Material:
     - _Fre: {r: 0, g: 1, b: 5, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 0.2, b: 1, a: 0}
     - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
     - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
     - _VerTexOffsetDir: {r: 3.07, g: 1.6, b: -0.07, a: 0}
