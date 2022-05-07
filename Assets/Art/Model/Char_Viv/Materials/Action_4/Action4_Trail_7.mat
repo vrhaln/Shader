@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Action4_Trail_7
+  m_Shader: {fileID: 4800000, guid: 98e6cf9d14988e54dbd79e6f1fe180cd, type: 3}
+  m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2_WCONTORLOFFSET_ON
+    _UV_WCONTORLEMISSION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: 6c09b691485bdf947b4512e8379b51d5, type: 3}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientColorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 2800000, guid: 0ce33015e757db34d81b91228d166bee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 5584c114c5bc9db4cb8df9395176d9f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: da2150fdbd9743b4a9ce23c537eeb33b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: f9f85f52c5ad25c48955458e0c2ad9a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CullMode: 0
+    - _Dis: 0.25
+    - _Dissolution: 1
+    - _DissolutionHardness: 0
+    - _DissolutionSoft: 0.583
+    - _Edge: 0
+    - _EmissStr: 1
+    - _EmissionStr: 1
+    - _Fade: 0
+    - _FadeHardnss: 3
+    - _FadeRange: 0
+    - _Float6: 0.2
+    - _Hardness: 1
+    - _MainOpacity: 1
+    - _NoiseEmissionStr: 1
+    - _OneMinus: 0
+    - _Opacity: 0.56
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlEmission: 1
+    - _UV2_WContorlOffset: 1
+    - _UVFadeRange: 1
+    - _UV_TContorlDis: 0
+    - _UV_WContorlEmission: 1
+    - _VertexOffsetIntensity: 0.1
+    - _VertexOffsetStr: 3
+    - _ZTestMode: 4
+    - __dirty: 0
+    m_Colors:
+    - _CenterGlowRangeStr: {r: 0.85, g: 10, b: 0, a: 0}
+    - _DepthFadeRangeStr: {r: 1, g: 0.2, b: 0, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 1, b: 1, a: 0}
+    - _Fre: {r: 0, g: 1, b: 5, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0, g: 1, b: 1, a: 0}
+    - _RingPanner: {r: 0.1, g: 10, b: 0, a: 0}
+    - _ShiningTiling: {r: 2, g: 0.3, b: 0, a: 0}
+    - _VerTexOffsetDir: {r: 0.38, g: 0.07, b: 0, a: 0}
+    - _VertexNoisePanner: {r: 0, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
