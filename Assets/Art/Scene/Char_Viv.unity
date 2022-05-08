@@ -25746,7 +25746,7 @@ PrefabInstance:
     - target: {fileID: 2628383999171886930, guid: 4dc7cdc966acfb64eb9667d523747920,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.034
+      value: -0.023
       objectReference: {fileID: 0}
     - target: {fileID: 2628383999171886930, guid: 4dc7cdc966acfb64eb9667d523747920,
         type: 3}
@@ -75836,6 +75836,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VivSkill_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5548110902754148501, guid: dcadf5ee251e3624d9b5e2a37d3457f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcadf5ee251e3624d9b5e2a37d3457f3, type: 3}
 --- !u!4 &5548110904109514503 stripped
@@ -76298,12 +76303,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'Bip002 R Finger21'\n\tTransform 'Bip002 L UpperArm'\n\tTransform
-    'Bip002 L Finger21'\n\tTransform 'Bip002 R Finger2'\n\tTransform 'Bip002 L Clavicle'\n\tTransform
-    'Bip002 Head'\n\tTransform 'Bip002 R Toe0'\n\tTransform 'Bip002 L Finger0'\n\tTransform
-    'Bip002 R Hand'\n\tTransform 'Bip002 L Calf'\n\tand more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -78016,11 +78016,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7306085491716960723, guid: 1022e8c3733f0954b9dc8c48e45485d1,
-        type: 3}
-      propertyPath: randomSeed
-      value: 1173
-      objectReference: {fileID: 0}
     - target: {fileID: 8981802460965051572, guid: 1022e8c3733f0954b9dc8c48e45485d1,
         type: 3}
       propertyPath: m_RootOrder

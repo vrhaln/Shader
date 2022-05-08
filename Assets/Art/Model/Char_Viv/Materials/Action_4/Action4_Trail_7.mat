@@ -69,7 +69,7 @@ Material:
     - _Dis: 0.25
     - _Dissolution: 1
     - _DissolutionHardness: 0
-    - _DissolutionSoft: 0.583
+    - _DissolutionSoft: 0.81
     - _Edge: 0
     - _EmissStr: 1
     - _EmissionStr: 1
