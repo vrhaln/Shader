@@ -86,7 +86,7 @@ Material:
     - _FlowRange2: 2
     - _FlowSoft: 0.81
     - _HoriazonGlow: 3.2
-    - _Intensity: 0.05
+    - _Intensity: 0.3
     - _MaskPower: 4
     - _Range: 2
     - _SkyFogOffset: 0.8

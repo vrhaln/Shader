@@ -109,7 +109,7 @@ Material:
     - _Parallax: 0.02
     - _ParallaxDepth: 0.2
     - _Range: -12
-    - _RefIntensity: 0.2
+    - _RefIntensity: 1
     - _ShadowRange: 0
     - _ShadowSoft: 1
     - _Smoothness: 1
@@ -141,7 +141,7 @@ Material:
     - _MainColor: {r: 0.28492072, g: 0.251289, b: 0.36900002, a: 0}
     - _MirrorUVBias: {r: 0, g: 0, b: 0, a: 0}
     - _NoiseSpeed: {r: 0.02, g: -0.1, b: 0, a: 0}
-    - _ShaowColor: {r: 0.8, g: 0.8, b: 0.8, a: 0}
+    - _ShaowColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0}
     - light_color: {r: 0.84313726, g: 0.7254902, b: 0.36078432, a: 1}
     - light_dir: {r: 0.5, g: 0.6, b: 0.2, a: 0}
     - shallow_color: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}

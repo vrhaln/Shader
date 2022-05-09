@@ -57,6 +57,7 @@ Material:
     - _Cutoff: 0.5
     - _Dissolution: 1
     - _DissolutionHardness: 0.9
+    - _DissolutionSoft: 1
     - _Edge: 0
     - _EmissionStr: 2
     - _Fade: 0
