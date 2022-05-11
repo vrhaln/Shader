@@ -74,6 +74,7 @@ Material:
     - _Disslove: 0.4878914
     - _Dissolution: 0
     - _DissolutionHardness: 0.51
+    - _DissolutionSoft: 0.931
     - _Edge: 0
     - _EdgeEmiss: 1
     - _EdgeWidth: 0.5

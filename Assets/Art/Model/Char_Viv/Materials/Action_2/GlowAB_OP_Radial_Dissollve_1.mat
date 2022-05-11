@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 2800000, guid: a78f6e568171f03499ccfe9757ad85bb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 97a01faa90009344fa01b3591f074dcc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
@@ -90,7 +90,7 @@ Material:
     m_Colors:
     - _Color0: {r: 0.7924528, g: 0.13082945, b: 0.13082945, a: 1}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _DissolutionTexRampScale: {r: 0.5, g: 0.1, b: 0, a: 0}
+    - _DissolutionTexRampScale: {r: 1.31, g: 0.62, b: 0, a: 0}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Noise2Scale: {r: 2, g: 0.5, b: 0, a: 0}
