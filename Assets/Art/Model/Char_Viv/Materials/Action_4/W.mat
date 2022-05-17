@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3002
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -151,7 +151,7 @@ Material:
     - _VFade: 0
     - _VertexOffsetIntensity: 0.1
     - _VertexOffsetStr: 2
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
