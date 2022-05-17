@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: 87e6295c89c24a841818393decf52aa0, type: 3}
-        m_Scale: {x: 50, y: 50}
+        m_Texture: {fileID: 2800000, guid: 398e4e6b30b1eac45a3a8322d2e3dae8, type: 3}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _Nosie:
-        m_Texture: {fileID: 2800000, guid: 0a4c77e4c2a232547856bd376a6b3a82, type: 3}
+        m_Texture: {fileID: 2800000, guid: a1489e09c59a5c44797bedf50264d64c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RT:
@@ -40,12 +40,14 @@ Material:
     - _Float0: 0.2
     - _Float1: 0.4
     - _Float2: 0.8
-    - _Range: -0.22
+    - _Range: -0.03
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
+    - _MainColor: {r: 7.381377, g: 11.295743, b: 14.259478, a: 1}
     - _RadialCenter: {r: 1, g: 1, b: 0, a: 0}
     - _RadialTiling: {r: 10, g: 1, b: 0, a: 0}
+    - _RadialTilingOffSet: {r: 10, g: 1, b: 0, a: 0.36}
     - _Vector0: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
