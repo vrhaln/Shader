@@ -151,7 +151,7 @@ Material:
     - _VFade: 0
     - _VertexOffsetIntensity: 0.1
     - _VertexOffsetStr: 2
-    - _ZTestMode: 4
+    - _ZTestMode: 8
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:

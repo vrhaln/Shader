@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3002
+  m_CustomRenderQueue: 3003
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -40,14 +40,14 @@ Material:
     - _Float0: 0.2
     - _Float1: 0.4
     - _Float2: 0.8
-    - _Range: -0.03
+    - _Range: 0
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
     - _MainColor: {r: 7.381377, g: 11.295743, b: 14.259478, a: 1}
     - _RadialCenter: {r: 1, g: 1, b: 0, a: 0}
     - _RadialTiling: {r: 10, g: 1, b: 0, a: 0}
-    - _RadialTilingOffSet: {r: 10, g: 1, b: 0, a: 0.36}
+    - _RadialTilingOffSet: {r: 20, g: 1, b: 0, a: 0.36}
     - _Vector0: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Vector2: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
