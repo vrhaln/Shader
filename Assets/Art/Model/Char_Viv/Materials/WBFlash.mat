@@ -40,7 +40,7 @@ Material:
     - _Float0: 0.2
     - _Float1: 0.4
     - _Float2: 0.8
-    - _Range: 0
+    - _Range: 0.2
     - _ZTestMode: 8
     - __dirty: 0
     m_Colors:
