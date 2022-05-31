@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _B:
-        m_Texture: {fileID: 2800000, guid: 89609648b6dd11e46bbb56d663098269, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Change: 0.458
+    - _Change: 0.526
     - _Float0: 0.18
     - _Float1: 0.711
     - _OneMinus: 0
@@ -46,7 +46,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _RotationCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Tliling: {r: 45.5, g: 10, b: 0, a: 0}
+    - _Tliling: {r: 10, g: 10, b: 0, a: 0}
     - _Tliling1: {r: 54.5, g: 10, b: 0, a: 0}
     - _Vector0: {r: 0.16, g: 0.06, b: 0, a: 0}
     - _Vector1: {r: 0.63, g: 0.5, b: 0, a: 0}
