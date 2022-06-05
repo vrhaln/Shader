@@ -108,7 +108,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ParallaxDepth: 0.2
-    - _Range: -45.8
+    - _Range: -20
     - _RefIntensity: 1
     - _ShadowRange: 0
     - _ShadowSoft: 1
@@ -136,7 +136,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 0.07843138, g: 0.3921569, b: 0.7843137, a: 1}
     - _EmissionColor: {r: 0.1308295, g: 0.1476181, b: 0.5660378, a: 1}
-    - _FadeColor: {r: 0.08627451, g: 0.043137256, b: 0.22745098, a: 1}
+    - _FadeColor: {r: 0.04705883, g: 0.03529412, b: 0.08235294, a: 1}
     - _FogColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 0.135, g: 0.120000005, b: 0.15, a: 0}
     - _MirrorUVBias: {r: 0, g: 0, b: 0, a: 0}

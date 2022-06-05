@@ -17,17 +17,48 @@ public class TransportClass : MonoBehaviour
     public Vector3 direction = new Vector3(0, 0, 1);
     public float transportDistance = 1;
     public GameObject Effect;
+    //public GameObject targetB;
+    public Camera cam;
+    public float rotateSpeed = 0.2f;
+    public float speed = 1;
+    public Transform cameradir;
 
+
+    bool doOnce;
     float amct;
     float t;
     bool isdown = false;
-    bool doOnce;
 
 
     void Update()
     {
-        mat.SetFloat("_Transport", 3);
+        //当在传送过程中,位移,方向,旋转都被禁止
+        //if(isdown == false )//不在传送过程中,才执行
+        {
 
+            //位移
+            transform.position += Input.GetAxis("Horizontal") * cameradir.right * speed;
+            transform.position += Input.GetAxis("Vertical") * cameradir.forward * speed;
+
+        //方向
+        //1.获取摄像机，使用摄像机的ScreenPointToRay方法来创造一个Ray射线
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+
+        //2.使用Raycast使Ray射线发生碰撞,并在碰撞方法中Out一个命中信息hitinfo
+        //  Physics.raycast(线,命中信息输出,线碰撞长度,层Mask)
+        Physics.Raycast(ray, out RaycastHit infohit, 1500, LayerMask.GetMask("Plane"));
+
+        //3.命中信息中,获取到的点(point,就是命中的position)
+        Vector3 hitposition = infohit.point;
+
+        //4.使用碰撞点作为向量计算B点
+        Vector3 target = Vector3.Normalize(hitposition - this.transform.position);//物体朝向鼠标的方向
+        transform.forward = Vector3.Lerp(transform.forward, target, rotateSpeed);
+
+        }
+
+
+        //传送
         if (Input.GetMouseButtonDown(0))
         {
             Effect.SetActive(false);
