@@ -33,12 +33,12 @@ public class TransportClass : MonoBehaviour
     void Update()
     {
         //当在传送过程中,位移,方向,旋转都被禁止
-        //if(isdown == false )//不在传送过程中,才执行
+        if(isdown == false )//不在传送过程中,才执行
         {
 
-            //位移
-            transform.position += Input.GetAxis("Horizontal") * cameradir.right * speed;
-            transform.position += Input.GetAxis("Vertical") * cameradir.forward * speed;
+        //位移
+        transform.position += Input.GetAxis("Horizontal") * cameradir.right * speed;
+        transform.position += Input.GetAxis("Vertical") * cameradir.forward * speed;
 
         //方向
         //1.获取摄像机，使用摄像机的ScreenPointToRay方法来创造一个Ray射线
