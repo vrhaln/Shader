@@ -129,6 +129,8 @@ Material:
     - _Pix: 25.62
     - _PixStr: 50
     - _Power: 4.61
+    - _RimOffset: 0.7
+    - _RimPower: 0.35
     - _ScanlineIntensity: 0.019
     - _ShadowRange: 0.65
     - _ShadowSoft: 0.51

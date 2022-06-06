@@ -5680,7 +5680,7 @@ MonoBehaviour:
   Effect: {fileID: 4214406208394755490}
   cam: {fileID: 25056757}
   rotateSpeed: 0.3
-  speed: 0.15
+  speed: 0.1
   cameradir: {fileID: 1761685817}
 --- !u!4 &1078023005
 Transform:
