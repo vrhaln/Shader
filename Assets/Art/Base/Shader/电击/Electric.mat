@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Electric
+  m_Shader: {fileID: 4800000, guid: f4fd16db2e6eb724284abd18af159a2d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: d0ab74fd2ed32b84e980587fdf90b397, type: 3}
+        m_Scale: {x: 3, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7c661b189605d9646a2d6f8d081b46e7, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: fb59b05cf31b1b5458789f199763496f, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Mask2:
+        m_Texture: {fileID: 2800000, guid: fb68460c2fb4b0b48bea41776f2f3622, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TwistTex:
+        m_Texture: {fileID: 2800000, guid: 26787d7063265ff449606824ed45b6c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: -0.1
+    - _MainDisturbMul: 0.1
+    - _MaskDisturbMul: 0.34
+    - _Soft: 0.562
+    - _TwistIntensity: 0.305
+    - _VertexOffset: 0.5
+    - _Ztest: 4
+    - __dirty: 0
+    m_Colors:
+    - _DisturbTexPanner: {r: 0, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 32.646454, g: 32.646454, b: 32.646454, a: 1}
+    - _MainTexPanner: {r: 0, g: -1, b: 1, a: 0}
+    - _MaskOffset: {r: 0, g: 1, b: 0, a: 0}
+    - _Panner: {r: 0.3, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
