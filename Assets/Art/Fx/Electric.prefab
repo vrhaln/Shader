@@ -1033,7 +1033,7 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1.3121742
+      scalar: 2.9957078
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1051,16 +1051,34 @@ ParticleSystem:
           time: 0.055272665
           value: 0.26061225
           inSlope: 0.1490028
-          outSlope: 30.28877
+          outSlope: 10.602214
           tangentMode: 69
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.07548164
-          value: 0.8727172
-          inSlope: 30.28877
-          outSlope: 0.13767472
+          time: 0.12501167
+          value: 1
+          inSlope: 10.602214
+          outSlope: -4.282529
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.27178723
+          value: 0.37142944
+          inSlope: -4.282529
+          outSlope: 5.051578
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.39621776
+          value: 1
+          inSlope: 5.051578
+          outSlope: 0
           tangentMode: 69
           weightedMode: 0
           inWeight: 0.33333334
@@ -1068,7 +1086,7 @@ ParticleSystem:
         - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 0.13767472
+          inSlope: -0
           outSlope: -51.302235
           tangentMode: 69
           weightedMode: 0
@@ -14746,7 +14764,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 2.3363046e+27, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1.561202e-39, y: 2.015625, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -30513,24 +30531,60 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1.3121742
+      scalar: 3.106263
       minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0.8727172
+          value: 0.44890815
           inSlope: 2.5660222
-          outSlope: 0.2304486
+          outSlope: 3.4100783
           tangentMode: 69
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.5523262
+          time: 0.1616068
           value: 1
-          inSlope: 0.2304486
+          inSlope: 3.4100783
+          outSlope: -3.9306748
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.30940628
+          value: 0.4190483
+          inSlope: -3.9306748
+          outSlope: 4.54293
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.43728667
+          value: 1
+          inSlope: 4.54293
+          outSlope: -3.7828314
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.585827
+          value: 0.438097
+          inSlope: -3.7828314
+          outSlope: 3.630411
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.7406037
+          value: 1
+          inSlope: 3.630411
           outSlope: 0
           tangentMode: 69
           weightedMode: 0
