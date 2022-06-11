@@ -93,8 +93,9 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.6596289, b: 0.25943398, a: 1}
+    - _BaseColor: {r: 0.7075472, g: 0.6722122, b: 0.630785, a: 1}
     - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlowSpeed: {r: 0, g: -0.5, b: 0, a: 0}
     - _NoiseSpeed: {r: 0, g: -1, b: 0, a: 0}
+  m_BuildTextureStacks: []
