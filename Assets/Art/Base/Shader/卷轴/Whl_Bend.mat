@@ -22,7 +22,7 @@ Material:
     m_Floats:
     - _MeshZLength: 60
     - _PositionZ: 4.08
-    - _RollPositionZ: -1.2
+    - _RollPositionZ: 0
     - _Smoothness: 3.11
     - _Spin: 60
     - _XOffset: 1.39

@@ -97,3 +97,4 @@ Material:
     - _Vector1: {r: 1, g: 1, b: 0, a: 0}
     - _VertexOffset: {r: 0.5, g: 0.5, b: 0.55, a: 0}
     - _VertexOffsetMul: {r: 0, g: 0, b: 24.99, a: 0}
+  m_BuildTextureStacks: []

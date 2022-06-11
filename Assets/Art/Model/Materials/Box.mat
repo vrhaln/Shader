@@ -200,3 +200,4 @@ Material:
     - _Vector1: {r: 1, g: 1, b: 0, a: 0}
     - _VertexOffset: {r: 1, g: 1, b: 1, a: 0}
     - _VertexOffsetMul: {r: 10, g: 10, b: 2, a: 0}
+  m_BuildTextureStacks: []

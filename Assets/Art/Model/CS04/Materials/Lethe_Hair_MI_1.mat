@@ -84,6 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AnisoMapPower: 2.55
     - _BumpScale: 1
     - _CurveOffset: 1
     - _Cutoff: 0.5
@@ -130,3 +131,4 @@ Material:
     - custom_SHBg: {r: -0.21728243, g: -0.25458127, b: -0.18503095, a: 0.1639389}
     - custom_SHBr: {r: -0.21738796, g: -0.25467935, b: -0.18513402, a: 0.1640217}
     - custom_SHC: {r: -0.19009075, g: -0.18999912, b: -0.18972637, a: 1}
+  m_BuildTextureStacks: []
