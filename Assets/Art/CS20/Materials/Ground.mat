@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground
-  m_Shader: {fileID: 4800000, guid: d5ee779e9456dca4e89ba015465d8cc8, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4d1b95ca7cee53c4e9c806bfe0d25e1e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AOMap:
-        m_Texture: {fileID: 2800000, guid: e79b95721fdcc004cae77a7283808982, type: 3}
+        m_Texture: {fileID: 2800000, guid: c861c7297a578654789cda564d34847e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: fe01ade3f41cf4346ac43c95a90c2bc9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 58b6821040fd99a48b5c545e30950322, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColor:
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height:
-        m_Texture: {fileID: 2800000, guid: 5370463592e42a24683102fafe4738a7, type: 3}
+        m_Texture: {fileID: 2800000, guid: de1bdfa4bde2d46429cdfdd983cf7282, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -40,19 +40,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 3b33f47fd3f6dc148812dccb98b83811, type: 3}
+        m_Texture: {fileID: 2800000, guid: d11c20650a97fc248957a5f62dbedd30, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RainDrop:
-        m_Texture: {fileID: 2800000, guid: e256e473e3a591b4293cbe481fb84c53, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3f15c5b716a75d240b55d70bfd2de9bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RoughnessMap:
-        m_Texture: {fileID: 2800000, guid: 0e4cba8fb7259994da5fb24135e17477, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2d0c738b6f39b0c48a4c9044231d6e8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaterNormal:
-        m_Texture: {fileID: 2800000, guid: e33c32c49ec0f7d4590ac305c6969c79, type: 3}
+        m_Texture: {fileID: 2800000, guid: 07dc77e508f417a479281b45df844175, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -60,22 +60,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BlendContrast: 0.221
+    - _BlendContrast: 1
     - _Columns: 8
     - _NormalIntensity: 1
-    - _POMPlane: 1
-    - _POMScale: -0.05
-    - _PuddleDepth: 0.868
+    - _POMPlane: 5
+    - _POMScale: -0.2
+    - _PuddleDepth: 1
     - _RainDropSpeed: 25
     - _RainDropTilling: 1
     - _RainIntensity: 1
-    - _RoughnessMax: 0.8
+    - _RoughnessMax: 0.35
     - _RoughnessMin: 0
-    - _Tilling: 0.51
+    - _Tilling: 2
     - _WaterRoughness: 0.01
     - _WaveIntensity: 0.1
     - _WaveTilling: 0.2
     - __dirty: 0
     m_Colors:
-    - _PudlleColor: {r: 0.24528301, g: 0.22610994, b: 0.21173014, a: 1}
+    - _PudlleColor: {r: 0.3098039, g: 0.3098039, b: 0.3098039, a: 1}
     - _WaveSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []

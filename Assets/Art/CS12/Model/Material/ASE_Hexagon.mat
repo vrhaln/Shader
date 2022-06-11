@@ -116,7 +116,7 @@ Material:
     - _AuraSpeed: {r: -0.02, g: 0.035, b: 0, a: 0}
     - _DissolvePoint: {r: -4, g: 0, b: 0, a: 0}
     - _DissolvePoint1: {r: 4, g: 2.5, b: -10, a: 0}
-    - _EmissColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+    - _EmissColor: {r: 0, g: 0.3500001, b: 0.6, a: 0}
     - _EmissColor1: {r: 0.9641557, g: 0.6745098, b: 1, a: 0}
     - _HitNoiseTilling: {r: 0.1, g: 0.1, b: 0.1, a: 0}
     - _HitNoiseTilling1: {r: 0.1, g: 0.1, b: 0.1, a: 0}
