@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ASE_Fog_GlobalFog
+  m_Shader: {fileID: 4800000, guid: 44c5c44e9f9e35944bfcf86f1230ce0c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BGTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BGScale: 1
+    - _FogDistanceEnd: 700
+    - _FogDistanceStart: 0
+    - _FogHeightEnd: 700
+    - _FogHeightStart: 0
+    - _FogIntensity: 1
+    - _SunFogIntensity: 0
+    - _SunFogRange: 0
+    - __dirty: 0
+    m_Colors:
+    - _FogColor: {r: 0.57254905, g: 0.5372549, b: 0.8941177, a: 1}
+    - _SunFogColor: {r: 0.9686275, g: 0.5411765, b: 0.058823533, a: 0}
+  m_BuildTextureStacks: []

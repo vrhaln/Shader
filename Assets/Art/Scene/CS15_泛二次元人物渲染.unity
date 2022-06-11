@@ -154,7 +154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4663233942063902, guid: 89c35b1df98d8a242ba642f42219b5d4, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4663233942063902, guid: 89c35b1df98d8a242ba642f42219b5d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -438,7 +438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4747717286046948, guid: 150f1e047a8edcb478a3595c6862e8ab, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4747717286046948, guid: 150f1e047a8edcb478a3595c6862e8ab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -651,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4195981441774000, guid: 7eff0d8974b24a649971e21e4710150f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4195981441774000, guid: 7eff0d8974b24a649971e21e4710150f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4097,7 +4097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4466283694124608, guid: f4666faa40a0fa5449c9ebc5d4534ca2, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4466283694124608, guid: f4666faa40a0fa5449c9ebc5d4534ca2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9369,7 +9369,7 @@ Transform:
   - {fileID: 1770638316}
   - {fileID: 1591176175}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1623124651 stripped
 GameObject:
@@ -9402,7 +9402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846417019258784, guid: ad1c02b4ed883fe4e96e3a8b9964d65a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4846417019258784, guid: ad1c02b4ed883fe4e96e3a8b9964d65a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9484,6 +9484,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1572106960015568, guid: 24995cf56ac646b40ae4fea4adbc8748, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644246785711420, guid: 24995cf56ac646b40ae4fea4adbc8748, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -9494,7 +9498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4886780667650562, guid: 24995cf56ac646b40ae4fea4adbc8748, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4886780667650562, guid: 24995cf56ac646b40ae4fea4adbc8748, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13006,7 +13010,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1828694535 stripped
 GameObject:
@@ -13079,7 +13083,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20169,7 +20172,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2083984547
 MonoBehaviour:
@@ -20248,7 +20251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4088316151503488, guid: 9a675a3dc974c264781406f0568e652d, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4088316151503488, guid: 9a675a3dc974c264781406f0568e652d, type: 3}
       propertyPath: m_LocalPosition.x
