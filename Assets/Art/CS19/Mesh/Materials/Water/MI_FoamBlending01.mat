@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_FoamBlending01
+  m_Shader: {fileID: 4800000, guid: 8d3055822e84819428892bbe045dd309, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTex:
+        m_Texture: {fileID: 2800000, guid: be4393e7066bb43478000358384e2cbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamNoise:
+        m_Texture: {fileID: 2800000, guid: d0e6201a295f8b245b902036747816ba, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 878d6a7060c28664db052574adefd009, type: 3}
+        m_Scale: {x: 0.6, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _CausticsIntensity: 5
+    - _CausticsRange: 0.6
+    - _CausticsScale: 2
+    - _Cutoff: 0.5
+    - _DeepRange: 0.25
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FoamBlend: 0
+    - _FoamContrast: 5
+    - _FoamDissolve: 0
+    - _FoamFrequency: 0
+    - _FoamRange: 1.5
+    - _FoamSpeed: 1
+    - _FoamSpeed1: 1
+    - _FoamSpeed2: 0.5
+    - _FoamWidth: 0
+    - _FresnelBias: 0
+    - _FresnelPower: 2
+    - _FresnelScale: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseScale: 1
+    - _NoiseSpeed: 1
+    - _NormalScale: 1
+    - _NormalTiling: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectDistort: 0.4
+    - _ReflectIntensity: 0.3
+    - _ReflectPower: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TimeSpeed: 0.01
+    - _UVSec: 0
+    - _UnderWaterDistort: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _CausticsSpeed: {r: -8, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.2158605, g: 0.2158605, b: 0.2158605, a: 1}
+    - _DeepColor: {r: 0.0666661, g: 0.3450973, b: 0.356862, a: 0.8509804}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamNoiseSize: {r: 0, g: 0, b: 0, a: 0}
+    - _FoamNoiseSize2: {r: 0, g: 0, b: 0, a: 0}
+    - _FoamSpeed1: {r: 0, g: -1, b: 1, a: 0}
+    - _FoamSpeed2: {r: 0, g: -1, b: 0.5, a: 0}
+    - _FresnelColor: {r: 0.01960784, g: 0.1490188, b: 0.2313718, a: 1}
+    - _NormalSpeed: {r: 0, g: -20, b: 0, a: 0}
+    - _ShallowColor: {r: 0.2627445, g: 0.8666667, b: 0.7803922, a: 0.4901961}
+    - _WaveASpeedXYSteepnesswavelength: {r: 1, g: 1, b: 2, a: 50}
+    - _WaveB: {r: 1, g: 1, b: 2, a: 50}
+    - _WaveC: {r: 1, g: 1, b: 2, a: 50}
+    - _WaveColor: {r: 0, g: 0, b: 0, a: 0}
