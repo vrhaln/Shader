@@ -4,11 +4,10 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: GlassTransparent
-  m_Shader: {fileID: 4800000, guid: c3e5f467d7286424596661cdd5456651, type: 3}
+  m_Shader: {fileID: 4800000, guid: 830e8dd374b87ed48a6b3598556227b8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground
-  m_Shader: {fileID: 4800000, guid: 4d1b95ca7cee53c4e9c806bfe0d25e1e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5ec1ef85f9b5bfe458d3011e952343ad, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -29,10 +29,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BaseColor:
         m_Texture: {fileID: 2800000, guid: 617525426c56a5f41b2b9399efade86e, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Height:
         m_Texture: {fileID: 2800000, guid: de1bdfa4bde2d46429cdfdd983cf7282, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
@@ -62,6 +70,8 @@ Material:
     m_Floats:
     - _BlendContrast: 1
     - _Columns: 8
+    - _MaxRoughness: 1
+    - _MinRoughness: -0.63
     - _NormalIntensity: 1
     - _POMPlane: 5
     - _POMScale: -0.2
@@ -77,6 +87,7 @@ Material:
     - _WaveTilling: 0.2
     - __dirty: 0
     m_Colors:
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _PudlleColor: {r: 0.3098039, g: 0.3098039, b: 0.3098039, a: 1}
     - _WaveSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
