@@ -101,7 +101,7 @@ Material:
     - _HitNoiseIntensity1: 2
     - _HitSpread: 6.19
     - _HitSpread1: 6.19
-    - _HitVertexOffset: 20
+    - _HitVertexOffset: 30
     - _HitWaveIntensity: 10
     - _HitWaveIntensity1: 0.5
     - _LineEmissIntensity: 1.5
