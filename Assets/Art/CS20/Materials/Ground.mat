@@ -81,7 +81,7 @@ Material:
     - _RainIntensity: 1
     - _RoughnessMax: 0.35
     - _RoughnessMin: 0
-    - _Tilling: 2
+    - _Tilling: 0.35
     - _WaterRoughness: 0.01
     - _WaveIntensity: 0.1
     - _WaveTilling: 0.2

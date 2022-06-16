@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VertexAbsorption
-  m_Shader: {fileID: 4800000, guid: cb9588396fbf23641b28383754539e5b, type: 3}
+  m_Name: Whl_PBR
+  m_Shader: {fileID: 4800000, guid: 049d22d596ebd484b89aee77cb5cb9f7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,15 +20,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _EdgeLength: 15
-    - _Hardness: 5
-    - _MaskSommthness: 1
-    - _Radius: 0
-    - _RotateScale: 3.23
-    - _Tessellation: 1
     - __dirty: 0
-    m_Colors:
-    - _MianColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Pivot: {r: 0, g: 0, b: 0, a: 0}
-    - _TargetPostion: {r: 0, g: 1, b: 1, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
