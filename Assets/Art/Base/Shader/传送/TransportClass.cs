@@ -46,7 +46,7 @@ public class TransportClass : MonoBehaviour
 
         //2.使用Raycast使Ray射线发生碰撞,并在碰撞方法中Out一个命中信息hitinfo
         //  Physics.raycast(线,命中信息输出,线碰撞长度,层Mask)
-        Physics.Raycast(ray, out RaycastHit infohit, 1500, LayerMask.GetMask("Plane"));
+        Physics.Raycast(ray, out RaycastHit infohit, 1500, LayerMask.GetMask("plane"));
 
         //3.命中信息中,获取到的点(point,就是命中的position)
         Vector3 hitposition = infohit.point;
