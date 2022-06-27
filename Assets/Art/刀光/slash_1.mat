@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: slash_1
   m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
-  m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
-    _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON
+  m_ShaderKeywords: _DISSOLUTIONON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
+    _UV1_WCONTORLVERTEXOFFSET_ON _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -114,17 +114,19 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DissDisturbStr: 0
-    - _Dissolution: 0.15
+    - _Dissolution: 0
     - _DissolutionOn: 1
     - _DissolutionSoft: 1
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
+    - _DisturbOn: 0
+    - _DisturbStr: 0
     - _DstBlend: 0
     - _EdgeEmissStr: 1
     - _EmissionStr: 1
     - _Fade: 0
     - _FadeHardnss: 1
-    - _FadeRange: 1
+    - _FadeRange: 2
     - _FadeSoft: 1
     - _FreFadeOn: 0
     - _GlossMapScale: 1
@@ -133,6 +135,7 @@ Material:
     - _InnerEmissHardness: 0.5
     - _InnerEmissRange: 0.5
     - _InnerEmissStr: 0
+    - _Keyword0: 0
     - _MainDisturbStr: 0
     - _MainOpacity: 1
     - _MaskDisturbStr: 0
@@ -142,10 +145,12 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
+    - _SoftParticle: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
+    - _UV1_WContorlVertexOffset: 1
     - _UV2ControlOffset: 1
     - _UV2WControlOffset: 1
     - _UV2_TContorlFlow: 0
@@ -154,10 +159,12 @@ Material:
     - _VFade: 0
     - _VertexFadeRange: 1
     - _VertexFadeSoft: 1
+    - _VertexOffsetOn: 0
     - _VertexOffsetStr: 0
     - _VertexVFade: 0
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - _ZWrite: 1
+    - _ZWriteMode: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
