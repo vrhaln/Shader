@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 2
-  m_Shader: {fileID: 4800000, guid: 3208093019fe0de409822c8ee99d6516, type: 3}
+  m_Shader: {fileID: 4800000, guid: d566e1ddc346a4248b705748ccf453f6, type: 3}
   m_ShaderKeywords: _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2CONTROLOFFSET_ON
     _UV2WCONTROLOFFSET_ON
   m_LightmapFlags: 4
@@ -115,7 +115,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DissDisturbStr: 0
     - _Dissolution: 0.15
-    - _DissolutionSoft: 0.51
+    - _DissolutionSoft: 1
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
     - _DstBlend: 0
@@ -167,7 +167,7 @@ Material:
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
