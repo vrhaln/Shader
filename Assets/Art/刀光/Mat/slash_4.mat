@@ -7,10 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: wave_1
+  m_Name: slash_4
   m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
-  m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLVOFFSET_ON
-    _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON _VERTEXOFFSETON_ON
+  m_ShaderKeywords: _UV2WCONTROLOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -45,12 +44,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
-        m_Scale: {x: 2.07, y: 1}
-        m_Offset: {x: -0.38, y: 0.08}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1.88, y: 0.8}
+        m_Offset: {x: 0.37, y: 0.02}
     - _DisturbTex:
-        m_Texture: {fileID: 2800000, guid: 1a7f074f01ec95d45a96f2f6196edd36, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -61,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: 45c9ce5f99e8d7f42889370feed22ea3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
@@ -69,9 +68,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dc0239b4c421c8042a7db591cca469c2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0.66, y: -0.14}
+        m_Texture: {fileID: 2800000, guid: 4e79806daeba8214385c96c574622d61, type: 3}
+        m_Scale: {x: 0.69, y: 0.86}
+        m_Offset: {x: 0.22, y: 0}
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: a1e41f6bcd60e1d4d8fd1b945fe68949, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -97,8 +96,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
-        m_Texture: {fileID: 2800000, guid: 150885ebb1d3e174d92ccef6695300b1, type: 3}
-        m_Scale: {x: 2, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -115,12 +114,12 @@ Material:
     - _DetailNormalMapScale: 1
     - _DissDisturbStr: 0
     - _Dissolution: 0.15
-    - _DissolutionOn: 1
+    - _DissolutionOn: 0
     - _DissolutionSoft: 1
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
-    - _DisturbOn: 1
-    - _DisturbStr: 0.1
+    - _DisturbOn: 0
+    - _DisturbStr: 0
     - _DstBlend: 0
     - _EdgeEmissStr: 1
     - _EmissionStr: 1
@@ -147,11 +146,11 @@ Material:
     - _SoftParticle: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _UV1_TContorlDis: 1
+    - _UV1_TContorlDis: 0
     - _UV1_WContorlEmission: 0
-    - _UV1_WContorlVOffset: 1
+    - _UV1_WContorlVOffset: 0
     - _UV1_WContorlVertexOffset: 0
-    - _UV2ControlOffset: 1
+    - _UV2ControlOffset: 0
     - _UV2WControlOffset: 1
     - _UV2_TContorlFlow: 0
     - _UV2_WContorlOffset: 0
@@ -159,8 +158,8 @@ Material:
     - _VFade: 0
     - _VertexFadeRange: 1
     - _VertexFadeSoft: 1
-    - _VertexOffsetOn: 1
-    - _VertexOffsetStr: 4
+    - _VertexOffsetOn: 0
+    - _VertexOffsetStr: 0
     - _VertexVFade: 0
     - _ZTestMode: 8
     - _ZWrite: 1
@@ -171,15 +170,15 @@ Material:
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
     - _DissolutionTexPanner: {r: -1, g: 0, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: -0.5, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
+    - _MainColor: {r: 2, g: 2, b: 2, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _VertexOffsetTexPanner: {r: -1, g: 1, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
