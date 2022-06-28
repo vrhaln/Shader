@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: wave_3
-  m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
+  m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLVOFFSET_ON
     _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON _VERTEXOFFSETON_ON
   m_LightmapFlags: 4
@@ -45,12 +45,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: 6fda4a099411a18468456111546c16ee, type: 3}
-        m_Scale: {x: 2, y: 1}
-        m_Offset: {x: 0, y: 1}
+        m_Texture: {fileID: 2800000, guid: 35858763e05da9d4a8b77560217d7992, type: 3}
+        m_Scale: {x: 2.07, y: 1}
+        m_Offset: {x: -0.38, y: 0.08}
     - _DisturbTex:
-        m_Texture: {fileID: 2800000, guid: 24d73a0978aa8264d8d2eafb48f370bb, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 1a7f074f01ec95d45a96f2f6196edd36, type: 3}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: 45c9ce5f99e8d7f42889370feed22ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 65bfba231f3a0954caca6d9d6f5f4645, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
@@ -69,9 +69,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: eb0bfdb1973d5ef4292e11f1fefd0ed5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9067f71fe030a61428374fd6664f6135, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: -0.35}
+        m_Offset: {x: 1.12, y: 0}
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: a1e41f6bcd60e1d4d8fd1b945fe68949, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -98,7 +98,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
         m_Texture: {fileID: 2800000, guid: 150885ebb1d3e174d92ccef6695300b1, type: 3}
-        m_Scale: {x: 1, y: 2}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -116,7 +116,7 @@ Material:
     - _DissDisturbStr: 0
     - _Dissolution: 0.15
     - _DissolutionOn: 1
-    - _DissolutionSoft: 0.75
+    - _DissolutionSoft: 1
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
     - _DisturbOn: 1
@@ -160,7 +160,7 @@ Material:
     - _VertexFadeRange: 1
     - _VertexFadeSoft: 1
     - _VertexOffsetOn: 1
-    - _VertexOffsetStr: 2
+    - _VertexOffsetStr: 4
     - _VertexVFade: 0
     - _ZTestMode: 8
     - _ZWrite: 1
@@ -175,11 +175,11 @@ Material:
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 47.937256, g: 47.937256, b: 47.937256, a: 0}
+    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _VertexOffsetTexPanner: {r: -1, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: -1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

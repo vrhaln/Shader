@@ -175,7 +175,7 @@ Material:
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+    - _MainColor: {r: 1.7207954, g: 1.7207954, b: 1.7207954, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
