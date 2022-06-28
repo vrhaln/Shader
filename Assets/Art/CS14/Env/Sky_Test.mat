@@ -82,9 +82,9 @@ Material:
     - _FlowEmissIntensity: 10
     - _FlowEmissRange: 3.6
     - _FlowEmissSoft: 0.914
-    - _FlowRange: 0.71
+    - _FlowRange: 0.8
     - _FlowRange1: 3.96
-    - _FlowRange2: 1.77
+    - _FlowRange2: 2
     - _FlowSoft: 1
     - _HoriazonGlow: 3.2
     - _Intensity: 0.5
