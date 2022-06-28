@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: wave_1 1
+  m_Name: wave_4
   m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLVOFFSET_ON
-    _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON _VERTEXOFFSETON_ON
+    _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 2.07, y: 1}
         m_Offset: {x: -0.38, y: 0.08}
     - _DisturbTex:
-        m_Texture: {fileID: 2800000, guid: 1a7f074f01ec95d45a96f2f6196edd36, type: 3}
+        m_Texture: {fileID: 2800000, guid: fd01c1679eeb4df0a8dfbad947776ce4, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: 45c9ce5f99e8d7f42889370feed22ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 65bfba231f3a0954caca6d9d6f5f4645, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
@@ -69,9 +69,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dc0239b4c421c8042a7db591cca469c2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 44bd3213f920a1b4caf5af62b6c5fcaa, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0.66, y: -0.14}
+        m_Offset: {x: 1.99, y: 0}
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: a1e41f6bcd60e1d4d8fd1b945fe68949, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -97,8 +97,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
-        m_Texture: {fileID: 2800000, guid: 150885ebb1d3e174d92ccef6695300b1, type: 3}
-        m_Scale: {x: 2, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
@@ -159,8 +159,8 @@ Material:
     - _VFade: 0
     - _VertexFadeRange: 1
     - _VertexFadeSoft: 1
-    - _VertexOffsetOn: 1
-    - _VertexOffsetStr: 4
+    - _VertexOffsetOn: 0
+    - _VertexOffsetStr: 0
     - _VertexVFade: 0
     - _ZTestMode: 8
     - _ZWrite: 1
@@ -181,5 +181,5 @@ Material:
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _VertexOffsetTexPanner: {r: -1, g: 1, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
