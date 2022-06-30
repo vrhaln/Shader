@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: glow_4
+  m_Name: glow_11
   m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,9 +36,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: b8599c4baec202142a92b88954aaf92e, type: 3}
+        m_Scale: {x: 0.11, y: 0.22}
+        m_Offset: {x: -0.11, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 910eea2973c5edd4082cfc6e5424983a, type: 3}
+        m_Texture: {fileID: 2800000, guid: c88f9c1f14a13d84e874f8bc793ca204, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -89,8 +89,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Dissolution: 0.15
-    - _DissolutionOn: 0
-    - _DissolutionSoft: 0.3935294
+    - _DissolutionOn: 1
+    - _DissolutionSoft: 0.851
     - _DisturbOn: 0
     - _DisturbStr: 0
     - _DstBlend: 0
@@ -107,7 +107,7 @@ Material:
     - _SoftParticle: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _UV1_TContorlDis: 0
+    - _UV1_TContorlDis: 1
     - _UV1_WContorlVertexOffset: 0
     - _UV2ControlOffset: 0
     - _UVSec: 0

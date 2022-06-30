@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: glow_4
-  m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
+  m_Name: glow_10
+  m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 910eea2973c5edd4082cfc6e5424983a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e79806daeba8214385c96c574622d61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -121,7 +121,7 @@ Material:
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 0}
+    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []

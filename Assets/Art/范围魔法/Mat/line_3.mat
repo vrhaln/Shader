@@ -37,7 +37,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
         m_Texture: {fileID: 2800000, guid: e97657deab9dd154faa75d1c11aac10b, type: 3}
-        m_Scale: {x: 0.1, y: 1}
+        m_Scale: {x: 0.05, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 0}
