@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Change: 0.5
+    - _Change: 0.488
     - _Float0: 0
     - _Float1: 0.711
     - _OneMinus: 0
