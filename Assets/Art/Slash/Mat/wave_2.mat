@@ -143,6 +143,7 @@ Material:
     - _NoiseEmissionStr: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 0
     - _SpecularHighlights: 1
@@ -171,7 +172,7 @@ Material:
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
     - _DissolutionTexPanner: {r: -1, g: 0, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: -0.5, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0.5, g: 0, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
@@ -181,5 +182,5 @@ Material:
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _VertexOffsetTexPanner: {r: -1, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 1, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []

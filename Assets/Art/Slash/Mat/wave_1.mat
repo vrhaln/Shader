@@ -169,14 +169,14 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: -1, g: 0, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 2.19, g: 0, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: -0.5, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0.5, g: 0, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
     - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
-    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MainTexPanner: {r: 1, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
