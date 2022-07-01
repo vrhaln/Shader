@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: line_3
+  m_Name: line_5
   m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON
   m_LightmapFlags: 4
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0aa5b5f937d9e9542ad8c73d502412e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:

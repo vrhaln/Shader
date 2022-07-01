@@ -38,6 +38,6 @@ Material:
     - _WaveLength: 15
     - __dirty: 0
     m_Colors:
-    - _MainColor: {r: 0, g: 3.4426198, b: 3.5648696, a: 1}
+    - _MainColor: {r: 4.759381, g: 4.759381, b: 4.759381, a: 1}
     - _MainTilingOffset: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

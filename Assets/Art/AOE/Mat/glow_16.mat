@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: line_3
-  m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
-  m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON
+  m_Name: glow_16
+  m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
+  m_ShaderKeywords: _DISTURBON_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,24 +36,24 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: e97657deab9dd154faa75d1c11aac10b, type: 3}
-        m_Scale: {x: 0.05, y: 2}
-        m_Offset: {x: 0, y: 0}
-    - _DisturbTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: d75082f421e69d440b9ab3934420aaee, type: 3}
+        m_Scale: {x: 0.5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: 10821bc9d57581b469ed5cdcdc73bc0a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e28d571f04e45242bcc0fcc594d4255, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7e60b73a953dc684eb4d09b964a5486c, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: a3259ded8a888e141b673df8562236d6, type: 3}
+        m_Scale: {x: 0.5, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -68,9 +68,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f7806cc663a735b4ca90d76e5f4e8fb3, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0.15, y: 0}
     - _VertexOffsetTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -89,10 +89,10 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _Dissolution: 0.15
-    - _DissolutionOn: 1
-    - _DissolutionSoft: 1
-    - _DisturbOn: 0
-    - _DisturbStr: 0
+    - _DissolutionOn: 0
+    - _DissolutionSoft: 0.3935294
+    - _DisturbOn: 1
+    - _DisturbStr: 0.04
     - _DstBlend: 0
     - _FadeRange: 1
     - _GlossMapScale: 1
@@ -107,7 +107,7 @@ Material:
     - _SoftParticle: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _UV1_TContorlDis: 1
+    - _UV1_TContorlDis: 0
     - _UV1_WContorlVertexOffset: 0
     - _UV2ControlOffset: 0
     - _UVSec: 0
@@ -118,10 +118,10 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DissolutionTexPanner: {r: -1.5, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 1, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
-    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 10.432949, g: 10.432949, b: 10.432949, a: 0}
+    - _MainTexPanner: {r: 1.5, g: 0, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
