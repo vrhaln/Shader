@@ -16725,7 +16725,7 @@ ParticleSystem:
     speedModifier:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 1
+      scalar: 2.3348217
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -18766,7 +18766,7 @@ ParticleSystem:
     widthOverTrail:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 3.354273
+      scalar: 0.8261734
       minScalar: 1
       maxCurve:
         serializedVersion: 2

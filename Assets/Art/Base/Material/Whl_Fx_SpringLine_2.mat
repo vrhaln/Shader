@@ -37,9 +37,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Amplitude: 0
+    - _CullMode: 0
     - _Power: 0
     - _Speed: 20
     - _WaveLength: 15
+    - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _MainColor: {r: 4.759381, g: 4.759381, b: 4.759381, a: 1}
