@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: trail_5
+  m_Name: glow_18
   m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -36,8 +36,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: e97657deab9dd154faa75d1c11aac10b, type: 3}
-        m_Scale: {x: 0.05, y: 2}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 0}
@@ -52,9 +52,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3a8b30a75a3856245afd57ac76343a8c, type: 3}
+        m_Texture: {fileID: 2800000, guid: a86bc97c6d8d6e641b8b71ea6fba5bcc, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0.01}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: f7806cc663a735b4ca90d76e5f4e8fb3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
@@ -90,7 +90,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _Dissolution: 0.15
     - _DissolutionOn: 0
-    - _DissolutionSoft: 1
+    - _DissolutionSoft: 0.3935294
     - _DisturbOn: 0
     - _DisturbStr: 0
     - _DstBlend: 0
@@ -118,10 +118,10 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DissolutionTexPanner: {r: -1.5, g: 0, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 0}
-    - _MainTexPanner: {r: 3, g: 0, b: 1, a: 0}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
