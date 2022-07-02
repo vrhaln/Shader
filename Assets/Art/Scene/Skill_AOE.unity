@@ -10294,6 +10294,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1738466200}
     m_Modifications:
+    - target: {fileID: 2757699808509048722, guid: d9bfafe22c3780c40a1da90d80061c09,
+        type: 3}
+      propertyPath: CustomDataModule.vector1_2.maxCurve.m_Curve.Array.data[1].time
+      value: 0.22974373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757699808509048722, guid: d9bfafe22c3780c40a1da90d80061c09,
+        type: 3}
+      propertyPath: CustomDataModule.vector1_2.maxCurve.m_Curve.Array.data[1].inSlope
+      value: -3.685579
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757699808509048722, guid: d9bfafe22c3780c40a1da90d80061c09,
+        type: 3}
+      propertyPath: CustomDataModule.vector1_2.maxCurve.m_Curve.Array.data[2].inSlope
+      value: -0.19897439
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757699808509048722, guid: d9bfafe22c3780c40a1da90d80061c09,
+        type: 3}
+      propertyPath: CustomDataModule.vector1_2.maxCurve.m_Curve.Array.data[0].outSlope
+      value: -3.685579
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757699808509048722, guid: d9bfafe22c3780c40a1da90d80061c09,
+        type: 3}
+      propertyPath: CustomDataModule.vector1_2.maxCurve.m_Curve.Array.data[1].outSlope
+      value: -0.19897439
+      objectReference: {fileID: 0}
     - target: {fileID: 5279107234581790420, guid: d9bfafe22c3780c40a1da90d80061c09,
         type: 3}
       propertyPath: randomSeed
