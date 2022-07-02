@@ -70,7 +70,7 @@ Material:
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: f7806cc663a735b4ca90d76e5f4e8fb3, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0.15, y: 0}
+        m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,6 +80,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -109,7 +113,9 @@ Material:
     - _SrcBlend: 1
     - _UV1_TContorlDis: 0
     - _UV1_WContorlVertexOffset: 0
+    - _UV1_WContorlVtOffset: 0
     - _UV2ControlOffset: 0
+    - _UV3_XContorlDisturb: 0
     - _UVSec: 0
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 1
@@ -121,7 +127,7 @@ Material:
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 1, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 2.6082377, g: 2.6082377, b: 2.6082377, a: 0}
+    - _MainColor: {r: 3.4415908, g: 3.4415908, b: 3.4415908, a: 0}
     - _MainTexPanner: {r: 1, g: 0, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
