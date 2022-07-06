@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlackWhiteFlash
+  m_Shader: {fileID: 4800000, guid: d110c31ce0f86db419885348fafe2585, type: 3}
+  m_ShaderKeywords: _BLURON_ON _NUMBEROFSAMPLES_X16 _UV1_TCONTORLBLUR_ON _UV1_WCONTORLREVERSE_ON
+    _UV2_WTCONTORLCENTEROFFSET_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 3433162ddc7ee6b4687996d52e67fac4, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlurOn: 1
+    - _DistrubStr: 0.5
+    - _Float8: 1
+    - _Keyword0: 0
+    - _NoiseStr: 0.75
+    - _Numberofsamples: 1
+    - _Range: 0.13
+    - _Reverse: 0
+    - _Soft: 0.1
+    - _U: 0.5
+    - _UV1_TContorlBlur: 1
+    - _UV1_WContorlReverse: 1
+    - _UV2_WTContorlCenterOffset: 1
+    - _V: 0.5
+    - __dirty: 0
+    - _blur: 1.62
+    m_Colors:
+    - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _NoisePanner: {r: -0.1, g: 0, b: 1, a: 0}
+    - _SubColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 0.01, g: 5, b: 0, a: 0}
+  m_BuildTextureStacks: []
