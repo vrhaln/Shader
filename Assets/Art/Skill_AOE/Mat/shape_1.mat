@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: shape_1
   m_Shader: {fileID: 4800000, guid: 0ec1218c0bf501a498c8e4e48370909c, type: 3}
-  m_ShaderKeywords: _TEXCONTORL_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -91,10 +91,10 @@ Material:
     - _Parallax: 0.02
     - _Rotation: 1
     - _SmoothnessTextureChannel: 0
-    - _Soft: 0.579
+    - _Soft: 0.51
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TexContorl: 1
+    - _TexContorl: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
