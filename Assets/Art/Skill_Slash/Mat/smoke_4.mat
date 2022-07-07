@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: smoke_3
+  m_Name: smoke_4
   m_Shader: {fileID: 4800000, guid: 454a28a6ccf0bd349a8245d2d7978b27, type: 3}
-  m_ShaderKeywords: _SOFTPARTICLE_ON _UV2WTCONTORLOFFSET_ON _UV2YCONTORLFLOW_ON
+  m_ShaderKeywords: _UV2YCONTORLFLOW_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _FlowTex:
-        m_Texture: {fileID: 2800000, guid: ecd4beee12339f34193b443b45873f16, type: 3}
+        m_Texture: {fileID: 2800000, guid: c68d7144541eeb8418e56e7f3d7064df, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -46,7 +46,7 @@ Material:
     m_Floats:
     - _CullMode: 0
     - _DissHardness: 0.445
-    - _DissHardness1: 0.122
+    - _DissHardness1: 0.3
     - _DissHardness2: 0.377
     - _DissHardness3: 0.445
     - _Dissolution: 0
@@ -55,14 +55,14 @@ Material:
     - _Float1: 0.09
     - _FlowOn: 0
     - _FlowStr: 1.5
-    - _Invers1: 0.041
+    - _Invers1: 0
     - _Invers2: 0
     - _Invers3: 1
     - _Keyword0: 0
-    - _SoftParticle: 1
-    - _UV2WTContorlOffset: 1
+    - _SoftParticle: 0
+    - _UV2WTContorlOffset: 0
     - _UV2YContorlFlow: 1
-    - _ZTestMode: 4
+    - _ZTestMode: 8
     - __dirty: 0
     - _range1: 0.02
     - _range2: 0.43
@@ -72,7 +72,7 @@ Material:
     - _soft3: 0.5
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
-    - _Color1: {r: 4.9998326, g: 2.0989864, b: 4.0013375, a: 0}
+    - _Color1: {r: 5.128124, g: 1.8794173, b: 1.1008016, a: 0}
     - _Color2: {r: 0.7058824, g: 0.039215688, b: 1.4980392, a: 0}
     - _Color3: {r: 0.1376911, g: 0.11801351, b: 0.49056602, a: 0}
     - _NoisePanner: {r: 0.5, g: 0, b: 1, a: 0}
