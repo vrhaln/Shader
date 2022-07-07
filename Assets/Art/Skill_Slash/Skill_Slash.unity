@@ -7632,6 +7632,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: smoke
       objectReference: {fileID: 0}
+    - target: {fileID: 2733660486428715061, guid: 4f5bddc7f250aff40a577a0d19195a6d,
+        type: 3}
+      propertyPath: m_SortMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2733660486428715066, guid: 4f5bddc7f250aff40a577a0d19195a6d,
+        type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 0.24
+      objectReference: {fileID: 0}
     - target: {fileID: 2733660486428715067, guid: 4f5bddc7f250aff40a577a0d19195a6d,
         type: 3}
       propertyPath: m_RootOrder
