@@ -8396,16 +8396,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 174669071}
     m_Modifications:
-    - target: {fileID: 5988640356302766264, guid: 3ef2f209fd471fc47891cededa27f09f,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5988640356302766264, guid: 3ef2f209fd471fc47891cededa27f09f,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8571481584458257689, guid: 3ef2f209fd471fc47891cededa27f09f,
         type: 3}
       propertyPath: m_RootOrder
