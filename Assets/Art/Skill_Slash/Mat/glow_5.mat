@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pattern_2
+  m_Name: glow_5
   m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
     _UV2WCONTROLOFFSET_ON
@@ -47,10 +47,10 @@ Material:
     - _DissolutionTex:
         m_Texture: {fileID: 2800000, guid: 0a4c77e4c2a232547856bd376a6b3a82, type: 3}
         m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0.44, y: 0.43}
+        m_Offset: {x: 0.44, y: 0.56}
     - _DisturbTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 658efbf83797f9e4ea0a8fefa4a5fefa, type: 3}
+        m_Texture: {fileID: 2800000, guid: e6b12bedd5e11a74d93fb481b89ac9b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -124,7 +124,7 @@ Material:
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
     - _DisturbOn: 0
-    - _DisturbStr: 0
+    - _DisturbStr: 0.44
     - _DstBlend: 0
     - _EdgeEmissStr: 1
     - _EmissionStr: 1
@@ -169,7 +169,7 @@ Material:
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 0
     - _VertexVFade: 0
-    - _ZTestMode: 4
+    - _ZTestMode: 8
     - _ZWrite: 1
     - _ZWriteMode: 1
     - __dirty: 0
@@ -178,11 +178,11 @@ Material:
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: -2, g: 2, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 0}
+    - _MainColor: {r: 6.883182, g: 6.883182, b: 6.883182, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}

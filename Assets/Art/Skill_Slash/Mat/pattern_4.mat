@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pattern_2
+  m_Name: pattern_4
   m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
-  m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
-    _UV2WCONTROLOFFSET_ON
+  m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
+    _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON _UV3_XCONTORLDISTURB_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -45,12 +45,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: 0a4c77e4c2a232547856bd376a6b3a82, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
-        m_Offset: {x: 0.44, y: 0.43}
+        m_Texture: {fileID: 2800000, guid: e90b7c601b496114cb282bcf156c9211, type: 3}
+        m_Scale: {x: 5, y: 0.1}
+        m_Offset: {x: 0, y: 0}
     - _DisturbTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 14522995895c6b446a9da1bb19051195, type: 3}
+        m_Scale: {x: 6, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 658efbf83797f9e4ea0a8fefa4a5fefa, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3722bd2e277c75b46bb6b56803e45ee4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -120,11 +120,11 @@ Material:
     - _DissDisturbStr: 0
     - _Dissolution: 0
     - _DissolutionOn: 1
-    - _DissolutionSoft: 0.719
+    - _DissolutionSoft: 0.656
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
-    - _DisturbOn: 0
-    - _DisturbStr: 0
+    - _DisturbOn: 1
+    - _DisturbStr: 0.05
     - _DstBlend: 0
     - _EdgeEmissStr: 1
     - _EmissionStr: 1
@@ -157,11 +157,11 @@ Material:
     - _UV1_WContorlEmission: 1
     - _UV1_WContorlVertexOffset: 0
     - _UV1_WContorlVtOffset: 0
-    - _UV2ControlOffset: 0
+    - _UV2ControlOffset: 1
     - _UV2WControlOffset: 1
     - _UV2_TContorlFlow: 0
     - _UV2_WContorlOffset: 0
-    - _UV3_XContorlDisturb: 0
+    - _UV3_XContorlDisturb: 1
     - _UVSec: 0
     - _VFade: 0
     - _VertexFadeRange: 1
@@ -169,20 +169,20 @@ Material:
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 0
     - _VertexVFade: 0
-    - _ZTestMode: 4
+    - _ZTestMode: 8
     - _ZWrite: 1
     - _ZWriteMode: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0.1, g: 0.2, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: 1, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 0}
+    - _MainColor: {r: 11.984314, g: 11.984314, b: 11.984314, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
