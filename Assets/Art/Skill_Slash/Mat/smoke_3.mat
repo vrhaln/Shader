@@ -50,16 +50,16 @@ Material:
     m_Floats:
     - _CullMode: 0
     - _DissHardness: 0.445
-    - _DissHardness1: 0.122
-    - _DissHardness2: 0.377
-    - _DissHardness3: 0.445
+    - _DissHardness1: 0
+    - _DissHardness2: 0.306
+    - _DissHardness3: 0.6
     - _Dissolution: 0
-    - _FadeRange: 0.2
+    - _FadeRange: 2
     - _Float0: 1.45
     - _Float1: 0.09
     - _FlowOn: 0
     - _FlowStr: 1.5
-    - _Invers1: 0.041
+    - _Invers1: 1
     - _Invers2: 0
     - _Invers3: 1
     - _Keyword0: 0
@@ -76,9 +76,9 @@ Material:
     - _soft3: 0.5
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
-    - _Color1: {r: 5.8970766, g: 5.8970766, b: 5.8970766, a: 0}
-    - _Color2: {r: 1.0943396, g: 1.0943396, b: 1.0943396, a: 0}
-    - _Color3: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 0}
+    - _Color1: {r: 2.7951515, g: 3.7490525, b: 4.237095, a: 0}
+    - _Color2: {r: 0.707775, g: 0.707775, b: 0.707775, a: 0}
+    - _Color3: {r: 0.3123115, g: 0.19490923, b: 0.5660378, a: 0}
     - _NoisePanner: {r: 0.5, g: 0, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []

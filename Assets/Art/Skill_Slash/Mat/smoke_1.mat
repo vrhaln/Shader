@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: smoke_1
   m_Shader: {fileID: 4800000, guid: 454a28a6ccf0bd349a8245d2d7978b27, type: 3}
-  m_ShaderKeywords: _UV2YCONTORLFLOW_ON
+  m_ShaderKeywords: _SOFTPARTICLE_ON _UV2YCONTORLFLOW_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -54,7 +54,7 @@ Material:
     - _DissHardness2: 0.377
     - _DissHardness3: 0.445
     - _Dissolution: 0
-    - _FadeRange: 0.2
+    - _FadeRange: 1
     - _Float0: 1.45
     - _Float1: 0.09
     - _FlowOn: 0
@@ -63,7 +63,7 @@ Material:
     - _Invers2: 0
     - _Invers3: 1
     - _Keyword0: 0
-    - _SoftParticle: 0
+    - _SoftParticle: 1
     - _UV2WTContorlOffset: 0
     - _UV2YContorlFlow: 1
     - _ZTestMode: 4
@@ -77,8 +77,8 @@ Material:
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
     - _Color1: {r: 2.0678463, g: 1.4881425, b: 1.1217091, a: 0}
-    - _Color2: {r: 0.76191586, g: 0.4056604, b: 2, a: 0}
-    - _Color3: {r: 0.1376911, g: 0.11801351, b: 0.49056602, a: 0}
+    - _Color2: {r: 0.766, g: 0.0627869, b: 0.14127046, a: 0}
+    - _Color3: {r: 0.13037497, g: 0.06917857, b: 0.29799998, a: 0}
     - _NoisePanner: {r: -0.5, g: 0, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []
