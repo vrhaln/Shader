@@ -62,7 +62,7 @@ Material:
     - _SoftParticle: 0
     - _UV2WTContorlOffset: 0
     - _UV2YContorlFlow: 1
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - __dirty: 0
     - _range1: 0.02
     - _range2: 0.43
