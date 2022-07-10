@@ -35,6 +35,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 79731f369eb8f3148bc2e10bef525fa2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -60,6 +64,7 @@ Material:
     - _Invers3: 1
     - _Keyword0: 0
     - _SoftParticle: 1
+    - _UV2WTContorlOffset: 0
     - _UV2YContorlFlow: 1
     - _ZTestMode: 4
     - __dirty: 0
@@ -74,6 +79,6 @@ Material:
     - _Color1: {r: 2.8235488, g: 2.8235488, b: 2.8235488, a: 0}
     - _Color2: {r: 1, g: 1, b: 1, a: 0}
     - _Color3: {r: 0.4, g: 0.4, b: 0.4, a: 0}
-    - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoisePanner: {r: 0.1, g: 0, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []
