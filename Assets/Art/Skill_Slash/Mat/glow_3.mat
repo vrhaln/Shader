@@ -46,11 +46,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
         m_Texture: {fileID: 2800000, guid: 0a4c77e4c2a232547856bd376a6b3a82, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Scale: {x: 1, y: 0.2}
         m_Offset: {x: 0.44, y: 0.56}
     - _DisturbTex:
-        m_Texture: {fileID: 2800000, guid: fd01c1679eeb4df0a8dfbad947776ce4, type: 3}
-        m_Scale: {x: 0.2, y: 1}
+        m_Texture: {fileID: 2800000, guid: 85b4e4b7e1ff33c44b25c6a2b58d73c1, type: 3}
+        m_Scale: {x: 1, y: 0.2}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -124,7 +124,7 @@ Material:
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
     - _DisturbOn: 1
-    - _DisturbStr: 0.44
+    - _DisturbStr: 0.2
     - _DstBlend: 0
     - _EdgeEmissStr: 1
     - _EmissionStr: 1
@@ -178,7 +178,7 @@ Material:
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
     - _DissolutionTexPanner: {r: 0, g: -2, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: -2, g: 2, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: -2, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
