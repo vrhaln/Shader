@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _FlowTex:
         m_Texture: {fileID: 2800000, guid: ecd4beee12339f34193b443b45873f16, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -76,7 +80,7 @@ Material:
     - _soft3: 0.5
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
-    - _Color1: {r: 2.8235488, g: 2.8235488, b: 2.8235488, a: 0}
+    - _Color1: {r: 3.0940378, g: 2.013317, b: 1.5032355, a: 0}
     - _Color2: {r: 1, g: 1, b: 1, a: 0}
     - _Color3: {r: 0.4, g: 0.4, b: 0.4, a: 0}
     - _NoisePanner: {r: 0.1, g: 0, b: 1, a: 0}
