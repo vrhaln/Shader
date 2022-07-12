@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: smoke_6
+  m_Name: smoke_7
   m_Shader: {fileID: 4800000, guid: 6a38e4a68ab1cee43b1550533f93d593, type: 3}
   m_ShaderKeywords: _SOFTPARTICLE_ON _UV2WTCONTORLOFFSET_ON _UV2YCONTORLFLOW_ON
   m_LightmapFlags: 4
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c66e248df22a80249932c8419e905042, type: 3}
+        m_Texture: {fileID: 2800000, guid: 488b3da2b1b30134bad235141a5ada38, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_1:
@@ -80,9 +80,9 @@ Material:
     - _soft3: 0.5
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
-    - _Color1: {r: 18.596857, g: 4.5235596, b: 31.999996, a: 0}
-    - _Color2: {r: 43.528595, g: 223.67905, b: 341.78006, a: 0}
-    - _Color3: {r: 0.089682214, g: 3.4258614, b: 0.5412937, a: 0}
+    - _Color1: {r: 74.38743, g: 18.094238, b: 127.999985, a: 0}
+    - _Color2: {r: 89.471214, g: 450.9349, b: 683.5601, a: 0}
+    - _Color3: {r: 0.17936447, g: 6.8517227, b: 1.1120597, a: 0}
     - _NoisePanner: {r: 0.5, g: 0, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []

@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ABglow_1
-  m_Shader: {fileID: 4800000, guid: 419c5fd847d7c1f4084de4f4d18884cf, type: 3}
-  m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
-    _UV2WCONTROLOFFSET_ON
+  m_Name: Prick_5
+  m_Shader: {fileID: 4800000, guid: 6382355e714e908448ea99f2c3dd7f06, type: 3}
+  m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON
+    _UV1_WCONTORLEMISSION_ON _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON _UV3_XCONTORLDISTURB_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,10 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Basemap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -49,12 +45,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: df4d33ce99e761a4ea47884e31fd6b02, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: -0.08, y: -0.04}
+        m_Texture: {fileID: 2800000, guid: 4ecbbeaf0ea80f04aa5f22f67103e69c, type: 3}
+        m_Scale: {x: 0.57, y: 7}
+        m_Offset: {x: 0.61, y: 0.52}
     - _DisturbTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 14522995895c6b446a9da1bb19051195, type: 3}
+        m_Scale: {x: 0.2, y: 5}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -65,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a1b8d8791b5ee394ca2a09a825786114, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowTex:
@@ -73,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4e79806daeba8214385c96c574622d61, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4e2b1978fa224fe4ab099eb8c09f258a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -97,9 +93,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: e064a7f8a1f96e24385bca128abbb651, type: 3}
+        m_Scale: {x: 1, y: -0.25}
+        m_Offset: {x: -0.19, y: 0}
     - _VertexOffsetTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -118,19 +114,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _ColorIntensity: 1
     - _CullMode: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DissDisturbStr: 0
     - _Dissolution: 0
     - _DissolutionOn: 1
-    - _DissolutionSoft: 1
+    - _DissolutionSoft: 0.592
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
-    - _Distance: 0.1
-    - _DisturbOn: 0
-    - _DisturbStr: 0
+    - _DisturbOn: 1
+    - _DisturbStr: 0.05
     - _DstBlend: 0
     - _EdgeEmissStr: 1
     - _EmissionStr: 1
@@ -156,18 +150,18 @@ Material:
     - _Parallax: 0.02
     - _Rotater: 0
     - _SmoothnessTextureChannel: 0
-    - _SoftParticle: 0
+    - _SoftParticle: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
     - _UV1_WContorlVertexOffset: 0
     - _UV1_WContorlVtOffset: 0
-    - _UV2ControlOffset: 0
+    - _UV2ControlOffset: 1
     - _UV2WControlOffset: 1
     - _UV2_TContorlFlow: 0
     - _UV2_WContorlOffset: 0
-    - _UV3_XContorlDisturb: 0
+    - _UV3_XContorlDisturb: 1
     - _UVSec: 0
     - _VFade: 0
     - _VertexFadeRange: 1
@@ -175,7 +169,6 @@ Material:
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 0
     - _VertexVFade: 0
-    - _ZTest: 0
     - _ZTestMode: 8
     - _ZWrite: 1
     - _ZWriteMode: 1
@@ -183,13 +176,13 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColumnsRows: {r: 1, g: 1, b: 0, a: 0}
-    - _DissolutionTexPanner: {r: 0, g: -0.35, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: -0.5, g: 0, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
+    - _MainColor: {r: 10.432949, g: 10.432949, b: 10.432949, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
