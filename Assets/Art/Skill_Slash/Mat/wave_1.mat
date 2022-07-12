@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: wave_1
-  m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
+  m_Shader: {fileID: 4800000, guid: 419c5fd847d7c1f4084de4f4d18884cf, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLVOFFSET_ON
     _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON _VERTEXOFFSETON_ON
   m_LightmapFlags: 4
@@ -108,6 +108,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _CullMode: 0
@@ -143,6 +147,7 @@ Material:
     - _NoiseEmissionStr: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 0
     - _SpecularHighlights: 1
@@ -151,10 +156,12 @@ Material:
     - _UV1_WContorlEmission: 0
     - _UV1_WContorlVOffset: 1
     - _UV1_WContorlVertexOffset: 0
+    - _UV1_WContorlVtOffset: 0
     - _UV2ControlOffset: 1
     - _UV2WControlOffset: 1
     - _UV2_TContorlFlow: 0
     - _UV2_WContorlOffset: 0
+    - _UV3_XContorlDisturb: 0
     - _UVSec: 0
     - _VFade: 0
     - _VertexFadeRange: 1

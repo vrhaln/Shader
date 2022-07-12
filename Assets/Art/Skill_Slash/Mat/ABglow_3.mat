@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ABglow_3
-  m_Shader: {fileID: 4800000, guid: bcc011cb85a354441a8dd8506de1b388, type: 3}
+  m_Shader: {fileID: 4800000, guid: 419c5fd847d7c1f4084de4f4d18884cf, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
     _UV2WCONTROLOFFSET_ON
   m_LightmapFlags: 4
