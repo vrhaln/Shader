@@ -40,8 +40,8 @@ Material:
         m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex3:
-        m_Texture: {fileID: 2800000, guid: 392c171f5aa09c24bb0f9c8142722010, type: 3}
-        m_Scale: {x: 10, y: 2}
+        m_Texture: {fileID: 2800000, guid: 9bb9e3d400ae31d47943bc7c4fc13356, type: 3}
+        m_Scale: {x: 10, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlowMaskTex:
         m_Texture: {fileID: 2800000, guid: 20f56775e4c071d47ab0300da9a51cd4, type: 3}
@@ -82,7 +82,7 @@ Material:
     - _FlowEmissIntensity: 10
     - _FlowEmissRange: 3.6
     - _FlowEmissSoft: 0.914
-    - _FlowRange: 0.8
+    - _FlowRange: 0.72
     - _FlowRange1: 3.96
     - _FlowRange2: 2
     - _FlowSoft: 1
@@ -99,11 +99,11 @@ Material:
     - _CloudSpeed2: {r: -0.02, g: -0.01, b: 0, a: 0}
     - _EmissColor: {r: 0.05, g: 0.05, b: 0.05, a: 1}
     - _EmissionTex2Panner: {r: 0, g: -0.5, b: 1, a: 0}
-    - _EmissionTex3Panner: {r: 0, g: -0.2, b: 1, a: 0}
+    - _EmissionTex3Panner: {r: -0.01, g: -0.1, b: 1, a: 0}
     - _EmissionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _FogColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
     - _NebulaTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _NoiseSpeed: {r: 0, g: 0.01, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0, g: 0.005, b: 0, a: 0}
     - _Range2: {r: 0, g: 0, b: 0, a: 0}
     - _SkyFogOffset: {r: 1, g: 1.9, b: 0, a: 0}
     - _Speed: {r: 0.005, g: 0, b: 0, a: 0}
