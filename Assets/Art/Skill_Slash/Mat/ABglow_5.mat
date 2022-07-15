@@ -154,6 +154,7 @@ Material:
     - _NoiseEmissionStr: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RGBA: 0
     - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 0
@@ -189,7 +190,7 @@ Material:
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
-    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
+    - _MainColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
