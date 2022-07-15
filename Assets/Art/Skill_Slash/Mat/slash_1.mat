@@ -10,7 +10,7 @@ Material:
   m_Name: slash_1
   m_Shader: {fileID: 4800000, guid: 419c5fd847d7c1f4084de4f4d18884cf, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON
-    _UV1_WCONTORLVERTEXOFFSET_ON _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON
+    _UV2CONTROLOFFSET_ON _UV2WCONTROLOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -148,6 +148,8 @@ Material:
     - _NoiseEmissionStr: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RGB: 0
+    - _RGBA: 0
     - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 1
@@ -155,7 +157,7 @@ Material:
     - _SrcBlend: 1
     - _UV1_TContorlDis: 1
     - _UV1_WContorlEmission: 1
-    - _UV1_WContorlVertexOffset: 1
+    - _UV1_WContorlVertexOffset: 0
     - _UV1_WContorlVtOffset: 0
     - _UV2ControlOffset: 1
     - _UV2WControlOffset: 1

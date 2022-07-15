@@ -6851,6 +6851,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4757132465111055751, guid: 24d508a866eede44fba309c69a8226d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5023411736332153711, guid: 24d508a866eede44fba309c69a8226d2,
         type: 3}
       propertyPath: randomSeed
@@ -12212,7 +12217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1081721533
 Transform:
   m_ObjectHideFlags: 0
@@ -17996,7 +18001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1738466200
 Transform:
   m_ObjectHideFlags: 0
@@ -23971,6 +23976,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1213898016}
     m_Modifications:
+    - target: {fileID: 860233033776629827, guid: 24d508a866eede44fba309c69a8226d2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 0.7529412
+      objectReference: {fileID: 0}
     - target: {fileID: 2115222964854755375, guid: 24d508a866eede44fba309c69a8226d2,
         type: 3}
       propertyPath: randomSeed
@@ -23980,6 +23990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: autoRandomSeed
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3889522794128277205, guid: 24d508a866eede44fba309c69a8226d2,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4519092252000682105, guid: 24d508a866eede44fba309c69a8226d2,
         type: 3}

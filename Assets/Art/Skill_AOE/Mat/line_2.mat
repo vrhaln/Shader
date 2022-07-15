@@ -83,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _CullMode: 0
@@ -102,6 +106,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RGB: 0
     - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 0
@@ -109,7 +114,9 @@ Material:
     - _SrcBlend: 1
     - _UV1_TContorlDis: 1
     - _UV1_WContorlVertexOffset: 0
+    - _UV1_WContorlVtOffset: 0
     - _UV2ControlOffset: 0
+    - _UV3_XContorlDisturb: 0
     - _UVSec: 0
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 1
@@ -121,7 +128,7 @@ Material:
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []

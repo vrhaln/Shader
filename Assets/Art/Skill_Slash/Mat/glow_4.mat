@@ -149,6 +149,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RGB: 0
+    - _RGBA: 0
     - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 0

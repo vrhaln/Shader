@@ -106,6 +106,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RGBA: 0
     - _Rotater: 0
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 0
@@ -127,7 +128,7 @@ Material:
     - _DissolutionTexPanner: {r: -1.5, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
+    - _MainColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
