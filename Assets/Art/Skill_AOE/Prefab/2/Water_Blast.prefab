@@ -284,7 +284,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3.6
+      scalar: 3.85
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -5191,7 +5191,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.97
+      scalar: 0.55
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -9789,7 +9789,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1.84
@@ -9800,7 +9800,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 2
-  m_Pivot: {x: 0, y: 0.5, z: 0}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
@@ -9809,7 +9809,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304200524
-  m_Mesh: {fileID: 4776636094181698294, guid: 260d27b5daf7c114a8dece958f4a3aad, type: 3}
+  m_Mesh: {fileID: 7031631340797758998, guid: 84a4672bd92b57e4a9983cc3080a87cf, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -9826,7 +9826,7 @@ GameObject:
   - component: {fileID: 1802000704281198394}
   - component: {fileID: 9110264575804080470}
   m_Layer: 0
-  m_Name: Water_1 (1)
+  m_Name: Water_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10099,7 +10099,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 3.5
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -15007,7 +15007,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.97
+      scalar: 0.55
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -19605,7 +19605,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1.84
@@ -19616,7 +19616,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 2
-  m_Pivot: {x: 0, y: 0.5, z: 0}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
@@ -19625,7 +19625,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304200524
-  m_Mesh: {fileID: 4776636094181698294, guid: 260d27b5daf7c114a8dece958f4a3aad, type: 3}
+  m_Mesh: {fileID: 7031631340797758998, guid: 84a4672bd92b57e4a9983cc3080a87cf, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -19680,7 +19680,7 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -24463,14 +24463,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8774066113754703538}
-  m_LocalRotation: {x: -0.22415331, y: 0.37346736, z: 0.22302523, w: 0.8720878}
+  m_LocalRotation: {x: 0.19185938, y: -0.8158799, z: 0.2513462, w: 0.4841024}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8774066114353037760}
   m_Father: {fileID: 8774066113687053829}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -33.886, y: 41.624, z: 15.48}
+  m_LocalEulerAnglesHint: {x: 36.577, y: -120.281, z: -4.98}
 --- !u!198 &8774066113754703543
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -24723,7 +24723,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.97
+      scalar: 0.55
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -29321,7 +29321,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1.84
@@ -29332,7 +29332,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 2
-  m_Pivot: {x: 0, y: 0.5, z: 0}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
@@ -29341,7 +29341,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304200524
-  m_Mesh: {fileID: 4776636094181698294, guid: 260d27b5daf7c114a8dece958f4a3aad, type: 3}
+  m_Mesh: {fileID: 7031631340797758998, guid: 84a4672bd92b57e4a9983cc3080a87cf, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -29630,7 +29630,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.8
+      scalar: 0.61
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -29683,7 +29683,7 @@ ParticleSystem:
     startSizeY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.47
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -29947,7 +29947,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
-    size3D: 0
+    size3D: 1
     rotation3D: 0
     gravityModifier:
       serializedVersion: 2
@@ -34228,7 +34228,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1.84
@@ -34239,7 +34239,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 2
-  m_Pivot: {x: 0, y: 0.5, z: 0}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
@@ -34248,7 +34248,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304200524
-  m_Mesh: {fileID: 4776636094181698294, guid: 260d27b5daf7c114a8dece958f4a3aad, type: 3}
+  m_Mesh: {fileID: 7031631340797758998, guid: 84a4672bd92b57e4a9983cc3080a87cf, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -34537,7 +34537,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.97
+      scalar: 0.55
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -39135,7 +39135,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1.84
@@ -39146,7 +39146,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 2
-  m_Pivot: {x: 0, y: 0.5, z: 0}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
@@ -39155,7 +39155,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304200524
-  m_Mesh: {fileID: 4776636094181698294, guid: 260d27b5daf7c114a8dece958f4a3aad, type: 3}
+  m_Mesh: {fileID: 7031631340797758998, guid: 84a4672bd92b57e4a9983cc3080a87cf, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -39185,14 +39185,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8774066114832669241}
-  m_LocalRotation: {x: -0.17438981, y: -0.6347651, z: -0.14586003, w: 0.7385028}
+  m_LocalRotation: {x: 0.16737475, y: 0.8150387, z: -0.15385924, w: 0.5329401}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8774066114086226690}
   m_Father: {fileID: 8774066113687053829}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -26.279, y: -81.449, z: 0.381}
+  m_LocalEulerAnglesHint: {x: 25.417, y: 115.203, z: 6.921}
 --- !u!198 &8774066114832669242
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -39445,7 +39445,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.8
+      scalar: 0.54
       minScalar: 4
       maxCurve:
         serializedVersion: 2
@@ -44043,7 +44043,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_RenderMode: 0
+  m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1.84
@@ -44054,7 +44054,7 @@ ParticleSystemRenderer:
   m_NormalDirection: 1
   m_ShadowBias: 0
   m_RenderAlignment: 2
-  m_Pivot: {x: 0, y: 0.5, z: 0}
+  m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
   m_UseCustomVertexStreams: 1
   m_EnableGPUInstancing: 1
@@ -44063,7 +44063,7 @@ ParticleSystemRenderer:
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304200524
-  m_Mesh: {fileID: 4776636094181698294, guid: 260d27b5daf7c114a8dece958f4a3aad, type: 3}
+  m_Mesh: {fileID: 7031631340797758998, guid: 84a4672bd92b57e4a9983cc3080a87cf, type: 3}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
