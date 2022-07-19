@@ -58,7 +58,7 @@ Material:
     - _Dissolve: 0.552
     - _DisturbOn: 1
     - _DisturbStr: 0.1
-    - _EdgeSoft: 0.6
+    - _EdgeSoft: 1
     - _EdgeWidth: 0
     - _FadeRange: 0.5
     - _Float5: 0.1
