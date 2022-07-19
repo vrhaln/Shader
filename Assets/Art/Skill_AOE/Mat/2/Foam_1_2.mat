@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Foam_1
+  m_Name: Foam_1_2
   m_Shader: {fileID: 4800000, guid: 79b8e23a03e350147920839f206c1b83, type: 3}
   m_ShaderKeywords: _DISTURBON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEDGEWIDTH_ON
     _UV2CONTROLOFFSET_ON
@@ -22,20 +22,24 @@ Material:
     m_TexEnvs:
     - _DissolveTex:
         m_Texture: {fileID: 2800000, guid: 4e39b14ff3e9db94299fb941ce9bb92e, type: 3}
-        m_Scale: {x: 2, y: 1}
+        m_Scale: {x: 1.5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 2800000, guid: 91ccffe1e18c25542844cbe4789cc399, type: 3}
-        m_Scale: {x: 4, y: 2}
-        m_Offset: {x: -0.24, y: 0}
+        m_Scale: {x: 2, y: 4}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7d12bf6a5b668cf478bc06f0511527b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 8f5b9bfb4786b5047b0a4610286148ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed9f7f0c12dd63146878f8585b4f96df, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 0.2}
+        m_Offset: {x: 0, y: 0.1}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 29fd5e15a98d9b3468079bf05152569e, type: 3}
         m_Scale: {x: 1, y: 1}
