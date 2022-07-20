@@ -32,11 +32,11 @@ Material:
         m_Scale: {x: 4, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 2800000, guid: 88644092a973e7243934ef4deb86738d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0d261e2e514e59f44926bc1744b6ecc1, type: 3}
         m_Scale: {x: 20, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex2:
-        m_Texture: {fileID: 2800000, guid: 16697fe2c09b70e43b57089fb6f8c2f5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 635482c46a80e8644b17ff47ebc23c12, type: 3}
         m_Scale: {x: 2, y: 0.5}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex3:
@@ -75,16 +75,16 @@ Material:
     - _Cloud1: 1
     - _Cloud2: -1.5
     - _Disturbstr: 0.1
-    - _EmissionIntensity: 10
+    - _EmissionIntensity: 1
     - _Float0: 1
     - _Float1: 67.9
     - _Float2: 0.3
     - _FlowEmissIntensity: 10
     - _FlowEmissRange: 3.6
     - _FlowEmissSoft: 0.914
-    - _FlowRange: 0.72
+    - _FlowRange: 0.801
     - _FlowRange1: 3.96
-    - _FlowRange2: 2
+    - _FlowRange2: 1.535
     - _FlowSoft: 1
     - _HoriazonGlow: 3.2
     - _Intensity: 0.5
@@ -94,16 +94,16 @@ Material:
     - _StarIntensity: 50
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0.48235294, g: 0.36862746, b: 0.33333334, a: 0}
+    - _BaseColor: {r: 0.218519, g: 0.3082137, b: 0.371, a: 0}
     - _CloudSpeed: {r: -0.005, g: -0.01, b: 0, a: 0}
     - _CloudSpeed2: {r: -0.02, g: -0.01, b: 0, a: 0}
-    - _EmissColor: {r: 0.3018868, g: 0.18654326, b: 0.18654326, a: 1}
-    - _EmissionTex2Panner: {r: 0, g: -0.5, b: 1, a: 0}
-    - _EmissionTex3Panner: {r: -0.01, g: -0.1, b: 1, a: 0}
+    - _EmissColor: {r: 0.6226415, g: 0.34362763, b: 0.45436162, a: 1}
+    - _EmissionTex2Panner: {r: 0, g: -0.1, b: 1, a: 0}
+    - _EmissionTex3Panner: {r: -0.01, g: -0.02, b: 1, a: 0}
     - _EmissionTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _FogColor: {r: 0.74509805, g: 0.6431373, b: 0.5647059, a: 1}
+    - _FogColor: {r: 0.45087218, g: 0.591778, b: 0.6415094, a: 1}
     - _NebulaTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _NoiseSpeed: {r: 0, g: 0.005, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0, g: 0.001, b: 0, a: 0}
     - _Range2: {r: 0, g: 0, b: 0, a: 0}
     - _SkyFogOffset: {r: 1, g: 1.9, b: 0, a: 0}
     - _Speed: {r: 0.005, g: 0, b: 0, a: 0}
