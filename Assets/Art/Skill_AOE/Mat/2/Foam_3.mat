@@ -37,9 +37,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 0.2}
-        m_Offset: {x: 0, y: 0.1}
+        m_Texture: {fileID: 2800000, guid: 20f56775e4c071d47ab0300da9a51cd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.05}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 29fd5e15a98d9b3468079bf05152569e, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -63,6 +63,7 @@ Material:
     - _FadeRange: 0.5
     - _Float5: 0.1
     - _OneMinus: 1
+    - _RampMul: 2
     - _Rotater: 0
     - _Soft: 0.675
     - _SoftParticle: 1
