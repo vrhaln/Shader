@@ -4860,7 +4860,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0.15
+    scalar: 0.1
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -4973,7 +4973,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 35
+      scalar: 50
       minScalar: 25
       maxCurve:
         serializedVersion: 2
@@ -5030,8 +5030,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.43529412, g: 0.91273797, b: 0.99215686, a: 1}
-        key1: {r: 0.427451, g: 1, b: 0.70798326, a: 1}
+        key0: {r: 0.880823, g: 0.99215686, b: 0.43529412, a: 1}
+        key1: {r: 0.990566, g: 0.8503284, b: 0.6961997, a: 1}
         key2: {r: 0.990566, g: 0.8503284, b: 0.6961997, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -5039,7 +5039,7 @@ ParticleSystem:
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 25746
+        ctime1: 38452
         ctime2: 46978
         ctime3: 0
         ctime4: 0
@@ -5055,7 +5055,7 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_NumColorKeys: 3
+        m_NumColorKeys: 2
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
@@ -5464,8 +5464,8 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 2
-    angle: 30
+    type: 4
+    angle: 76.32
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -5551,7 +5551,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.79
+      value: 0.54
       mode: 0
       spread: 0
       speed:
@@ -5853,26 +5853,62 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.32020515
         - serializedVersion: 3
-          time: 0.18841323
+          time: 0.12983668
           value: 1
-          inSlope: 0.13417809
-          outSlope: 0.13417809
-          tangentMode: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.47180337
+          outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.46447042
-          value: 0.7797358
-          inSlope: -1.2043011
-          outSlope: -1.2043011
-          tangentMode: 0
+          time: 0.27620474
+          value: 0.42605728
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.1912555
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.40513885
+          value: 0.85131556
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.56445974
+          value: 0.53653646
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.68865496
+          value: 0.74551344
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.80710024
+          value: 0.5766423
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 136
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 0.40087909
+          value: 0.63436085
           inSlope: -0.121425614
           outSlope: -0.121425614
           tangentMode: 0
@@ -7513,7 +7549,7 @@ ParticleSystem:
     inWorldSpace: 0
     multiplyDragByParticleSize: 1
     multiplyDragByParticleVelocity: 1
-    dampen: 0.1
+    dampen: 0.15
     drag:
       serializedVersion: 2
       minMaxState: 0
