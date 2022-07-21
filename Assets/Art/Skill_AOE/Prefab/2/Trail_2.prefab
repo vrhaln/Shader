@@ -114,9 +114,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0.35
-      minScalar: 5
+      minMaxState: 3
+      scalar: 0.75
+      minScalar: 0.3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 2.59
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -658,15 +658,15 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 0
+    enabled: 1
     type: 4
-    angle: 30
+    angle: 19.2
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 1
+    radiusThickness: 0
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
-    m_Rotation: {x: -90, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0}
     m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
@@ -746,7 +746,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.0001
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -4681,21 +4681,30 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 1
-          inSlope: -3.0864131
-          outSlope: -3.0864131
+          inSlope: -9.2511015
+          outSlope: -9.2511015
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.21478899
+        - serializedVersion: 3
+          time: 0.21283345
+          value: -0.17789233
+          inSlope: -1.6427885
+          outSlope: -1.6427885
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.22445183
+          outWeight: 0.17243865
         - serializedVersion: 3
           time: 1
           value: -1
-          inSlope: -1.4662127
-          outSlope: -1.4662127
+          inSlope: -0.5809868
+          outSlope: -0.5809868
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.19823131
-          outWeight: 0.33333334
+          inWeight: 0.1971429
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
