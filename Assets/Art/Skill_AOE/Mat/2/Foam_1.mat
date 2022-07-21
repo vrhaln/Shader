@@ -26,7 +26,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DisturbTex:
         m_Texture: {fileID: 2800000, guid: 91ccffe1e18c25542844cbe4789cc399, type: 3}
-        m_Scale: {x: 2, y: 4}
+        m_Scale: {x: 2, y: 5}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 4ba4abb46f74e014798f91ae439b34c1, type: 3}
@@ -35,7 +35,7 @@ Material:
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: 5cc9dbe92a8ed3d4e82888bfe75473d0, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: -0.03, y: 0}
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: d30229b03a1eefb42a4162e18f8b455c, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -73,8 +73,8 @@ Material:
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
-    - _Color1: {r: 0.7490196, g: 0.42745098, b: 0.49411765, a: 0.53333336}
-    - _Color2: {r: 1.1311809, g: 0.4215249, b: 0.5665641, a: 0.35686275}
+    - _Color1: {r: 0.754717, g: 0.31683874, b: 0.40761828, a: 0.5529412}
+    - _Color2: {r: 0.7490196, g: 0.42745098, b: 0.49411765, a: 0.6156863}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0.5, g: 0, b: 1, a: 0}
     - _EdgeColor: {r: 2.4481986, g: 2.0209186, b: 2.0209186, a: 0.56078434}
