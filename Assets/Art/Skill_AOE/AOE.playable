@@ -1075,7 +1075,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: -7709775755772231266}
+  m_Parent: {fileID: 866082937186078569}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -1118,11 +1118,7 @@ MonoBehaviour:
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children:
-  - {fileID: -721631532593604517}
-  - {fileID: -3833153845805327042}
-  - {fileID: -8189741755295387776}
-  - {fileID: -2407503725593444265}
-  - {fileID: 6023464713070174089}
+  - {fileID: 866082937186078569}
   - {fileID: 3503491381242304210}
   - {fileID: -1810148517212775784}
   - {fileID: -1170900200675753760}
@@ -2945,7 +2941,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Water_1
+    m_DisplayName: Water_Blast
   m_Markers:
     m_Objects: []
 --- !u!114 &-5730674578239045675
@@ -4109,7 +4105,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: -7709775755772231266}
+  m_Parent: {fileID: 866082937186078569}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -4974,7 +4970,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: -7709775755772231266}
+  m_Parent: {fileID: 866082937186078569}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -6348,7 +6344,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: -7709775755772231266}
+  m_Parent: {fileID: 866082937186078569}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -7956,6 +7952,34 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: bg_2 (3)
+  m_Markers:
+    m_Objects: []
+--- !u!114 &866082937186078569
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Anima
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: -7709775755772231266}
+  m_Children:
+  - {fileID: -721631532593604517}
+  - {fileID: -3833153845805327042}
+  - {fileID: -8189741755295387776}
+  - {fileID: -2407503725593444265}
+  - {fileID: 6023464713070174089}
+  m_Clips: []
   m_Markers:
     m_Objects: []
 --- !u!114 &1230233847057670413
@@ -12268,7 +12292,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: -7709775755772231266}
+  m_Parent: {fileID: 866082937186078569}
   m_Children: []
   m_Clips: []
   m_Markers:
