@@ -30346,22 +30346,40 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.13317108
-          value: 0.6431732
-          inSlope: 1.776036
-          outSlope: 1.776036
+          time: 0.00404197
+          value: 0.42731237
+          inSlope: 0.027343534
+          outSlope: 0.027343534
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
-          outWeight: 0.11731928
+          outWeight: 0.3156785
+        - serializedVersion: 3
+          time: 0.28621608
+          value: 0.4421485
+          inSlope: 0.19541037
+          outSlope: 0.19541037
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.59496117
+          outWeight: 0.6456232
+        - serializedVersion: 3
+          time: 0.43627286
+          value: 0.8813173
+          inSlope: 0.46775657
+          outSlope: 0.46775657
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.23290464
         - serializedVersion: 3
           time: 1
           value: 1
-          inSlope: 0.06497802
-          outSlope: 0.06497802
+          inSlope: 0.11505574
+          outSlope: 0.11505574
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.13559324
+          inWeight: 0.27167973
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -33617,7 +33635,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.38180056
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -33680,7 +33698,7 @@ ParticleSystem:
     vector0_1:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.7222394
+      scalar: 0.81324744
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -43440,7 +43458,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.38180056
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -43503,7 +43521,7 @@ ParticleSystem:
     vector0_1:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.7222394
+      scalar: 0.81324744
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -112031,7 +112049,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.38180056
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -112094,7 +112112,7 @@ ParticleSystem:
     vector0_1:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.7222394
+      scalar: 0.81324744
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -116938,7 +116956,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.38180056
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -117001,7 +117019,7 @@ ParticleSystem:
     vector0_1:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.7222394
+      scalar: 0.81324744
       minScalar: 0
       maxCurve:
         serializedVersion: 2
