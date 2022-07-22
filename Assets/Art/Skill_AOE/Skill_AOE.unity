@@ -12797,11 +12797,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blast
       objectReference: {fileID: 0}
-    - target: {fileID: 4757906446107001341, guid: 0015c689da4a2584786470cd85f7b0ca,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7705707334965174752, guid: 0015c689da4a2584786470cd85f7b0ca,
         type: 3}
       propertyPath: m_RootOrder
@@ -12855,11 +12850,6 @@ PrefabInstance:
     - target: {fileID: 7705707334965174752, guid: 0015c689da4a2584786470cd85f7b0ca,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8444847889277582815, guid: 0015c689da4a2584786470cd85f7b0ca,
-        type: 3}
-      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
