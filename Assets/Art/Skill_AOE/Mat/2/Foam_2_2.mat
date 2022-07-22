@@ -53,16 +53,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ControlAlpha: 0
     - _CullMode: 0
     - _Dissolution: 0
     - _Dissolve: 0.552
     - _DisturbOn: 1
     - _DisturbStr: 0.1
-    - _EdgeSoft: 0.6
+    - _EdgeSoft: 0.51
     - _EdgeWidth: 0
     - _FadeRange: 0.5
     - _Float5: 0.1
     - _OneMinus: 1
+    - _RampMul: 1
     - _Rotater: 0
     - _Soft: 0.675
     - _SoftParticle: 1
@@ -72,11 +74,11 @@ Material:
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
-    - _Color1: {r: 3.890196, g: 2.2117648, b: 2.5568628, a: 0.7294118}
-    - _Color2: {r: 3.890196, g: 2.0235295, b: 2.4156864, a: 0.8509804}
+    - _Color1: {r: 2.9960785, g: 1.7098039, b: 1.9764706, a: 0.7294118}
+    - _Color2: {r: 1.4980392, g: 0.78431374, b: 0.93333334, a: 0.8509804}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0.5, b: 1, a: 0}
-    - _EdgeColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+    - _EdgeColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []

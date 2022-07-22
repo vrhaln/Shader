@@ -64,7 +64,7 @@ Material:
     - _FadeRange: 0.5
     - _Float5: 0.1
     - _OneMinus: 1
-    - _RampMul: 5
+    - _RampMul: 2
     - _Rotater: 0
     - _Soft: 0.675
     - _SoftParticle: 1
@@ -74,8 +74,8 @@ Material:
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
-    - _Color1: {r: 5.5908804, g: 5.5908804, b: 5.5908804, a: 0.2}
-    - _Color2: {r: 4.5412054, g: 4.5412054, b: 4.5412054, a: 0.4117647}
+    - _Color1: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    - _Color2: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0.5, b: 1, a: 0}
     - _EdgeColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
