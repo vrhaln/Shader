@@ -73,11 +73,11 @@ Material:
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
-    - _Color1: {r: 1.6489182, g: 1.6489182, b: 1.6489182, a: 0.4627451}
-    - _Color2: {r: 1.699496, g: 1.699496, b: 1.699496, a: 0.43137255}
+    - _Color1: {r: 5.5908804, g: 5.5908804, b: 5.5908804, a: 0.2}
+    - _Color2: {r: 4.5412054, g: 4.5412054, b: 4.5412054, a: 0.4117647}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0.5, b: 1, a: 0}
-    - _EdgeColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0.54509807}
+    - _EdgeColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
