@@ -4845,7 +4845,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_RenderMode: 2
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -9208,7 +9208,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.4192903
+      scalar: 0.26121947
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -9770,7 +9770,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -3
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -14650,7 +14650,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -19521,7 +19521,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_RenderMode: 2
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -24428,7 +24428,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -29335,7 +29335,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 1
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -33698,7 +33698,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.4192903
+      scalar: 0.19274318
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -34260,7 +34260,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -3
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -39167,7 +39167,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -44074,7 +44074,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -48411,7 +48411,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.2924726
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -48982,7 +48982,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -2
   m_RenderMode: 1
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -53345,7 +53345,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.4192903
+      scalar: 0.19274318
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -53907,7 +53907,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -3
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -58270,7 +58270,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.4192903
+      scalar: 0.19274318
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -58832,7 +58832,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -3
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -63195,7 +63195,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.4192903
+      scalar: 0.26121947
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -63757,7 +63757,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -3
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -68675,7 +68675,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -73038,7 +73038,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.4192903
+      scalar: 0.26121947
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -73600,7 +73600,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -3
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -82853,7 +82853,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.20261823
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -83415,7 +83415,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -2
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -88322,7 +88322,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -97488,7 +97488,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.20261823
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -98050,7 +98050,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -2
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -102957,7 +102957,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -107864,7 +107864,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -4
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -112210,7 +112210,7 @@ ParticleSystem:
     vector0_0:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 0.434686
+      scalar: 0.20261823
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -112772,7 +112772,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -2
   m_RenderMode: 4
   m_SortMode: 0
   m_MinParticleSize: 0
