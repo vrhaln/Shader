@@ -102,8 +102,8 @@ Material:
     - _EmissionTex3Panner: {r: -0.01, g: -0.02, b: 1, a: 0}
     - _EmissionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _FogColor: {r: 0.42352942, g: 0.38431373, b: 0.34117648, a: 1}
-    - _NebulaTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _NoiseSpeed: {r: 0, g: 0.001, b: 0, a: 0}
+    - _NebulaTexPanner: {r: 0, g: 0.005, b: 1, a: 0}
+    - _NoiseSpeed: {r: 0, g: -0.005, b: 0, a: 0}
     - _Range2: {r: 0, g: 0, b: 0, a: 0}
     - _SkyFogOffset: {r: 1, g: 1.9, b: 0, a: 0}
     - _Speed: {r: 0.005, g: 0, b: 0, a: 0}
