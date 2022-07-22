@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Foam_10
   m_Shader: {fileID: 4800000, guid: 79b8e23a03e350147920839f206c1b83, type: 3}
-  m_ShaderKeywords: _DISTURBON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEDGEWIDTH_ON
-    _UV2CONTROLOFFSET_ON
+  m_ShaderKeywords: _CONTROLALPHA_ON _DISTURBON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON
+    _UV1_WCONTORLEDGEWIDTH_ON _UV2CONTROLOFFSET_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -37,9 +37,9 @@ Material:
         m_Scale: {x: 1, y: 0.2}
         m_Offset: {x: 0, y: 0.67}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 1b7ad1a38aafcf442b0e36b71e943b5f, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed3a5efebe958ba429d350e04f14d1ab, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: -0.28}
+        m_Offset: {x: 0, y: -0.15}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 29fd5e15a98d9b3468079bf05152569e, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -53,6 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ControlAlpha: 1
     - _CullMode: 0
     - _Dissolution: 0
     - _Dissolve: 0.552
@@ -63,7 +64,7 @@ Material:
     - _FadeRange: 0.5
     - _Float5: 0.1
     - _OneMinus: 1
-    - _RampMul: 3
+    - _RampMul: 5
     - _Rotater: 0
     - _Soft: 0.675
     - _SoftParticle: 1
