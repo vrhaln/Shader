@@ -12880,6 +12880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blast
       objectReference: {fileID: 0}
+    - target: {fileID: 1699905984769240962, guid: 0015c689da4a2584786470cd85f7b0ca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7705707334965174752, guid: 0015c689da4a2584786470cd85f7b0ca,
         type: 3}
       propertyPath: m_RootOrder
@@ -17541,6 +17546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Water_Blast
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774066113687053826, guid: 566d5947872caf74f931a69059998d03,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8774066113687053829, guid: 566d5947872caf74f931a69059998d03,
         type: 3}
