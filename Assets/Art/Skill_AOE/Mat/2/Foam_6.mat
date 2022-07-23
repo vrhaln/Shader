@@ -25,7 +25,7 @@ Material:
         m_Offset: {x: 0.47, y: 0.91}
     - _DisturbTex:
         m_Texture: {fileID: 2800000, guid: 91ccffe1e18c25542844cbe4789cc399, type: 3}
-        m_Scale: {x: 0.1, y: 0.1}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 1712a981b4fe2494b9330f48edb68af6, type: 3}
@@ -52,11 +52,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ControlAlpha: 0
     - _CullMode: 0
     - _Dissolution: 0
     - _Dissolve: 0.552
     - _DisturbOn: 1
-    - _DisturbStr: 0.1
+    - _DisturbStr: 0.07
     - _EdgeSoft: 1
     - _EdgeWidth: 2
     - _FadeRange: 1
@@ -75,7 +76,7 @@ Material:
     - _Color1: {r: 1, g: 0.61558634, b: 0.504717, a: 1}
     - _Color2: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 0.8509804}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: 1, b: 1, a: 0}
     - _EdgeColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}

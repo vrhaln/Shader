@@ -90,7 +90,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BackFaceOn: 1
-    - _BackFaceStr: 0.73
+    - _BackFaceStr: 0.74
     - _BumpScale: 1
     - _CullMode: 0
     - _Cutoff: 0.5
@@ -127,7 +127,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BackFaceColor: {r: 1.1294118, g: 0.627451, b: 0.7058824, a: 1}
+    - _BackFaceColor: {r: 0.7823768, g: 0.46262822, b: 0.3505934, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolutionTexPanner: {r: 2, g: 0, b: 1, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}

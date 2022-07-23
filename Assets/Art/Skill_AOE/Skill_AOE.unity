@@ -12880,11 +12880,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blast
       objectReference: {fileID: 0}
-    - target: {fileID: 1699905984769240962, guid: 0015c689da4a2584786470cd85f7b0ca,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7705707334965174752, guid: 0015c689da4a2584786470cd85f7b0ca,
         type: 3}
       propertyPath: m_RootOrder
@@ -13247,11 +13242,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Charging_1
       objectReference: {fileID: 0}
-    - target: {fileID: 2435788195825067006, guid: afd716d5fd31348469fab855e10b1aa8,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4674698508347822231, guid: afd716d5fd31348469fab855e10b1aa8,
         type: 3}
       propertyPath: m_RootOrder
@@ -13306,16 +13296,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5688405031630029931, guid: afd716d5fd31348469fab855e10b1aa8,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6516034479332184884, guid: afd716d5fd31348469fab855e10b1aa8,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afd716d5fd31348469fab855e10b1aa8, type: 3}
@@ -14060,11 +14040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Glow_Center
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148886102763874817, guid: 782a3365c99cb7045966c858989dcfe7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4148886102763874818, guid: 782a3365c99cb7045966c858989dcfe7,
         type: 3}
@@ -17527,30 +17502,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 920820337}
     m_Modifications:
-    - target: {fileID: 195024388552349906, guid: 566d5947872caf74f931a69059998d03,
-        type: 3}
-      propertyPath: startDelay.scalar
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8176264769819480411, guid: 566d5947872caf74f931a69059998d03,
-        type: 3}
-      propertyPath: startDelay.scalar
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454239636405465803, guid: 566d5947872caf74f931a69059998d03,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8774066113687053826, guid: 566d5947872caf74f931a69059998d03,
         type: 3}
       propertyPath: m_Name
       value: Water_Blast
-      objectReference: {fileID: 0}
-    - target: {fileID: 8774066113687053826, guid: 566d5947872caf74f931a69059998d03,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8774066113687053829, guid: 566d5947872caf74f931a69059998d03,
         type: 3}
