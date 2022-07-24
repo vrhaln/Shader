@@ -12878,7 +12878,7 @@ PrefabInstance:
     - target: {fileID: 1699905984769240962, guid: 0015c689da4a2584786470cd85f7b0ca,
         type: 3}
       propertyPath: m_Name
-      value: Blast
+      value: Foam_Blast
       objectReference: {fileID: 0}
     - target: {fileID: 7705707334965174752, guid: 0015c689da4a2584786470cd85f7b0ca,
         type: 3}

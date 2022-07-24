@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3943386686858348326}
   - component: {fileID: 1294288211293448250}
   m_Layer: 0
-  m_Name: Blast
+  m_Name: Foam_Blast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
