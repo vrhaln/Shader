@@ -35,7 +35,7 @@ Material:
     - _MaskTex:
         m_Texture: {fileID: 2800000, guid: 486334bd65efd584c9e40b2da61286c0, type: 3}
         m_Scale: {x: 1, y: 0.2}
-        m_Offset: {x: 0, y: 0.67}
+        m_Offset: {x: 0, y: 0.63}
     - _RampTex:
         m_Texture: {fileID: 2800000, guid: ed3a5efebe958ba429d350e04f14d1ab, type: 3}
         m_Scale: {x: 1, y: 1}
