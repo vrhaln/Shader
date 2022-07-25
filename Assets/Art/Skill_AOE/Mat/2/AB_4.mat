@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AB_1
+  m_Name: AB_4
   m_Shader: {fileID: 4800000, guid: 419c5fd847d7c1f4084de4f4d18884cf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: 4e79806daeba8214385c96c574622d61, type: 3}
+        m_Texture: {fileID: 2800000, guid: f6b4024bb6a75694eb632198ee7b2c4e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -121,7 +121,7 @@ Material:
     - _UVSec: 0
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 1
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
