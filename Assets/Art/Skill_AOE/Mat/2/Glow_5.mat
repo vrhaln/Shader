@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _DissolutionTex:
-        m_Texture: {fileID: 2800000, guid: b13508f8693c1774193ec452d106eee0, type: 3}
+        m_Texture: {fileID: 2800000, guid: b111d5f279d12c64c844b5cc4f357c2a, type: 3}
         m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveTex:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 0.5}
         m_Offset: {x: 0, y: 0.55}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5f11ecc11dedb25438de0e1db818a5ec, type: 3}
+        m_Texture: {fileID: 2800000, guid: cbe3db36b66e37a4e817e8db61ec70a8, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: 0136a9df79006784ca4961ccfa09432c, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0.17}
     - _TextureSample0:
@@ -68,10 +68,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CullMode: 0
+    - _CullMode: 2
     - _Dissolution: 0
     - _DissolutionOn: 1
-    - _DissolutionSoft: 0.51
+    - _DissolutionSoft: 1
     - _Dissolve: 0.552
     - _DisturbOn: 1
     - _DisturbStr: 0.03
