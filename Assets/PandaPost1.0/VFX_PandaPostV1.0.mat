@@ -70,12 +70,12 @@ Material:
     - _VignettePowerK: 0
     - _VignetteScale: 1.7
     - _VignetteScaleK: 0
-    - _centerU: 0.5
-    - _centerV: 0.5
+    - _centerU: 0.52
+    - _centerV: 0.75
     - _zhenfu: 0
-    - _zhenfuK: 0
+    - _zhenfuK: 0.07603173
     - _zhenpin: 0
-    - _zhenpinK: 0
+    - _zhenpinK: 0.015551043
     m_Colors:
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _Color2: {r: 0, g: 0, b: 0, a: 0}
