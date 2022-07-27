@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Whl_ScreenTearing
+  m_Shader: {fileID: 4800000, guid: 155731912e5cc3c4f9f36947f4f39b89, type: 3}
+  m_ShaderKeywords: _KEYWORD0_ON _UV1TCONTORLRANGE_ON _UV1WCONTORLCHANGE_ON _UV1WCONTORL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Tex2:
+        m_Texture: {fileID: 2800000, guid: 21b93a22e93caab489ec4fefe73ae7cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Change: 0.05
+    - _FlowSpeed: 1
+    - _GlowPower: 0
+    - _GlowRange: 0.05
+    - _Keyword0: 1
+    - _NoiseScale: 0.77
+    - _Rotator: 0
+    - _Soft: 0.55
+    - _UV1TContorlRange: 1
+    - _UV1WContorl: 1
+    - _UV1WContorlChange: 1
+    - __dirty: 0
+    m_Colors:
+    - _CutCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlowColor: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
+    - _PixelsXY: {r: 2, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
