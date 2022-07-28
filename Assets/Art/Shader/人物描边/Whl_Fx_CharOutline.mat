@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Whl_Fx_CharOutline
+  m_Shader: {fileID: 4800000, guid: 12bd29347715b934384ea589d5cf3278, type: 3}
+  m_ShaderKeywords: _DISTURBON_ON _NUMBEROFSAMPLES_X8 _UV1_TCONTORLDIS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisTex:
+        m_Texture: {fileID: 2800000, guid: e5da0c3efc51421baf0f1ee86c9f88ec, type: 3}
+        m_Scale: {x: 20, y: 6}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: cb34b6fe5a3b9ad439ba09ed802e6731, type: 3}
+        m_Scale: {x: 15, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: e5da0c3efc51421baf0f1ee86c9f88ec, type: 3}
+        m_Scale: {x: 10, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _RT:
+        m_Texture: {fileID: 8400000, guid: 2537fbd56f7881a4497832c5bd04f87b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DisHardness: 0
+    - _Dissolution: 0
+    - _DisturbOn: 1
+    - _DisturbStr: -0.02
+    - _Float0: 0.76
+    - _Invers: 1
+    - _MaskTiling: 0.75
+    - _Numberofsamples: 0
+    - _UV1_TContorlBlur: 0
+    - _UV1_TContorlDis: 1
+    - _UV2_WTContorlCenterOffset: 0
+    - __dirty: 0
+    - _blur: 4.5
+    m_Colors:
+    - _Center: {r: 0.51, g: 0.42, b: 0, a: 0}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _DisturbPanner: {r: 0, g: -1, b: 1, a: 0}
+    - _MainColor: {r: 9.615069, g: 9.615069, b: 9.615069, a: 1}
+    - _NoisePanner: {r: 0, g: -1, b: 1, a: 0}
+    - _ScreenTiling: {r: 1.77, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
