@@ -31,7 +31,7 @@ Material:
     - _Change: 0.05
     - _FlowSpeed: 1
     - _GlowPower: 0
-    - _GlowRange: 0.05
+    - _GlowRange: 0.278
     - _Keyword0: 1
     - _NoiseScale: 0.77
     - _Rotator: 0
