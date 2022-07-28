@@ -59,7 +59,7 @@ Material:
     - _MainAlpha: 0.483
     - _MainAlphaK: 1
     - _RedBlueFactor: 0.384
-    - _RedBlueFactorK: 0.05
+    - _RedBlueFactorK: 0
     - _Soft: 0.063
     - _StepFactor: 0.6
     - _StepFactorK: 0.5
