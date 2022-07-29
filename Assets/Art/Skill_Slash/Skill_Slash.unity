@@ -6575,8 +6575,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 7
-      minScalar: 5
+      scalar: 4
+      minScalar: 5.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -7266,7 +7266,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 1
+        scalar: 2
         minScalar: 30
         maxCurve:
           serializedVersion: 2
@@ -7332,20 +7332,29 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 2.6459062
-          outSlope: 2.6459062
+          inSlope: 0.81023353
+          outSlope: 0.81023353
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.059259254
+          outWeight: 0.28708348
         - serializedVersion: 3
-          time: 1
-          value: 0.57142854
-          inSlope: -0.7996512
-          outSlope: -0.7996512
+          time: 0.41362265
+          value: 0.5676346
+          inSlope: 1.9951508
+          outSlope: 1.9951508
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.14814824
+          inWeight: 0.33333334
+          outWeight: 0.16701171
+        - serializedVersion: 3
+          time: 1
+          value: 0.5818825
+          inSlope: 0.026941167
+          outSlope: 0.026941167
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.17396474
           outWeight: 0.33333334
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -7394,12 +7403,12 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0.2905391
           value: 0.45507902
-          inSlope: 0.50684524
-          outSlope: 0.50684524
+          inSlope: 0.26827335
+          outSlope: 0.26827335
           tangentMode: 0
           weightedMode: 0
           inWeight: 0.33333334
-          outWeight: 0.14245164
+          outWeight: 0.1536364
         - serializedVersion: 3
           time: 1
           value: 0.57142854
