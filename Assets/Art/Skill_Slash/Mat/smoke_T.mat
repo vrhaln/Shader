@@ -55,8 +55,8 @@ Material:
     - _CullMode: 0
     - _DissHardness: 0.445
     - _DissHardness1: 0
-    - _DissHardness2: 0.104
-    - _DissHardness3: 0.299
+    - _DissHardness2: 0.076
+    - _DissHardness3: 0.163
     - _Dissolution: 0
     - _FadeRange: 0.5
     - _Float0: 1.45
