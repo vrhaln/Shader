@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: smoke_T
+  m_Shader: {fileID: 4800000, guid: 454a28a6ccf0bd349a8245d2d7978b27, type: 3}
+  m_ShaderKeywords: _SOFTPARTICLE_ON _UV2YCONTORLFLOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FadeTex:
+        m_Texture: {fileID: 2800000, guid: a1b8d8791b5ee394ca2a09a825786114, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: 563f6c64f71c1cc4dac2cd746b238513, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 421f947f369de624bb475c5213c4ddd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_1:
+        m_Texture: {fileID: 2800000, guid: e7ebdc83168a38649b3b2ebed4b6b00d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_2:
+        m_Texture: {fileID: 2800000, guid: 79731f369eb8f3148bc2e10bef525fa2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CullMode: 0
+    - _DissHardness: 0.445
+    - _DissHardness1: 0
+    - _DissHardness2: 0.104
+    - _DissHardness3: 0.299
+    - _Dissolution: 0
+    - _FadeRange: 0.5
+    - _Float0: 1.45
+    - _Float1: 0.09
+    - _FlowOn: 0
+    - _FlowStr: 1.5
+    - _Invers1: 0
+    - _Invers2: 0
+    - _Invers3: 0
+    - _Keyword0: 0
+    - _NoiseInvers: 1
+    - _SoftParticle: 1
+    - _UV2WTContorlOffset: 0
+    - _UV2YContorlFlow: 1
+    - _ZTestMode: 4
+    - __dirty: 0
+    - _range1: 0.02
+    - _range2: 0.43
+    - _range3: 0.75
+    - _soft1: 0.5
+    - _soft2: 0.5
+    - _soft3: 0.5
+    m_Colors:
+    - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
+    - _Color1: {r: 8.271385, g: 5.9761844, b: 4.503791, a: 0}
+    - _Color2: {r: 3.0588236, g: 0.2509804, b: 0.5647059, a: 0}
+    - _Color3: {r: 0, g: 1.3668526, b: 2.1886792, a: 0}
+    - _NoisePanner: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _panner: {r: 0, g: -0.5, b: 1, a: 0}
+  m_BuildTextureStacks: []
