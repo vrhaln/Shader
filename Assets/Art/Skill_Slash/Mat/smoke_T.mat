@@ -63,9 +63,9 @@ Material:
     - _Float1: 0.09
     - _FlowOn: 0
     - _FlowStr: 1.5
-    - _Invers1: 0
-    - _Invers2: 0
-    - _Invers3: 0
+    - _Invers1: 0.083
+    - _Invers2: 0.012
+    - _Invers3: 0.111
     - _Keyword0: 0
     - _NoiseInvers: 1
     - _SoftParticle: 1
@@ -82,8 +82,8 @@ Material:
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
     - _Color1: {r: 8.271385, g: 5.9761844, b: 4.503791, a: 0}
-    - _Color2: {r: 3.0588236, g: 0.2509804, b: 0.5647059, a: 0}
-    - _Color3: {r: 0, g: 1.3668526, b: 2.1886792, a: 0}
-    - _NoisePanner: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _Color2: {r: 0, g: 2.9632065, b: 3.1591427, a: 0}
+    - _Color3: {r: 2.118743, g: 0, b: 0.45464703, a: 0}
+    - _NoisePanner: {r: -0.5, g: 0.5, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []
