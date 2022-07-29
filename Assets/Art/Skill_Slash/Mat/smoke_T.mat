@@ -71,7 +71,7 @@ Material:
     - _SoftParticle: 1
     - _UV2WTContorlOffset: 0
     - _UV2YContorlFlow: 1
-    - _ZTestMode: 4
+    - _ZTestMode: 8
     - __dirty: 0
     - _range1: 0.02
     - _range2: 0.43
@@ -81,9 +81,9 @@ Material:
     - _soft3: 0.5
     m_Colors:
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
-    - _Color1: {r: 24.182552, g: 9.318024, b: 9.011423, a: 0}
+    - _Color1: {r: 9.115936, g: 20.063599, b: 24.182552, a: 0}
     - _Color2: {r: 0, g: 2.9632065, b: 3.1591427, a: 0}
-    - _Color3: {r: 0.16300955, g: 0.46898636, b: 0.9873723, a: 0}
-    - _NoisePanner: {r: -0.5, g: 0.5, b: 1, a: 0}
+    - _Color3: {r: 3.9999995, g: 0, b: 1.3193716, a: 0}
+    - _NoisePanner: {r: -1, g: 1, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []

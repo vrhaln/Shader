@@ -6109,6 +6109,7 @@ PlayableDirector:
     - 1f15a1850f1bb8241b294a15da35e47e: {fileID: 9178704462715270511}
     - 24d9861f01ce3f44ebf92d361e8d82f4: {fileID: 350534456558968378}
     - a2763f8e760564745ae358a2cb884d29: {fileID: 1011257268}
+    - 93afc44f78b70b4438c69719e51139a7: {fileID: 525022796}
     - a11320ba556ea9b41b9dac8f7b43eec2: {fileID: 412819281}
     - 08b3f6ab331d68d4e8a5bd2d402169e1: {fileID: 1452493717}
     - c0aef8404313c08458c5011fc9f5f571: {fileID: 609462128}
@@ -6406,8 +6407,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1
-      minScalar: 1.5
+      scalar: 0.2
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6575,8 +6576,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 4
-      minScalar: 5.5
+      scalar: 7
+      minScalar: 10
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -7316,7 +7317,7 @@ ParticleSystem:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
-      cycleCount: 10
+      cycleCount: 3
       repeatInterval: 0.1
       probability: 1
   SizeModule:
@@ -11148,12 +11149,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525022796}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.65, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1081721533}
-  m_RootOrder: 3
+  m_Father: {fileID: 1210818316}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &609462126
 PrefabInstance:
@@ -11733,6 +11734,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1081721533}
     m_Modifications:
+    - target: {fileID: 403273223272351336, guid: 4ca10e192b0435442937177f49697118,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403273223272351336, guid: 4ca10e192b0435442937177f49697118,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 4681
+      objectReference: {fileID: 0}
     - target: {fileID: 403273223282463698, guid: 4ca10e192b0435442937177f49697118,
         type: 3}
       propertyPath: m_Name
@@ -11792,6 +11803,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403273223550518336, guid: 4ca10e192b0435442937177f49697118,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403273223550518336, guid: 4ca10e192b0435442937177f49697118,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 4681
+      objectReference: {fileID: 0}
+    - target: {fileID: 403273224190038546, guid: 4ca10e192b0435442937177f49697118,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 403273224190038546, guid: 4ca10e192b0435442937177f49697118,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.ctime1
+      value: 4681
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca10e192b0435442937177f49697118, type: 3}
@@ -11858,7 +11889,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 430650497bd643240b1c7dd9d7ceaf01, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17325,7 +17356,6 @@ Transform:
   - {fileID: 1210818316}
   - {fileID: 543450652068883340}
   - {fileID: 867641811}
-  - {fileID: 525022799}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22418,6 +22448,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children:
   - {fileID: 877303207}
+  - {fileID: 525022799}
   m_Father: {fileID: 1081721533}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
