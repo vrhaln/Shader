@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: smoke_T
   m_Shader: {fileID: 4800000, guid: 454a28a6ccf0bd349a8245d2d7978b27, type: 3}
-  m_ShaderKeywords: _SOFTPARTICLE_ON _UV2YCONTORLFLOW_ON
+  m_ShaderKeywords: _DISTURBON_ON _SOFTPARTICLE_ON _UV2YCONTORLFLOW_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: fb08136daafc48c45844f80966d44bab, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: a1b8d8791b5ee394ca2a09a825786114, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -58,6 +62,8 @@ Material:
     - _DissHardness2: 0.076
     - _DissHardness3: 0.163
     - _Dissolution: 0
+    - _DisturbOn: 1
+    - _DisturbStr: 0.2
     - _FadeRange: 0.5
     - _Float0: 1.45
     - _Float1: 0.09
@@ -84,6 +90,7 @@ Material:
     - _Color1: {r: 9.115936, g: 20.063599, b: 24.182552, a: 0}
     - _Color2: {r: 0, g: 2.9632065, b: 3.1591427, a: 0}
     - _Color3: {r: 3.9999995, g: 0, b: 1.3193716, a: 0}
+    - _DisturbPanner: {r: -1, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: -1, g: 1, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []
